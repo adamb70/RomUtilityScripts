@@ -1,0 +1,2011 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Mercury" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Mercury</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+		<DisplayName>Mercury</DisplayName>
+		<Icon />
+		<Category>Alembic_Imbue</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Cinnabar" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Slacked_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Mercury" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Pearl_Ash" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Pearl Ash</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pearl_Ash" />
+		<DisplayName>Pearl Ash</DisplayName>
+		<Icon />
+		<Category>Furnace</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Potash" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Pearl_Ash" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Gypsum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Gypsum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+		<DisplayName>Gypsum</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Gypsum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_lye" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda lye</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_lye" />
+		<DisplayName>Soda lye</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Soda_lye" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Common_Salt" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Common Salt</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Common_Salt" />
+		<DisplayName>Common Salt</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Salt_Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Common_Salt" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Sal Calxum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+		<DisplayName>Oyle of Sal Calxum</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Salis" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Slacked_Lime" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Slacked Lime</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Slacked_Lime" />
+		<DisplayName>Slacked Lime</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Limewater" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Slacked_Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Aqua_Regia" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Aqua Regia</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Aqua_Regia" />
+		<DisplayName>Aqua Regia</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Salis" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Aqua_Regia" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Soda Vitrioli</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+		<DisplayName>Oyle of Soda Vitrioli</DisplayName>
+		<Icon />
+		<Category>Alembic_Imbue</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bitumen" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Soda" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Petrolia" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Calx Nitre</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+		<DisplayName>Oyle of Calx Nitre</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Pine_Tar" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Pine Tar</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pine_Tar" />
+		<DisplayName>Pine Tar</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Wood" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Pine_Tar" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Charcoal" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Potash" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Potash</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Potash" />
+		<DisplayName>Potash</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Tartar" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Potash" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sulfur" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Sulfur</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sulfur" />
+		<DisplayName>Sulfur</DisplayName>
+		<Icon />
+		<Category>Furnace</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Vitriolatus" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Sulfur" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Soda Nitre</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+		<DisplayName>Oyle of Soda Nitre</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Soda" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Limewater" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Limewater</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Limewater" />
+		<DisplayName>Limewater</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Quicklime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Limewater" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Petrolia" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Petrolia</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+		<DisplayName>Petrolia</DisplayName>
+		<Icon />
+		<Category>Alembic_Imbue</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bitumen" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Slacked_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Petrolia" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Charcoal" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Charcoal</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Charcoal" />
+		<DisplayName>Charcoal</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Wood" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Pine_Tar" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Charcoal" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Calx_Vitrioli" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Calx Vitrioli</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Calx_Vitrioli" />
+		<DisplayName>Calx Vitrioli</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Calx_Vitrioli" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oil" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oil</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oil" />
+		<DisplayName>Oil</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Petrolia" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oil" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pitch" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_Lye" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda Lye</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Lye" />
+		<DisplayName>Soda Lye</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Sulfur" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Soda_Nitre" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Soda_Lye" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Bitumen" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Bitumen</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Bitumen" />
+		<DisplayName>Bitumen</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bitumus_Soil" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Bitumen" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Soil" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Pure Water Vial</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pure_Water_Vial" />
+		<DisplayName>Pure Water Vial</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Spiritus Vitriolum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+		<DisplayName>Spiritus Vitriolum</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Gypsum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Calx_Nitre" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Calx Nitre</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Calx_Nitre" />
+		<DisplayName>Calx Nitre</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Calx_Nitre" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_Vitriolatus" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda Vitriolatus</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Vitriolatus" />
+		<DisplayName>Soda Vitriolatus</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Vitriolatus" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soil" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soil</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soil" />
+		<DisplayName>Soil</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bitumus_Soil" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Bitumen" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Soil" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Saltpeter" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Saltpeter</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Saltpeter" />
+		<DisplayName>Saltpeter</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Saltpeter" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Water" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Water</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water" />
+		<DisplayName>Water</DisplayName>
+		<Icon />
+		<Category>Alchemy Table</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Water" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Glass_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Milk_of_Soda" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Milk of Soda</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Soda" />
+		<DisplayName>Milk of Soda</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Ash" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Soda" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+		<DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Tartar" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Tartarus_Vitriolatus" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Tartarus Vitriolatus</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Tartarus_Vitriolatus" />
+		<DisplayName>Tartarus Vitriolatus</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Tartarus_Vitriolatus" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Caustic Soda</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Caustic_Soda" />
+		<DisplayName>Oyle of Caustic Soda</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Soda_lye" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Gunpowder" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Gunpowder</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gunpowder" />
+		<DisplayName>Gunpowder</DisplayName>
+		<Icon />
+		<Category>Alchemy Table</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Sulfur" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Soda_Nitre" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Charcoal" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Gunpowder" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+		<DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
+		<Icon />
+		<Category>Alembic_Imbue</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bitumen" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Tartar" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Petrolia" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sal_Calxum/Soda_Vitrioli_Solution" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Sal Calxum/Soda Vitrioli Solution</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Calxum/Soda_Vitrioli_Solution" />
+		<DisplayName>Sal Calxum/Soda Vitrioli Solution</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Sal_Calxum/Soda_Vitrioli_Solution" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Quicklime" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Quicklime</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Quicklime" />
+		<DisplayName>Quicklime</DisplayName>
+		<Icon />
+		<Category>Furnace</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Quicklime" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Salt/Lime_Solution" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Salt/Lime Solution</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt/Lime_Solution" />
+		<DisplayName>Salt/Lime Solution</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Salt_Water" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Salt/Lime_Solution" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Water_Vial" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Water Vial</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+		<DisplayName>Water Vial</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Gypsum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Nitre" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Nitre</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+		<DisplayName>Oyle of Nitre</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Tartar" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Mortar" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Mortar</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mortar" />
+		<DisplayName>Mortar</DisplayName>
+		<Icon />
+		<Category>Barrel</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Limewater" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Sand" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Mortar" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sal_Calxum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Sal Calxum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Calxum" />
+		<DisplayName>Sal Calxum</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Sal_Calxum" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Bone_Ash" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Bone Ash</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Bone_Ash" />
+		<DisplayName>Bone Ash</DisplayName>
+		<Icon />
+		<Category>Furnace</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bone" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Bone_Ash" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Glass_Vial" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Glass Vial</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+		<DisplayName>Glass Vial</DisplayName>
+		<Icon />
+		<Category>Alchemy Table</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Water" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Glass_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_Nitre/Sal_Tartarum_Solution" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda Nitre/Sal Tartarum Solution</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Nitre/Sal_Tartarum_Solution" />
+		<DisplayName>Soda Nitre/Sal Tartarum Solution</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Nitre/Sal_Tartarum_Solution" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Pitch" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Pitch</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pitch" />
+		<DisplayName>Pitch</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Petrolia" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oil" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pitch" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Soda Vitriolatus</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+		<DisplayName>Oyle of Soda Vitriolatus</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Soda" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Salt_Water" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Salt Water</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+		<DisplayName>Salt Water</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Soda" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Salis" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Salt_Water" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Spiritus_Salis" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Spiritus Salis</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+		<DisplayName>Spiritus Salis</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Salis" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Milk of Calx Vitrioli</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+		<DisplayName>Milk of Calx Vitrioli</DisplayName>
+		<Icon />
+		<Category>Alembic_Imbue</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Bitumen" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Slacked_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Petrolia" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_Ash" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda Ash</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Ash" />
+		<DisplayName>Soda Ash</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Soda" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Ash" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Spiritus Nitrum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+		<DisplayName>Spiritus Nitrum</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Gypsum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Sal Tartarum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+		<DisplayName>Oyle of Sal Tartarum</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Tartar" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Salis" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Milk_of_Lime" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Milk of Lime</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Lime" />
+		<DisplayName>Milk of Lime</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Pot_Lye" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Pot Lye</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pot_Lye" />
+		<DisplayName>Pot Lye</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Sulfur" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Saltpeter" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pot_Lye" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Milk_of_Tartar" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Milk of Tartar</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Tartar" />
+		<DisplayName>Milk of Tartar</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Potash" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Tartar" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_Vitrioli" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda Vitrioli</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Vitrioli" />
+		<DisplayName>Soda Vitrioli</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sal_Tartarum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Sal Tartarum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Tartarum" />
+		<DisplayName>Sal Tartarum</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Sal_Tartarum" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Oyle of Caustic Tartar</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Caustic_Tartar" />
+		<DisplayName>Oyle of Caustic Tartar</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Pot_lye" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sal_Tartarum/Lime_Solution" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Sal Tartarum/Lime Solution</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Tartarum/Lime_Solution" />
+		<DisplayName>Sal Tartarum/Lime Solution</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Sal_Tartarum/Lime_Solution" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Soda_Nitre" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Soda Nitre</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Nitre" />
+		<DisplayName>Soda Nitre</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Soda_Nitre" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Milk_of_Gypsum" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Milk of Gypsum</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+		<DisplayName>Milk of Gypsum</DisplayName>
+		<Icon />
+		<Category>Alembic_Imbue</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Slacked_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Gypsum" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Tartarus_Vitrioli" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Tartarus Vitrioli</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Tartarus_Vitrioli" />
+		<DisplayName>Tartarus Vitrioli</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Tartarus_Vitrioli" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Pot_lye" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Pot lye</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pot_lye" />
+		<DisplayName>Pot lye</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Pot_lye" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Lime" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Lime</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lime" />
+		<DisplayName>Lime</DisplayName>
+		<Icon />
+		<Category>Filter</Category>
+		<Prerequisites>
+			<Item Amount="SET MANUALLY" Subtype="Milk_of_Lime" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="SET MANUALLY" Subtype="Lime" Type="InventoryItem" />
+			<Item Amount="SET MANUALLY" Subtype="Water_Vial" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+</Definitions>
+

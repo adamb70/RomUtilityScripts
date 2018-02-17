@@ -1,0 +1,808 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Rock_Willow_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Rock Willow Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Willow_Extract" />
+		<DisplayName>Rock Willow Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Rock_Willow_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Althea_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Althea Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Althea_Extract" />
+		<DisplayName>Althea Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Althea_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Luceat_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Luceat Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Luceat_Extract" />
+		<DisplayName>Luceat Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Luceat_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Cinquefoil_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Cinquefoil Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cinquefoil_Extract" />
+		<DisplayName>Cinquefoil Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Cinquefoil_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Vervain_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Vervain Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Vervain_Extract" />
+		<DisplayName>Vervain Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Vervain_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Broom_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Broom Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Broom_Extract" />
+		<DisplayName>Broom Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Broom_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Spalt_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Spalt Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spalt_Extract" />
+		<DisplayName>Spalt Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Spalt_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Rock_Lichen_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Rock Lichen Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Lichen_Extract" />
+		<DisplayName>Rock Lichen Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Rock_Lichen_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Gilliflower_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Gilliflower Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gilliflower_Extract" />
+		<DisplayName>Gilliflower Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Gilliflower_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sage_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Sage Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sage_Extract" />
+		<DisplayName>Sage Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Sage_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Belladonna_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Belladonna Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Belladonna_Extract" />
+		<DisplayName>Belladonna Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Belladonna_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Concordia_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Concordia Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Concordia_Extract" />
+		<DisplayName>Concordia Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Concordia_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Knotweed_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Knotweed Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Knotweed_Extract" />
+		<DisplayName>Knotweed Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Knotweed_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Crocus_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Crocus Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crocus_Extract" />
+		<DisplayName>Crocus Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Crocus_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Mugwort_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Mugwort Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mugwort_Extract" />
+		<DisplayName>Mugwort Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Mugwort_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Castor_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Castor Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Castor_Extract" />
+		<DisplayName>Castor Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Castor_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Cloud_Funnel_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Cloud Funnel Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cloud_Funnel_Extract" />
+		<DisplayName>Cloud Funnel Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Cloud_Funnel_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Amaranth_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Amaranth Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amaranth_Extract" />
+		<DisplayName>Amaranth Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Amaranth_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Angelica_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Angelica Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Angelica_Extract" />
+		<DisplayName>Angelica Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Angelica_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Yarrow_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Yarrow Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Yarrow_Extract" />
+		<DisplayName>Yarrow Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Yarrow_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Hoppan_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Hoppan Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hoppan_Extract" />
+		<DisplayName>Hoppan Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Hoppan_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Glasswort_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Glasswort Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glasswort_Extract" />
+		<DisplayName>Glasswort Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Glasswort_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Crimson_Thristle_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Crimson Thristle Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crimson_Thristle_Extract" />
+		<DisplayName>Crimson Thristle Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Crimson_Thristle_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Hellebore_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Hellebore Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hellebore_Extract" />
+		<DisplayName>Hellebore Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Hellebore_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Hemlock_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Hemlock Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hemlock_Extract" />
+		<DisplayName>Hemlock Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Hemlock_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Wormwood_Extract" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Wormwood Extract</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Wormwood_Extract" />
+		<DisplayName>Wormwood Extract</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Water" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Wormwood_Extract" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+</Definitions>
+

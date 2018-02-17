@@ -1,0 +1,808 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Wormwood_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Wormwood Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Wormwood_Tea" />
+		<DisplayName>Wormwood Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Wormwood" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Wormwood_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Glasswort_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Glasswort Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glasswort_Tea" />
+		<DisplayName>Glasswort Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Glasswort" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Glasswort_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Castor_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Castor Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Castor_Tea" />
+		<DisplayName>Castor Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Castor" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Castor_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Rock Willow Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Willow_Tea" />
+		<DisplayName>Rock Willow Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Rock_Willow" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Luceat_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Luceat Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Luceat_Tea" />
+		<DisplayName>Luceat Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Luceat" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Luceat_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Vervain_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Vervain Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Vervain_Tea" />
+		<DisplayName>Vervain Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Vervain" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Vervain_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Hellebore_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Hellebore Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hellebore_Tea" />
+		<DisplayName>Hellebore Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Hellebore" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Hellebore_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Althea_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Althea Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Althea_Tea" />
+		<DisplayName>Althea Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Althea" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Althea_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Rock Lichen Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Lichen_Tea" />
+		<DisplayName>Rock Lichen Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Rock_Lichen" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Gilliflower_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Gilliflower Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gilliflower_Tea" />
+		<DisplayName>Gilliflower Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Gilliflower" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Gilliflower_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Amaranth_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Amaranth Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amaranth_Tea" />
+		<DisplayName>Amaranth Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Amaranth" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Amaranth_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Hemlock_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Hemlock Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hemlock_Tea" />
+		<DisplayName>Hemlock Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Hemlock" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Hemlock_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Belladonna_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Belladonna Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Belladonna_Tea" />
+		<DisplayName>Belladonna Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Belladonna" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Belladonna_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Sage_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Sage Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sage_Tea" />
+		<DisplayName>Sage Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Sage" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Sage_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Broom_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Broom Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Broom_Tea" />
+		<DisplayName>Broom Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Broom" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Broom_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Knotweed_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Knotweed Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Knotweed_Tea" />
+		<DisplayName>Knotweed Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Knotweed" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Knotweed_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Cloud Funnel Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cloud_Funnel_Tea" />
+		<DisplayName>Cloud Funnel Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Cinquefoil Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cinquefoil_Tea" />
+		<DisplayName>Cinquefoil Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Cinquefoil" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Hoppan_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Hoppan Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hoppan_Tea" />
+		<DisplayName>Hoppan Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Hoppan" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Hoppan_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Crocus_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Crocus Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crocus_Tea" />
+		<DisplayName>Crocus Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Crocus" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Crocus_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Mugwort_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Mugwort Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mugwort_Tea" />
+		<DisplayName>Mugwort Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Mugwort" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Mugwort_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Angelica_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Angelica Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Angelica_Tea" />
+		<DisplayName>Angelica Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Angelica" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Angelica_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Yarrow_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Yarrow Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Yarrow_Tea" />
+		<DisplayName>Yarrow Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Yarrow" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Yarrow_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Spalt_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Spalt Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spalt_Tea" />
+		<DisplayName>Spalt Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Spalt" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Spalt_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Concordia_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Concordia Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Concordia_Tea" />
+		<DisplayName>Concordia Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Concordia" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Concordia_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Crimson Thristle Tea</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crimson_Thristle_Tea" />
+		<DisplayName>Crimson Thristle Tea</DisplayName>
+		<Icon />
+		<Category>Simple_Alchemy_Stand</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+</Definitions>
+
