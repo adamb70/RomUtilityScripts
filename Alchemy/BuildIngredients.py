@@ -116,7 +116,7 @@ def build_ingredients_from_sheet(generate_ground=True):
     indent(ing_root)
     indent(ground_root)
     indent(dried_root)
-    ET.ElementTree(ing_root).write('Output/Ingredients.xml', xml_declaration=True, method="xml")
-    ET.ElementTree(dried_root).write('Output/DriedIngredients.xml', xml_declaration=True, method="xml")
+    ET.ElementTree(ing_root).write('Output/Ingredients.sbc', xml_declaration=True, method="xml")
+    ET.ElementTree(dried_root).write('Output/DriedIngredients.sbc', xml_declaration=True, method="xml")
     if generate_ground:
-        ET.ElementTree(ground_root).write('Otput/GroundIngredients.xml', xml_declaration=True, method="xml")
+        ET.ElementTree(ground_root).write('Otput/GroundIngredients.sbc', xml_declaration=True, method="xml")

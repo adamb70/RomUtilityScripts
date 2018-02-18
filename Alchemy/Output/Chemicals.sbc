@@ -26,6 +26,39 @@
         </Prerequisites>
         <Results>
             <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Bucket" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Bucket</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Bucket" />
+        <DisplayName>Bucket</DisplayName>
+        <Icon />
+        <Category>Alchemy_Table</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="10" Subtype="Glass_Vial" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>

@@ -329,9 +329,9 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Endurance_&amp;_Purity" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Endurance_And_Purity" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Endurance &amp; Purity</DisplayName>
+        <DisplayName>Elixir of Endurance And Purity</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -349,8 +349,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_&amp;_Purity" />
-        <DisplayName>Elixir of Endurance &amp; Purity</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_And_Purity" />
+        <DisplayName>Elixir of Endurance And Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -359,8 +359,8 @@
             <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Purity" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Purity" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -376,16 +376,16 @@
             <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Purity" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Purity" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Endurance_&amp;_Strength" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Endurance_And_Strength" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Endurance &amp; Strength</DisplayName>
+        <DisplayName>Elixir of Endurance And Strength</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -404,8 +404,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_&amp;_Strength" />
-        <DisplayName>Elixir of Endurance &amp; Strength</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_And_Strength" />
+        <DisplayName>Elixir of Endurance And Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -414,8 +414,8 @@
             <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Strength" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Strength" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -431,16 +431,16 @@
             <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Strength" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Strength" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Endurance_&amp;_Vitality" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Endurance_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Endurance &amp; Vitality</DisplayName>
+        <DisplayName>Elixir of Endurance And Vitality</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -459,8 +459,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_&amp;_Vitality" />
-        <DisplayName>Elixir of Endurance &amp; Vitality</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_And_Vitality" />
+        <DisplayName>Elixir of Endurance And Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -469,8 +469,8 @@
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Vitality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Vitality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -486,16 +486,16 @@
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Vitality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Vitality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Purity_&amp;_Strength" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Purity_And_Strength" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Purity &amp; Strength</DisplayName>
+        <DisplayName>Elixir of Purity And Strength</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -514,8 +514,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_&amp;_Strength" />
-        <DisplayName>Elixir of Purity &amp; Strength</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_And_Strength" />
+        <DisplayName>Elixir of Purity And Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -524,8 +524,8 @@
             <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Purity_&amp;_Strength" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Purity_And_Strength" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -541,16 +541,16 @@
             <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Purity_&amp;_Strength" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Purity_And_Strength" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Purity_&amp;_Vitality" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Purity_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Purity &amp; Vitality</DisplayName>
+        <DisplayName>Elixir of Purity And Vitality</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -569,8 +569,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_&amp;_Vitality" />
-        <DisplayName>Elixir of Purity &amp; Vitality</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_And_Vitality" />
+        <DisplayName>Elixir of Purity And Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -579,8 +579,8 @@
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Purity_&amp;_Vitality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Purity_And_Vitality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -596,16 +596,16 @@
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Purity_&amp;_Vitality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Purity_And_Vitality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Strength_&amp;_Vitality" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Strength_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Strength &amp; Vitality</DisplayName>
+        <DisplayName>Elixir of Strength And Vitality</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -624,8 +624,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength_&amp;_Vitality" />
-        <DisplayName>Elixir of Strength &amp; Vitality</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength_And_Vitality" />
+        <DisplayName>Elixir of Strength And Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -634,8 +634,8 @@
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Strength_&amp;_Vitality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Strength_And_Vitality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -651,16 +651,16 @@
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Strength_&amp;_Vitality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Strength_And_Vitality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Corruption_&amp;_Torpor" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Corruption_And_Torpor" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Corruption &amp; Torpor</DisplayName>
+        <DisplayName>Elixir of Corruption And Torpor</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -679,8 +679,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_&amp;_Torpor" />
-        <DisplayName>Elixir of Corruption &amp; Torpor</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_And_Torpor" />
+        <DisplayName>Elixir of Corruption And Torpor</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -689,8 +689,8 @@
             <Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Corruption_&amp;_Torpor" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Corruption_And_Torpor" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -706,16 +706,16 @@
             <Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Corruption_&amp;_Torpor" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Corruption_And_Torpor" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Corruption_&amp;_Mortality" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Corruption_And_Mortality" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Corruption &amp; Mortality</DisplayName>
+        <DisplayName>Elixir of Corruption And Mortality</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -734,8 +734,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_&amp;_Mortality" />
-        <DisplayName>Elixir of Corruption &amp; Mortality</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_And_Mortality" />
+        <DisplayName>Elixir of Corruption And Mortality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -744,8 +744,8 @@
             <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Corruption_&amp;_Mortality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Corruption_And_Mortality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -761,16 +761,16 @@
             <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Corruption_&amp;_Mortality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Corruption_And_Mortality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Elixir_of_Torpor_&amp;_Mortality" Type="ConsumableItem" />
+        <Id Subtype="Elixir_of_Torpor_And_Mortality" Type="ConsumableItem" />
         <Public>true</Public>
-        <DisplayName>Elixir of Torpor &amp; Mortality</DisplayName>
+        <DisplayName>Elixir of Torpor And Mortality</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -789,8 +789,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor_&amp;_Mortality" />
-        <DisplayName>Elixir of Torpor &amp; Mortality</DisplayName>
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor_And_Mortality" />
+        <DisplayName>Elixir of Torpor And Mortality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -799,8 +799,8 @@
             <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Torpor_&amp;_Mortality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Torpor_And_Mortality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -816,8 +816,8 @@
             <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Elixir_of_Torpor_&amp;_Mortality" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Elixir_of_Torpor_And_Mortality" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
