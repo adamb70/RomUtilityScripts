@@ -1,8 +1,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+		<Id Subtype="Blue_Vitriol" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Virtue of Endurance</DisplayName>
+		<DisplayName>Blue Vitriol</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -16,48 +16,16 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
-		<DisplayName>Virtue of Endurance</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Blue_Vitriol" />
+		<DisplayName>Blue Vitriol</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Yarrow_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Copper_Parts" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Luna" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Lixivium of Luna</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Luna" />
-		<DisplayName>Lixivium of Luna</DisplayName>
-		<Icon />
-		<Category>Cauldron</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Mortality" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Blue_Vitriol" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -94,225 +62,6 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Lixivium of Sol Intermedium</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Sol_Intermedium" />
-		<DisplayName>Lixivium of Sol Intermedium</DisplayName>
-		<Icon />
-		<Category>Balneum</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Harmony" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Virtue of Harmony</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Harmony" />
-		<DisplayName>Virtue of Harmony</DisplayName>
-		<Icon />
-		<Category>Balneum</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Concordia_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Sol" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Lixivium of Sol</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Sol" />
-		<DisplayName>Lixivium of Sol</DisplayName>
-		<Icon />
-		<Category>Cauldron</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Amber_Vitriol" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Purity" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Virtue of Purity</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
-		<DisplayName>Virtue of Purity</DisplayName>
-		<Icon />
-		<Category>Cauldron</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Lixivium of Saturn</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Saturn" />
-		<DisplayName>Lixivium of Saturn</DisplayName>
-		<Icon />
-		<Category>Cauldron</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Black_Vitriol" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Torpor" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Gray_Vitriol" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Gray Vitriol</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gray_Vitriol" />
-		<DisplayName>Gray Vitriol</DisplayName>
-		<Icon />
-		<Category>Alembic</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Silver_Parts" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Virtue of Vitality</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
-		<DisplayName>Virtue of Vitality</DisplayName>
-		<Icon />
-		<Category>Balneum</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Rock_Willow_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
 		<Id Subtype="Yellow_Vitriol" Type="InventoryItem" />
 		<Public>true</Public>
 		<DisplayName>Yellow Vitriol</DisplayName>
@@ -344,9 +93,9 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
+		<Id Subtype="Black_Vitriol" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Lixivium of Jupiter Intermedium</DisplayName>
+		<DisplayName>Black Vitriol</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -360,24 +109,24 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Jupiter_Intermedium" />
-		<DisplayName>Lixivium of Jupiter Intermedium</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Black_Vitriol" />
+		<DisplayName>Black Vitriol</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lead_Parts" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Black_Vitriol" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Torpor" Type="InventoryItem" />
+		<Id Subtype="Amber_Vitriol" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Virtue of Torpor</DisplayName>
+		<DisplayName>Amber Vitriol</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -391,78 +140,16 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Torpor" />
-		<DisplayName>Virtue of Torpor</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amber_Vitriol" />
+		<DisplayName>Amber Vitriol</DisplayName>
 		<Icon />
-		<Category>Cauldron</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gold_Parts" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Torpor" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Strength" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Virtue of Strength</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
-		<DisplayName>Virtue of Strength</DisplayName>
-		<Icon />
-		<Category>Balneum</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Hoppan_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Virtue of Corruption</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
-		<DisplayName>Virtue of Corruption</DisplayName>
-		<Icon />
-		<Category>Cauldron</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Amber_Vitriol" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -499,6 +186,195 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Gray_Vitriol" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Gray Vitriol</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gray_Vitriol" />
+		<DisplayName>Gray Vitriol</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Silver_Parts" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+		<DisplayName>Virtue of Purification</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Harmony" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Harmony</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Harmony" />
+		<DisplayName>Virtue of Harmony</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Harmony" />
+		<DisplayName>Virtue of Harmony</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
 		<Id Subtype="Virtue_of_Persistance" Type="InventoryItem" />
 		<Public>true</Public>
 		<DisplayName>Virtue of Persistance</DisplayName>
@@ -518,7 +394,22 @@
 		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Persistance" />
 		<DisplayName>Virtue of Persistance</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Sage_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Persistance" />
+		<DisplayName>Virtue of Persistance</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
 		<Prerequisites>
 			<Item Amount="1" Subtype="Rock_Lichen_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
@@ -530,9 +421,9 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
+		<Id Subtype="Virtue_of_Endurance" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Lixivium of Saturn Intermedium</DisplayName>
+		<DisplayName>Virtue of Endurance</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -546,24 +437,69 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Saturn_Intermedium" />
-		<DisplayName>Lixivium of Saturn Intermedium</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+		<DisplayName>Virtue of Endurance</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+		<DisplayName>Virtue of Endurance</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Saffron_Crocus_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+		<DisplayName>Virtue of Endurance</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Spalt_Roots_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+		<DisplayName>Virtue of Endurance</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
+		<Id Subtype="Virtue_of_Purity" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Lixivium of Luna Intermedium</DisplayName>
+		<DisplayName>Virtue of Purity</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -577,16 +513,244 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Luna_Intermedium" />
-		<DisplayName>Lixivium of Luna Intermedium</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+		<DisplayName>Virtue of Purity</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+		<DisplayName>Virtue of Purity</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+		<DisplayName>Virtue of Purity</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Strength" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Strength</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
+		<DisplayName>Virtue of Strength</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
+		<DisplayName>Virtue of Strength</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
+		<DisplayName>Virtue of Strength</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Corruption</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+		<DisplayName>Virtue of Corruption</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+		<DisplayName>Virtue of Corruption</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+		<DisplayName>Virtue of Corruption</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Vitality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+		<DisplayName>Virtue of Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+		<DisplayName>Virtue of Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+		<DisplayName>Virtue of Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+		<DisplayName>Virtue of Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -624,9 +788,9 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		<Id Subtype="Lixivium_of_Sol" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Virtue of Purification</DisplayName>
+		<DisplayName>Lixivium of Sol</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -640,25 +804,25 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
-		<DisplayName>Virtue of Purification</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Sol" />
+		<DisplayName>Lixivium of Sol</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Mugwort_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Concordia_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Amber_Vitriol" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Black_Vitriol" Type="InventoryItem" />
+		<Id Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Black Vitriol</DisplayName>
+		<DisplayName>Lixivium of Saturn</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -672,24 +836,25 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Black_Vitriol" />
-		<DisplayName>Black Vitriol</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Saturn" />
+		<DisplayName>Lixivium of Saturn</DisplayName>
 		<Icon />
-		<Category>Alembic</Category>
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Lead_Parts" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
 			<Item Amount="1" Subtype="Black_Vitriol" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Torpor" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
+		<Id Subtype="Lixivium_of_Luna" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Lixivium of Mars Intermedium</DisplayName>
+		<DisplayName>Lixivium of Luna</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -703,47 +868,17 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Mars_Intermedium" />
-		<DisplayName>Lixivium of Mars Intermedium</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Luna" />
+		<DisplayName>Lixivium of Luna</DisplayName>
 		<Icon />
-		<Category>Balneum</Category>
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Lixivium_of_Mars" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Mortality" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Blue_Vitriol" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Blue Vitriol</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Blue_Vitriol" />
-		<DisplayName>Blue Vitriol</DisplayName>
-		<Icon />
-		<Category>Alembic</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Copper_Parts" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Blue_Vitriol" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -768,13 +903,135 @@
 		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Opposition" />
 		<DisplayName>Oyle of Opposition</DisplayName>
 		<Icon />
-		<Category>Alembic</Category>
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Mercury" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Opposition" />
+		<DisplayName>Oyle of Opposition</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Venus" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Opposition" />
+		<DisplayName>Oyle of Opposition</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
 		<Prerequisites>
 			<Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
 			<Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Inversion</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Inversion" />
+		<DisplayName>Virtue of Inversion</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Virtue_of_Torpor" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Virtue of Torpor</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Torpor" />
+		<DisplayName>Virtue of Torpor</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Torpor" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+		<DisplayName>Virtue of Corruption</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+		<DisplayName>Virtue of Purity</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -842,37 +1099,6 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Amber_Vitriol" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Amber Vitriol</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amber_Vitriol" />
-		<DisplayName>Amber Vitriol</DisplayName>
-		<Icon />
-		<Category>Alembic</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Gold_Parts" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Amber_Vitriol" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
 		<Id Subtype="Lixivium_of_Venus_Intermedium" Type="InventoryItem" />
 		<Public>true</Public>
 		<DisplayName>Lixivium of Venus Intermedium</DisplayName>
@@ -904,9 +1130,9 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+		<Id Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Virtue of Inversion</DisplayName>
+		<DisplayName>Lixivium of Mars Intermedium</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -920,16 +1146,140 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Inversion" />
-		<DisplayName>Virtue of Inversion</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Mars_Intermedium" />
+		<DisplayName>Lixivium of Mars Intermedium</DisplayName>
 		<Icon />
-		<Category>Alembic</Category>
+		<Category>Balneum</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lixivium_of_Mars" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Lixivium of Jupiter Intermedium</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Jupiter_Intermedium" />
+		<DisplayName>Lixivium of Jupiter Intermedium</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Lixivium of Saturn Intermedium</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Saturn_Intermedium" />
+		<DisplayName>Lixivium of Saturn Intermedium</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Lixivium of Sol Intermedium</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Sol_Intermedium" />
+		<DisplayName>Lixivium of Sol Intermedium</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Lixivium of Luna Intermedium</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Luna_Intermedium" />
+		<DisplayName>Lixivium of Luna Intermedium</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>

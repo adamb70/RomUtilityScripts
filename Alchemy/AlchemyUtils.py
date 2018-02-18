@@ -1,6 +1,6 @@
 def build_stats(effects):
     stats = {}
-    if len(effects[0]) > 3:
+    if type(effects) == str:
         # Only list of effect names, use default val and time
         effects = [(eff, 5, 30) for eff in effects]
 
@@ -11,6 +11,8 @@ def build_stats(effects):
             stat = "Stamina"
         elif "Hunger" in eff:
             stat = "Hunger"
+        elif "Thirst" in eff:
+            stat = "Thirst"
         elif "Poison" in eff:
             stat = "Poison"
         elif "Mood" in eff:

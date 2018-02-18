@@ -1,0 +1,850 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Endurance</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance" />
+		<DisplayName>Elixir of Endurance</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Mercury_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Purity" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Purity</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity" />
+		<DisplayName>Elixir of Purity</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Venus_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Strength</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength" />
+		<DisplayName>Elixir of Strength</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Corruption</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption" />
+		<DisplayName>Elixir of Corruption</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Torpor</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor" />
+		<DisplayName>Elixir of Torpor</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Vitality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Vitality" />
+		<DisplayName>Elixir of Vitality</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Mortality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Mortality" />
+		<DisplayName>Elixir of Mortality</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Duplicity</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Duplicity" />
+		<DisplayName>Elixir of Duplicity</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Aqua_Pura" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Aqua Pura</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Aqua_Pura" />
+		<DisplayName>Aqua Pura</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Endurance_&amp;_Purity" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Endurance &amp; Purity</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Stamina" Time="1" Value="10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_&amp;_Purity" />
+		<DisplayName>Elixir of Endurance &amp; Purity</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Purity" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Endurance_&amp;_Strength" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Endurance &amp; Strength</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Stamina" Time="1" Value="10" />
+			<Stat Name="Fury" Time="1" Value="10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_&amp;_Strength" />
+		<DisplayName>Elixir of Endurance &amp; Strength</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Strength" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Endurance_&amp;_Vitality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Endurance &amp; Vitality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Stamina" Time="1" Value="10" />
+			<Stat Name="Health" Time="1" Value="10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_&amp;_Vitality" />
+		<DisplayName>Elixir of Endurance &amp; Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Endurance_&amp;_Vitality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Purity_&amp;_Strength" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Purity &amp; Strength</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Fury" Time="1" Value="10" />
+			<Stat Name="Poison" Time="1" Value="-10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_&amp;_Strength" />
+		<DisplayName>Elixir of Purity &amp; Strength</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Purity_&amp;_Strength" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Purity_&amp;_Vitality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Purity &amp; Vitality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Health" Time="1" Value="10" />
+			<Stat Name="Poison" Time="1" Value="-10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_&amp;_Vitality" />
+		<DisplayName>Elixir of Purity &amp; Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Purity_&amp;_Vitality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Strength_&amp;_Vitality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Strength &amp; Vitality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Fury" Time="1" Value="10" />
+			<Stat Name="Health" Time="1" Value="10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength_&amp;_Vitality" />
+		<DisplayName>Elixir of Strength &amp; Vitality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Strength_&amp;_Vitality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Corruption_&amp;_Torpor" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Corruption &amp; Torpor</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Stamina" Time="1" Value="-10" />
+			<Stat Name="Poison" Time="1" Value="10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_&amp;_Torpor" />
+		<DisplayName>Elixir of Corruption &amp; Torpor</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Corruption_&amp;_Torpor" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Corruption_&amp;_Mortality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Corruption &amp; Mortality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Health" Time="1" Value="-10" />
+			<Stat Name="Poison" Time="1" Value="10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_&amp;_Mortality" />
+		<DisplayName>Elixir of Corruption &amp; Mortality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Corruption_&amp;_Mortality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Torpor_&amp;_Mortality" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Torpor &amp; Mortality</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Stamina" Time="1" Value="-10" />
+			<Stat Name="Health" Time="1" Value="-10" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor_&amp;_Mortality" />
+		<DisplayName>Elixir of Torpor &amp; Mortality</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Torpor_&amp;_Mortality" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Endurance_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Endurance in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_in_Extent" />
+		<DisplayName>Elixir of Endurance in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Endurance_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Purity_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Purity in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_in_Extent" />
+		<DisplayName>Elixir of Purity in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Purity_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Strength_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Strength in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength_in_Extent" />
+		<DisplayName>Elixir of Strength in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Strength_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Corruption_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Corruption in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_in_Extent" />
+		<DisplayName>Elixir of Corruption in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Corruption_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Torpor_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Torpor in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor_in_Extent" />
+		<DisplayName>Elixir of Torpor in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Torpor_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Vitality_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Vitality in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Health" Time="10" Value="5" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Vitality_in_Extent" />
+		<DisplayName>Elixir of Vitality in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Vitality_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Elixir_of_Mortality_in_Extent" Type="ConsumableItem" />
+		<Public>true</Public>
+		<DisplayName>Elixir of Mortality in Extent</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+		<Stats>
+			<Stat Name="Health" Time="10" Value="-5" />
+		</Stats>
+		<UseSound>PlayEat</UseSound>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Mortality_in_Extent" />
+		<DisplayName>Elixir of Mortality in Extent</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
+			<Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Elixir_of_Mortality_in_Extent" Type="ConsumableItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+</Definitions>
+

@@ -1,8 +1,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Rock_Willow_Essence" Type="InventoryItem" />
+		<Id Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Prep'd Rock Willow Essence</DisplayName>
+		<DisplayName>Prepd Althea Essence</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -16,334 +16,54 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Rock_Willow_Essence" />
-		<DisplayName>Prep'd Rock Willow Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Althea_Essence" />
+		<DisplayName>Prepd Althea Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Rock_Willow_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Althea_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Rock_Willow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Wormwood_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Wormwood Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Wormwood_Essence" />
-		<DisplayName>Prep'd Wormwood Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Althea_Essence" />
+		<DisplayName>Prepd Althea Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Wormwood_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Althea_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Wormwood_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Glasswort_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Glasswort Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Glasswort_Essence" />
-		<DisplayName>Prep'd Glasswort Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Althea_Essence" />
+		<DisplayName>Prepd Althea Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Glasswort_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Glasswort_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Angelica_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Angelica Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Angelica_Essence" />
-		<DisplayName>Prep'd Angelica Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Angelica_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Angelica_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Luceat_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Luceat Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Luceat_Essence" />
-		<DisplayName>Prep'd Luceat Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Luceat_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Luceat_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Spalt_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Spalt Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Spalt_Essence" />
-		<DisplayName>Prep'd Spalt Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Spalt_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Spalt_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Broom_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Broom Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Broom_Essence" />
-		<DisplayName>Prep'd Broom Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Broom_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Broom_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Belladonna_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Belladonna Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Belladonna_Essence" />
-		<DisplayName>Prep'd Belladonna Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Belladonna_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Belladonna_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Concordia_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Concordia Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Concordia_Essence" />
-		<DisplayName>Prep'd Concordia Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Concordia_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Concordia_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Yarrow_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Yarrow Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Yarrow_Essence" />
-		<DisplayName>Prep'd Yarrow Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Yarrow_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Yarrow_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Althea_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Althea Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Althea_Essence" />
-		<DisplayName>Prep'd Althea Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
 			<Item Amount="1" Subtype="Althea_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Althea_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Sage_Essence" Type="InventoryItem" />
+		<Id Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Prep'd Sage Essence</DisplayName>
+		<DisplayName>Prepd Amaranth Essence</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -357,303 +77,54 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Sage_Essence" />
-		<DisplayName>Prep'd Sage Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Amaranth_Essence" />
+		<DisplayName>Prepd Amaranth Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Sage_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Sage_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Hellebore_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Hellebore Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Hellebore_Essence" />
-		<DisplayName>Prep'd Hellebore Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Amaranth_Essence" />
+		<DisplayName>Prepd Amaranth Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Hellebore_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Mugwort_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Mugwort Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Mugwort_Essence" />
-		<DisplayName>Prep'd Mugwort Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Amaranth_Essence" />
+		<DisplayName>Prepd Amaranth Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Mugwort_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Mugwort_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Hemlock_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Hemlock Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Hemlock_Essence" />
-		<DisplayName>Prep'd Hemlock Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Hemlock_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Hemlock_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Crocus_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Crocus Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Crocus_Essence" />
-		<DisplayName>Prep'd Crocus Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Crocus_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Crocus_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Gilliflower_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Gilliflower Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Gilliflower_Essence" />
-		<DisplayName>Prep'd Gilliflower Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Gilliflower_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Gilliflower_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Cloud_Funnel_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Cloud Funnel Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Cloud_Funnel_Essence" />
-		<DisplayName>Prep'd Cloud Funnel Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Cloud_Funnel_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Cloud_Funnel_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Hoppan_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Hoppan Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Hoppan_Essence" />
-		<DisplayName>Prep'd Hoppan Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Hoppan_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Hoppan_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Castor_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Castor Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Castor_Essence" />
-		<DisplayName>Prep'd Castor Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Castor_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Prep'd_Castor_Essence" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Amaranth_Essence" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Prep'd Amaranth Essence</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Amaranth_Essence" />
-		<DisplayName>Prep'd Amaranth Essence</DisplayName>
-		<Icon />
-		<Category>Reduction</Category>
+		<Category>Balneum</Category>
 		<Prerequisites>
 			<Item Amount="1" Subtype="Amaranth_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Crimson_Thristle_Essence" Type="InventoryItem" />
+		<Id Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Prep'd Crimson Thristle Essence</DisplayName>
+		<DisplayName>Prepd Angelica Essence</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -667,24 +138,298 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Crimson_Thristle_Essence" />
-		<DisplayName>Prep'd Crimson Thristle Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Angelica_Essence" />
+		<DisplayName>Prepd Angelica Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Angelica_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Angelica_Essence" />
+		<DisplayName>Prepd Angelica Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Angelica_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Angelica_Essence" />
+		<DisplayName>Prepd Angelica Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Angelica_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Belladonna Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Belladonna_Essence" />
+		<DisplayName>Prepd Belladonna Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Belladonna_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Belladonna_Essence" />
+		<DisplayName>Prepd Belladonna Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Belladonna_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Belladonna_Essence" />
+		<DisplayName>Prepd Belladonna Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Belladonna_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Broom Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Broom_Essence" />
+		<DisplayName>Prepd Broom Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Broom_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Broom_Essence" />
+		<DisplayName>Prepd Broom Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Broom_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Broom_Essence" />
+		<DisplayName>Prepd Broom Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Broom_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Castor Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Castor_Essence" />
+		<DisplayName>Prepd Castor Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Castor_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Castor_Essence" />
+		<DisplayName>Prepd Castor Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Castor_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Castor_Essence" />
+		<DisplayName>Prepd Castor Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Castor_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Crimson Thristle Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crimson_Thristle_Essence" />
+		<DisplayName>Prepd Crimson Thristle Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Crimson_Thristle_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crimson_Thristle_Essence" />
+		<DisplayName>Prepd Crimson Thristle Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Crimson_Thristle_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crimson_Thristle_Essence" />
+		<DisplayName>Prepd Crimson Thristle Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
 		<Prerequisites>
 			<Item Amount="1" Subtype="Crimson_Thristle_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Crimson_Thristle_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Prep'd_Rock_Lichen_Essence" Type="InventoryItem" />
+		<Id Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
 		<Public>true</Public>
-		<DisplayName>Prep'd Rock Lichen Essence</DisplayName>
+		<DisplayName>Prepd Crocus Essence</DisplayName>
 		<Description />
 		<Icon />
 		<PhysicalMaterial>None</PhysicalMaterial>
@@ -698,16 +443,961 @@
 	</Definition>
 	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prep'd_Rock_Lichen_Essence" />
-		<DisplayName>Prep'd Rock Lichen Essence</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crocus_Essence" />
+		<DisplayName>Prepd Crocus Essence</DisplayName>
 		<Icon />
-		<Category>Reduction</Category>
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Crocus_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crocus_Essence" />
+		<DisplayName>Prepd Crocus Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Crocus_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crocus_Essence" />
+		<DisplayName>Prepd Crocus Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Crocus_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Cloud Funnel Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Cloud_Funnel_Essence" />
+		<DisplayName>Prepd Cloud Funnel Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Cloud_Funnel_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Cloud_Funnel_Essence" />
+		<DisplayName>Prepd Cloud Funnel Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Cloud_Funnel_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Cloud_Funnel_Essence" />
+		<DisplayName>Prepd Cloud Funnel Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Cloud_Funnel_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Gilliflower Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Gilliflower_Essence" />
+		<DisplayName>Prepd Gilliflower Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Gilliflower_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Gilliflower_Essence" />
+		<DisplayName>Prepd Gilliflower Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Gilliflower_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Gilliflower_Essence" />
+		<DisplayName>Prepd Gilliflower Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Gilliflower_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Glasswort Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Glasswort_Essence" />
+		<DisplayName>Prepd Glasswort Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Glasswort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Glasswort_Essence" />
+		<DisplayName>Prepd Glasswort Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Glasswort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Glasswort_Essence" />
+		<DisplayName>Prepd Glasswort Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Glasswort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Luceat Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Luceat_Essence" />
+		<DisplayName>Prepd Luceat Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Luceat_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Luceat_Essence" />
+		<DisplayName>Prepd Luceat Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Luceat_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Luceat_Essence" />
+		<DisplayName>Prepd Luceat Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Luceat_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Concordia Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Concordia_Essence" />
+		<DisplayName>Prepd Concordia Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Concordia_Essence" />
+		<DisplayName>Prepd Concordia Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Concordia_Essence" />
+		<DisplayName>Prepd Concordia Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Concordia_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Hellebore Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hellebore_Essence" />
+		<DisplayName>Prepd Hellebore Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hellebore_Essence" />
+		<DisplayName>Prepd Hellebore Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hellebore_Essence" />
+		<DisplayName>Prepd Hellebore Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Hemlock Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hemlock_Essence" />
+		<DisplayName>Prepd Hemlock Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hemlock_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hemlock_Essence" />
+		<DisplayName>Prepd Hemlock Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hemlock_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hemlock_Essence" />
+		<DisplayName>Prepd Hemlock Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hemlock_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Hoppan Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hoppan_Essence" />
+		<DisplayName>Prepd Hoppan Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hoppan_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hoppan_Essence" />
+		<DisplayName>Prepd Hoppan Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hoppan_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hoppan_Essence" />
+		<DisplayName>Prepd Hoppan Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Hoppan_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Rock Lichen Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Lichen_Essence" />
+		<DisplayName>Prepd Rock Lichen Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Lichen_Essence" />
+		<DisplayName>Prepd Rock Lichen Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Lichen_Essence" />
+		<DisplayName>Prepd Rock Lichen Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
 		<Prerequisites>
 			<Item Amount="1" Subtype="Rock_Lichen_Essence" Type="InventoryItem" />
 			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Prep'd_Rock_Lichen_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Mugwort Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Mugwort_Essence" />
+		<DisplayName>Prepd Mugwort Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Mugwort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Mugwort_Essence" />
+		<DisplayName>Prepd Mugwort Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Mugwort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Mugwort_Essence" />
+		<DisplayName>Prepd Mugwort Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Mugwort_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Rock Willow Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Willow_Essence" />
+		<DisplayName>Prepd Rock Willow Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Rock_Willow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Willow_Essence" />
+		<DisplayName>Prepd Rock Willow Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Rock_Willow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Willow_Essence" />
+		<DisplayName>Prepd Rock Willow Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Rock_Willow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Sage_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Sage Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Sage_Essence" />
+		<DisplayName>Prepd Sage Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Sage_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Sage_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Sage_Essence" />
+		<DisplayName>Prepd Sage Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Sage_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Sage_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Sage_Essence" />
+		<DisplayName>Prepd Sage Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Sage_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Sage_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Spalt Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Spalt_Essence" />
+		<DisplayName>Prepd Spalt Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Spalt_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Spalt_Essence" />
+		<DisplayName>Prepd Spalt Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Spalt_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Spalt_Essence" />
+		<DisplayName>Prepd Spalt Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Spalt_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Wormwood Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Wormwood_Essence" />
+		<DisplayName>Prepd Wormwood Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Wormwood_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Wormwood_Essence" />
+		<DisplayName>Prepd Wormwood Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Wormwood_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Wormwood_Essence" />
+		<DisplayName>Prepd Wormwood Essence</DisplayName>
+		<Icon />
+		<Category>Balneum</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Wormwood_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Prepd Yarrow Essence</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Yarrow_Essence" />
+		<DisplayName>Prepd Yarrow Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Yarrow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Yarrow_Essence" />
+		<DisplayName>Prepd Yarrow Essence</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Yarrow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Yarrow_Essence" />
+		<DisplayName>Prepd Yarrow Essence</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Yarrow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>

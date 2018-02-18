@@ -51,7 +51,7 @@ class Ingredient(Item):
 
 
 class DriedIngredient(Item):
-    def __init__(self, name, ingredient, max_stack=4, consumable=False):
+    def __init__(self, name, ingredient, max_stack=16, consumable=False):
         super(DriedIngredient, self).__init__(display_name=name.replace('_', ' '), subtype=name, max_stack=max_stack,
                                               consumable=consumable)
 
@@ -60,7 +60,7 @@ class DriedIngredient(Item):
 
 
 class GroundIngredient(CraftableItem):
-    def __init__(self, name, ingredient, ingredient_type, max_stack=20, crafting_time=3, consumable=False,
+    def __init__(self, name, ingredient, ingredient_type, max_stack=16, crafting_time=3, consumable=False,
                  categories=None, prereqs=None, results=None):
 
         if not prereqs:

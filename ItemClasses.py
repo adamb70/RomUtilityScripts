@@ -145,8 +145,8 @@ class Item(object):
         root.append(self.model)
         root.append(self.max_stack)
 
-        if self.consumable:
-            if self.stats is not None:
+        if self.id.attrib['Type'] == 'ConsumableItem':
+            if list(self.stats):
                 root.append(self.stats)
             root.append(self.use_sound)
 

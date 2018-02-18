@@ -1,67 +1,5 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Health_1" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Health 1</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
-		<DisplayName>Int Health 1</DisplayName>
-		<Icon />
-		<Category />
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Amaranth_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Rock_Willow_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Health_2" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Health 2</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
-		<DisplayName>Int Health 2</DisplayName>
-		<Icon />
-		<Category />
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Rock_Willow_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Wormwood_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
 		<Id Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
 		<Public>true</Public>
 		<DisplayName>Int Anti Poison 1</DisplayName>
@@ -81,10 +19,10 @@
 		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_1" />
 		<DisplayName>Int Anti Poison 1</DisplayName>
 		<Icon />
-		<Category />
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Broom_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Gilliflower_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
 			<Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
@@ -112,10 +50,10 @@
 		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_2" />
 		<DisplayName>Int Anti Poison 2</DisplayName>
 		<Icon />
-		<Category />
+		<Category>Alembic</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Althea_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Gilliflower_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
 			<Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
@@ -123,95 +61,17 @@
 		<CraftingTime Seconds="20" />
 	</Definition>
 	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Stamina_1" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Stamina 1</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
 	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
-		<DisplayName>Int Stamina 1</DisplayName>
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_1" />
+		<DisplayName>Int Anti Poison 1</DisplayName>
 		<Icon />
-		<Category />
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Crocus_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Yarrow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
-			<Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Stamina_3" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Stamina 3</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
-		<DisplayName>Int Stamina 3</DisplayName>
-		<Icon />
-		<Category />
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Spalt_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Yarrow_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Stamina_2" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Stamina 2</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
-		<DisplayName>Int Stamina 2</DisplayName>
-		<Icon />
-		<Category />
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Angelica_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Yarrow_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -236,75 +96,13 @@
 		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_1" />
 		<DisplayName>Int Fury 1</DisplayName>
 		<Icon />
-		<Category />
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Cloud_Funnel_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
 			<Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Poison_2" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Poison 2</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_2" />
-		<DisplayName>Int Poison 2</DisplayName>
-		<Icon />
-		<Category />
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Castor_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Hemlock_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Int_Poison_1" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Int Poison 1</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
-		<DisplayName>Int Poison 1</DisplayName>
-		<Icon />
-		<Category />
-		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Belladonna_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Hemlock_Essence" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>
@@ -329,13 +127,365 @@
 		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_2" />
 		<DisplayName>Int Fury 2</DisplayName>
 		<Icon />
-		<Category />
+		<Category>Cauldron</Category>
 		<Prerequisites>
-			<Item Amount="1" Subtype="Prep'd_Hellebore_Essence" Type="InventoryItem" />
-			<Item Amount="1" Subtype="Prep'd_Hoppan_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
 		</Prerequisites>
 		<Results>
 			<Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_2" />
+		<DisplayName>Int Fury 2</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Health_1" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Health 1</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
+		<DisplayName>Int Health 1</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
+		<DisplayName>Int Health 1</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Health_2" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Health 2</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+		<DisplayName>Int Health 2</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+		<DisplayName>Int Health 2</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+		<DisplayName>Int Health 2</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+		<DisplayName>Int Health 2</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Poison_1" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Poison 1</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
+		<DisplayName>Int Poison 1</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
+		<DisplayName>Int Poison 1</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Poison_2" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Poison 2</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_2" />
+		<DisplayName>Int Poison 2</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Stamina_1" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Stamina 1</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
+		<DisplayName>Int Stamina 1</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Stamina_2" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Stamina 2</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
+		<DisplayName>Int Stamina 2</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
+		<DisplayName>Int Stamina 2</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+		<Id Subtype="Int_Stamina_3" Type="InventoryItem" />
+		<Public>true</Public>
+		<DisplayName>Int Stamina 3</DisplayName>
+		<Description />
+		<Icon />
+		<PhysicalMaterial>None</PhysicalMaterial>
+		<Size>
+			<X>1</X>
+			<Z>1</Z>
+			<Y>1</Y>
+		</Size>
+		<Model />
+		<MaxStackAmount>16</MaxStackAmount>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
+		<DisplayName>Int Stamina 3</DisplayName>
+		<Icon />
+		<Category>Cauldron</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
+		<DisplayName>Int Stamina 1</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
+		</Results>
+		<CraftingTime Seconds="20" />
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
+		<DisplayName>Int Stamina 3</DisplayName>
+		<Icon />
+		<Category>Alembic</Category>
+		<Prerequisites>
+			<Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
+			<Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
+		</Prerequisites>
+		<Results>
+			<Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
 		</Results>
 		<CraftingTime Seconds="20" />
 	</Definition>

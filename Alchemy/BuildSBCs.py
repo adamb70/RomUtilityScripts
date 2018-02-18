@@ -12,17 +12,24 @@ headers, recipe_list = con.get_final_recipes()
 
 
 """ Expected Headers:
-Display Name
 Result 1
 Result 1 Amount
+Result 1 Type
 Result 2
 Result 2 Amount
+Result 2 Type
 Ingredient 1
 Ingredient 1 Amount
+Ingredient 1 Type
 Ingredient 2
 Ingredient 2 Amount
+Ingredient 2 Type
 Ingredient 3
 Ingredient 3 Amount
+Ingredient 3 Type
+Ingredient 4
+Ingredient 4 Amount
+Ingredient 4 Type
 Effect 1
 Effect 1 Amount
 Effect 1 Time
@@ -37,8 +44,8 @@ Effect 4 Amount
 Effect 4 Time
 Categories
 Craft Time
-Item Type
-Filename """
+Stack Size
+Filename"""
 
 
 # Ingredients and dried ingredients are not in final sheet, use ingredients sheet to generate
@@ -51,15 +58,16 @@ for recipe in recipe_list:
 
 for filename in files:
     root = ET.Element('Definitions')
-    processed_items = {}
+    processed_items = []
 
     for recipe in files[filename]:
-        res = [(recipe[headers['Result 1 Amount']], recipe[headers['Item Type']], recipe[headers['Result 1']]),
-               (recipe[headers['Result 2 Amount']], recipe[headers['Item Type']], recipe[headers['Result 2']])]
+        res = [(recipe[headers['Result 1 Amount']], recipe[headers['Result 1 Type']], recipe[headers['Result 1']]),
+               (recipe[headers['Result 2 Amount']], recipe[headers['Result 2 Type']], recipe[headers['Result 2']])]
 
-        pre = [(recipe[headers['Ingredient 1 Amount']], recipe[headers['Item Type']], recipe[headers['Ingredient 1']]),
-               (recipe[headers['Ingredient 2 Amount']], recipe[headers['Item Type']], recipe[headers['Ingredient 2']]),
-               (recipe[headers['Ingredient 3 Amount']], recipe[headers['Item Type']], recipe[headers['Ingredient 3']])]
+        pre = [(recipe[headers['Ingredient 1 Amount']], recipe[headers['Ingredient 1 Type']], recipe[headers['Ingredient 1']]),
+               (recipe[headers['Ingredient 2 Amount']], recipe[headers['Ingredient 2 Type']], recipe[headers['Ingredient 2']]),
+               (recipe[headers['Ingredient 3 Amount']], recipe[headers['Ingredient 3 Type']], recipe[headers['Ingredient 3']]),
+               (recipe[headers['Ingredient 4 Amount']], recipe[headers['Ingredient 4 Type']], recipe[headers['Ingredient 4']])]
 
         eff = [(recipe[headers['Effect 1']], recipe[headers['Effect 1 Amount']], recipe[headers['Effect 1 Time']]),
                (recipe[headers['Effect 2']], recipe[headers['Effect 2 Amount']], recipe[headers['Effect 2 Time']]),
@@ -68,23 +76,26 @@ for filename in files:
 
         categories = recipe[headers['Categories']].strip().split(',')
 
-        processed_items[recipe[headers['Result 1']]] = CraftableItem(display_name=recipe[headers['Display Name']],
-                                                                     type=recipe[headers['Item Type']],
-                                                                     subtype=recipe[headers['Result 1']],
-                                                                     stats=build_stats(eff), prereqs=pre,
-                                                                     results=res, categories=categories,
-                                                                     crafting_time=recipe[headers['Craft Time']])
+        processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']],
+                                             type=recipe[headers['Result 1 Type']],
+                                             subtype=recipe[headers['Result 1']],
+                                             stats=build_stats(eff), prereqs=pre,
+                                             results=res, categories=categories,
+                                             crafting_time=recipe[headers['Craft Time']]))
 
         if recipe[headers['Result 2']]:
-            processed_items[recipe[headers['Result 2']]] = CraftableItem(display_name=recipe[headers['Display Name']],
-                                                                         type=recipe[headers['Item Type']],
-                                                                         subtype=recipe[headers['Result 2']],
-                                                                         stats=build_stats(eff), prereqs=pre,
-                                                                         results=res, categories=categories,
-                                                                         crafting_time=recipe[headers['Craft Time']])
+            processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']],
+                                                 type=recipe[headers['Result 2 Type']],
+                                                 subtype=recipe[headers['Result 2']],
+                                                 stats=build_stats(eff), prereqs=pre,
+                                                 results=res, categories=categories,
+                                                 crafting_time=recipe[headers['Craft Time']]))
 
-    for x in processed_items.values():
-        root.append(x.build_item_def())
+    completed_items = set()
+    for x in processed_items:
+        if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
+            root.append(x.build_item_def())
+            completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
         root.append(x.build_crafting_def())
 
     indent(root)
