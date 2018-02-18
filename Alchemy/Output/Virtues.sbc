@@ -274,7 +274,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -291,7 +291,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -308,7 +308,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -325,7 +325,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -486,7 +486,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Endurance_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Endurance_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -502,7 +502,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Endurance_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Endurance_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -566,7 +566,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purity_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purity_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -630,7 +630,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Strength_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Strength_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -694,7 +694,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Corruption_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Corruption_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -758,7 +758,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Vitality_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Vitality_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -774,7 +774,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Vitality_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Vitality_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -970,7 +970,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Oyle_of_Opposition_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Oyle_of_Opposition_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Opposition</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1050,7 +1050,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Corruption_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Corruption_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1066,7 +1066,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purity_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purity_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>

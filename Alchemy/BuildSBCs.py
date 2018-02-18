@@ -85,16 +85,17 @@ for filename in files:
                                              results=res, categories=categories,
                                              crafting_time=recipe[headers['Craft Time']]))
 
-
     for x in processed_items:
         if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
             root.append(x.build_item_def())
             completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
 
-        if (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_crafting:
-            x.id.attrib['Subtype'] = x.id.attrib['Subtype'] + '_' + str(completed_crafting[x.id.attrib['Type'], x.id.attrib['Subtype']] + 1)
+        old_subtype = x.id.attrib['Subtype']
+        if completed_crafting[(x.id.attrib['Type'], old_subtype)] > 0:
+            x.id.attrib['Subtype'] = old_subtype + '_' + str(completed_crafting[(x.id.attrib['Type'], x.id.attrib['Subtype'])] + 1)
+
         root.append(x.build_crafting_def())
-        completed_crafting[x.id.attrib['Type'], x.id.attrib['Subtype']] += 1
+        completed_crafting[(x.id.attrib['Type'], old_subtype)] += 1
 
     indent(root)
     ET.ElementTree(root).write('Output/'+filename, xml_declaration=True, method="xml")

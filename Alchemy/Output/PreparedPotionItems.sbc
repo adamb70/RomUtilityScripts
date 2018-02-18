@@ -48,7 +48,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Althea_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Althea_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Althea Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -112,7 +112,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Amaranth_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Amaranth_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Amaranth Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -176,7 +176,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Angelica_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Angelica_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Angelica Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -240,7 +240,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Belladonna_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Belladonna_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Belladonna Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -304,7 +304,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Broom_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Broom_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Broom Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -368,7 +368,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Castor_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Castor_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Castor Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -432,7 +432,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Crimson_Thristle_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Crimson_Thristle_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crimson Thristle Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -496,7 +496,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Crocus_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Crocus_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crocus Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -560,7 +560,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Cloud_Funnel_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Cloud_Funnel_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Cloud Funnel Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -624,7 +624,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Gilliflower_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Gilliflower_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Gilliflower Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -688,7 +688,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Glasswort_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Glasswort_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Glasswort Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -752,7 +752,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Luceat_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Luceat_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Luceat Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -816,7 +816,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Concordia_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Concordia_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Concordia Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -880,7 +880,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Hellebore_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Hellebore_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hellebore Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -944,7 +944,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Hemlock_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Hemlock_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hemlock Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1008,7 +1008,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Hoppan_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Hoppan_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hoppan Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1072,7 +1072,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Rock_Lichen_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Rock_Lichen_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Lichen Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1136,7 +1136,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Mugwort_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Mugwort_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Mugwort Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1200,7 +1200,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Rock_Willow_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Rock_Willow_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Willow Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1264,7 +1264,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Sage_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Sage_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Sage Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1328,7 +1328,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Spalt_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Spalt_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Spalt Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1392,7 +1392,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Wormwood_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Wormwood_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Wormwood Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1456,7 +1456,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Prepd_Yarrow_Essence_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Prepd_Yarrow_Essence_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Yarrow Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>

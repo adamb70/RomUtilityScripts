@@ -256,7 +256,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Health_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Health_2_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -272,7 +272,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Health_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Health_2_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
