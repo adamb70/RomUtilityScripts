@@ -16,7 +16,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Althea_Essence" />
+        <Id Subtype="Prepd_Althea_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Althea Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -48,7 +48,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -64,7 +64,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Althea_Essence" />
+        <Id Subtype="Prepd_Althea_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Althea Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -80,7 +80,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -96,7 +96,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Althea_Essence" />
+        <Id Subtype="Prepd_Althea_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Althea Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -112,7 +112,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -144,7 +144,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Amaranth_Essence" />
+        <Id Subtype="Prepd_Amaranth_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Amaranth Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -160,7 +160,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -176,7 +176,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Amaranth_Essence" />
+        <Id Subtype="Prepd_Amaranth_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Amaranth Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -192,7 +192,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -208,7 +208,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Amaranth_Essence" />
+        <Id Subtype="Prepd_Amaranth_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Amaranth Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -224,7 +224,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -256,7 +256,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Angelica_Essence" />
+        <Id Subtype="Prepd_Angelica_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Angelica Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -272,7 +272,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -288,7 +288,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Angelica_Essence" />
+        <Id Subtype="Prepd_Angelica_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Angelica Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -304,7 +304,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -320,7 +320,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Angelica_Essence" />
+        <Id Subtype="Prepd_Angelica_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Angelica Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -336,7 +336,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -368,7 +368,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Belladonna_Essence" />
+        <Id Subtype="Prepd_Belladonna_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Belladonna Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -384,7 +384,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -400,7 +400,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Belladonna_Essence" />
+        <Id Subtype="Prepd_Belladonna_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Belladonna Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -416,7 +416,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -432,7 +432,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Belladonna_Essence" />
+        <Id Subtype="Prepd_Belladonna_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Belladonna Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -448,7 +448,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -480,7 +480,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Broom_Essence" />
+        <Id Subtype="Prepd_Broom_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Broom Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -496,7 +496,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -512,7 +512,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Broom_Essence" />
+        <Id Subtype="Prepd_Broom_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Broom Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -528,7 +528,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -544,7 +544,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Broom_Essence" />
+        <Id Subtype="Prepd_Broom_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Broom Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -560,7 +560,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -592,7 +592,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Castor_Essence" />
+        <Id Subtype="Prepd_Castor_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Castor Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -608,7 +608,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -624,7 +624,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Castor_Essence" />
+        <Id Subtype="Prepd_Castor_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Castor Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -640,7 +640,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -656,7 +656,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Castor_Essence" />
+        <Id Subtype="Prepd_Castor_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Castor Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -672,7 +672,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -704,7 +704,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crimson_Thristle_Essence" />
+        <Id Subtype="Prepd_Crimson_Thristle_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crimson Thristle Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -720,7 +720,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -736,7 +736,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crimson_Thristle_Essence" />
+        <Id Subtype="Prepd_Crimson_Thristle_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crimson Thristle Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -752,7 +752,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -768,7 +768,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crimson_Thristle_Essence" />
+        <Id Subtype="Prepd_Crimson_Thristle_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crimson Thristle Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -784,7 +784,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -816,7 +816,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crocus_Essence" />
+        <Id Subtype="Prepd_Crocus_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crocus Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -832,7 +832,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -848,7 +848,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crocus_Essence" />
+        <Id Subtype="Prepd_Crocus_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crocus Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -864,7 +864,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -880,7 +880,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Crocus_Essence" />
+        <Id Subtype="Prepd_Crocus_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Crocus Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -896,7 +896,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -928,7 +928,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Cloud_Funnel_Essence" />
+        <Id Subtype="Prepd_Cloud_Funnel_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Cloud Funnel Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -944,7 +944,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -960,7 +960,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Cloud_Funnel_Essence" />
+        <Id Subtype="Prepd_Cloud_Funnel_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Cloud Funnel Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -976,7 +976,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -992,7 +992,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Cloud_Funnel_Essence" />
+        <Id Subtype="Prepd_Cloud_Funnel_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Cloud Funnel Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1008,7 +1008,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1040,7 +1040,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Gilliflower_Essence" />
+        <Id Subtype="Prepd_Gilliflower_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Gilliflower Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1056,7 +1056,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1072,7 +1072,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Gilliflower_Essence" />
+        <Id Subtype="Prepd_Gilliflower_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Gilliflower Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1088,7 +1088,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1104,7 +1104,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Gilliflower_Essence" />
+        <Id Subtype="Prepd_Gilliflower_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Gilliflower Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1120,7 +1120,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1152,7 +1152,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Glasswort_Essence" />
+        <Id Subtype="Prepd_Glasswort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Glasswort Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1168,7 +1168,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1184,7 +1184,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Glasswort_Essence" />
+        <Id Subtype="Prepd_Glasswort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Glasswort Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1200,7 +1200,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1216,7 +1216,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Glasswort_Essence" />
+        <Id Subtype="Prepd_Glasswort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Glasswort Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1232,7 +1232,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1264,7 +1264,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Luceat_Essence" />
+        <Id Subtype="Prepd_Luceat_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Luceat Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1280,7 +1280,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1296,7 +1296,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Luceat_Essence" />
+        <Id Subtype="Prepd_Luceat_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Luceat Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1312,7 +1312,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1328,7 +1328,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Luceat_Essence" />
+        <Id Subtype="Prepd_Luceat_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Luceat Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1344,7 +1344,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1376,7 +1376,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Concordia_Essence" />
+        <Id Subtype="Prepd_Concordia_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Concordia Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1392,7 +1392,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1408,7 +1408,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Concordia_Essence" />
+        <Id Subtype="Prepd_Concordia_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Concordia Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1424,7 +1424,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1440,7 +1440,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Concordia_Essence" />
+        <Id Subtype="Prepd_Concordia_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Concordia Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1456,7 +1456,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1488,7 +1488,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hellebore_Essence" />
+        <Id Subtype="Prepd_Hellebore_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hellebore Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1504,7 +1504,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1520,7 +1520,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hellebore_Essence" />
+        <Id Subtype="Prepd_Hellebore_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hellebore Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1536,7 +1536,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1552,7 +1552,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hellebore_Essence" />
+        <Id Subtype="Prepd_Hellebore_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hellebore Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1568,7 +1568,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1600,7 +1600,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hemlock_Essence" />
+        <Id Subtype="Prepd_Hemlock_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hemlock Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1616,7 +1616,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1632,7 +1632,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hemlock_Essence" />
+        <Id Subtype="Prepd_Hemlock_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hemlock Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1648,7 +1648,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1664,7 +1664,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hemlock_Essence" />
+        <Id Subtype="Prepd_Hemlock_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hemlock Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1680,7 +1680,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1712,7 +1712,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hoppan_Essence" />
+        <Id Subtype="Prepd_Hoppan_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hoppan Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1728,7 +1728,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1744,7 +1744,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hoppan_Essence" />
+        <Id Subtype="Prepd_Hoppan_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hoppan Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1760,7 +1760,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1776,7 +1776,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Hoppan_Essence" />
+        <Id Subtype="Prepd_Hoppan_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Hoppan Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1792,7 +1792,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1824,7 +1824,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Lichen_Essence" />
+        <Id Subtype="Prepd_Rock_Lichen_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Lichen Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1840,7 +1840,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1856,7 +1856,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Lichen_Essence" />
+        <Id Subtype="Prepd_Rock_Lichen_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Lichen Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1872,7 +1872,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1888,7 +1888,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Lichen_Essence" />
+        <Id Subtype="Prepd_Rock_Lichen_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Lichen Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1904,7 +1904,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1936,7 +1936,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Mugwort_Essence" />
+        <Id Subtype="Prepd_Mugwort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Mugwort Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1952,7 +1952,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1968,7 +1968,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Mugwort_Essence" />
+        <Id Subtype="Prepd_Mugwort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Mugwort Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1984,7 +1984,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2000,7 +2000,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Mugwort_Essence" />
+        <Id Subtype="Prepd_Mugwort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Mugwort Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2016,7 +2016,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2048,7 +2048,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Willow_Essence" />
+        <Id Subtype="Prepd_Rock_Willow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Willow Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2064,7 +2064,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2080,7 +2080,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Willow_Essence" />
+        <Id Subtype="Prepd_Rock_Willow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Willow Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2096,7 +2096,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2112,7 +2112,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Rock_Willow_Essence" />
+        <Id Subtype="Prepd_Rock_Willow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Rock Willow Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2128,7 +2128,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2160,7 +2160,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Sage_Essence" />
+        <Id Subtype="Prepd_Sage_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Sage Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2176,7 +2176,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2192,7 +2192,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Sage_Essence" />
+        <Id Subtype="Prepd_Sage_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Sage Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2208,7 +2208,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2224,7 +2224,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Sage_Essence" />
+        <Id Subtype="Prepd_Sage_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Sage Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2240,7 +2240,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2272,7 +2272,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Spalt_Essence" />
+        <Id Subtype="Prepd_Spalt_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Spalt Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2288,7 +2288,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2304,7 +2304,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Spalt_Essence" />
+        <Id Subtype="Prepd_Spalt_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Spalt Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2320,7 +2320,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2336,7 +2336,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Spalt_Essence" />
+        <Id Subtype="Prepd_Spalt_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Spalt Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2352,7 +2352,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2384,7 +2384,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Wormwood_Essence" />
+        <Id Subtype="Prepd_Wormwood_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Wormwood Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2400,7 +2400,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2416,7 +2416,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Wormwood_Essence" />
+        <Id Subtype="Prepd_Wormwood_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Wormwood Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2432,7 +2432,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2448,7 +2448,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Wormwood_Essence" />
+        <Id Subtype="Prepd_Wormwood_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Wormwood Essence</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2464,7 +2464,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2496,7 +2496,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Yarrow_Essence" />
+        <Id Subtype="Prepd_Yarrow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Yarrow Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2512,7 +2512,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2528,7 +2528,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Yarrow_Essence" />
+        <Id Subtype="Prepd_Yarrow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Yarrow Essence</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2544,7 +2544,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2560,7 +2560,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Prepd_Yarrow_Essence" />
+        <Id Subtype="Prepd_Yarrow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Prepd Yarrow Essence</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2576,7 +2576,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>

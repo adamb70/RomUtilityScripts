@@ -16,7 +16,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Althea" />
+        <Id Subtype="Ground_Althea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Althea</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -47,7 +47,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Amaranth" />
+        <Id Subtype="Ground_Amaranth" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Amaranth</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -78,7 +78,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Angelica" />
+        <Id Subtype="Ground_Angelica" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Angelica</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -109,7 +109,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Belladonna" />
+        <Id Subtype="Ground_Belladonna" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Belladonna</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -140,7 +140,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Broom" />
+        <Id Subtype="Ground_Broom" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Broom</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -171,7 +171,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Castor" />
+        <Id Subtype="Ground_Castor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Castor</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -202,7 +202,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Cinquefoil" />
+        <Id Subtype="Ground_Cinquefoil" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Cinquefoil</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -233,7 +233,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Crimson_Thristle" />
+        <Id Subtype="Ground_Crimson_Thristle" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Crimson Thristle</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -264,7 +264,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Crocus" />
+        <Id Subtype="Ground_Crocus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Crocus</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -295,7 +295,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Cloud_Funnel" />
+        <Id Subtype="Ground_Cloud_Funnel" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Cloud Funnel</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -326,7 +326,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Gilliflower" />
+        <Id Subtype="Ground_Gilliflower" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Gilliflower</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -357,7 +357,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Glasswort" />
+        <Id Subtype="Ground_Glasswort" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Glasswort</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -388,7 +388,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Luceat" />
+        <Id Subtype="Ground_Luceat" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Luceat</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -419,7 +419,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Concordia" />
+        <Id Subtype="Ground_Concordia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Concordia</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -450,7 +450,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hellebore" />
+        <Id Subtype="Ground_Hellebore" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Hellebore</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -481,7 +481,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hemlock" />
+        <Id Subtype="Ground_Hemlock" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Hemlock</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -512,7 +512,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hoppan" />
+        <Id Subtype="Ground_Hoppan" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Hoppan</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -543,7 +543,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Knotweed" />
+        <Id Subtype="Ground_Knotweed" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Knotweed</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -574,7 +574,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Rock_Lichen" />
+        <Id Subtype="Ground_Rock_Lichen" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Rock Lichen</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -605,7 +605,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Mugwort" />
+        <Id Subtype="Ground_Mugwort" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Mugwort</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -636,7 +636,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Rock_Willow" />
+        <Id Subtype="Ground_Rock_Willow" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Rock Willow</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -667,7 +667,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Sage" />
+        <Id Subtype="Ground_Sage" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Sage</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -698,7 +698,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Spalt" />
+        <Id Subtype="Ground_Spalt" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Spalt</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -729,7 +729,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Vervain" />
+        <Id Subtype="Ground_Vervain" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Vervain</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -760,7 +760,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Wormwood" />
+        <Id Subtype="Ground_Wormwood" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Wormwood</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>
@@ -791,7 +791,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Yarrow" />
+        <Id Subtype="Ground_Yarrow" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Yarrow</DisplayName>
         <Icon />
         <Category>Grind_Stone</Category>

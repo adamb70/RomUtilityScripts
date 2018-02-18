@@ -16,7 +16,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_1" />
+        <Id Subtype="Int_Anti_Poison_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Anti Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -48,7 +48,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -80,7 +80,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_2" />
+        <Id Subtype="Int_Anti_Poison_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Anti Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -96,7 +96,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -112,7 +112,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_1" />
+        <Id Subtype="Int_Anti_Poison_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Anti Poison</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -128,7 +128,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -160,7 +160,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_1" />
+        <Id Subtype="Int_Fury_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Fury</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -176,7 +176,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -208,7 +208,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_2" />
+        <Id Subtype="Int_Fury_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Fury</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -224,7 +224,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -240,7 +240,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_2" />
+        <Id Subtype="Int_Fury_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Fury</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -256,7 +256,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -288,7 +288,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
+        <Id Subtype="Int_Health_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -304,7 +304,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -320,7 +320,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
+        <Id Subtype="Int_Health_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -336,7 +336,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -368,7 +368,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -384,7 +384,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -400,7 +400,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -416,7 +416,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -432,7 +432,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -448,7 +448,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -464,7 +464,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
+        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -480,7 +480,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -512,7 +512,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
+        <Id Subtype="Int_Poison_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Poison</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -528,7 +528,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -544,7 +544,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
+        <Id Subtype="Int_Poison_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -560,7 +560,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -592,7 +592,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_2" />
+        <Id Subtype="Int_Poison_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -608,7 +608,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -640,7 +640,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
+        <Id Subtype="Int_Stamina_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -656,7 +656,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -688,7 +688,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
+        <Id Subtype="Int_Stamina_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -704,7 +704,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -720,7 +720,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
+        <Id Subtype="Int_Stamina_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -736,7 +736,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -768,7 +768,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
+        <Id Subtype="Int_Stamina_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -784,7 +784,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -800,7 +800,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
+        <Id Subtype="Int_Stamina_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -816,7 +816,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -832,7 +832,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
+        <Id Subtype="Int_Stamina_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -848,7 +848,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>

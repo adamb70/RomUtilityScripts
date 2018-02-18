@@ -17,7 +17,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance" />
+        <Id Subtype="Elixir_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -48,7 +48,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity" />
+        <Id Subtype="Elixir_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -79,7 +79,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength" />
+        <Id Subtype="Elixir_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Strength</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -110,7 +110,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption" />
+        <Id Subtype="Elixir_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -141,7 +141,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor" />
+        <Id Subtype="Elixir_of_Torpor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -172,7 +172,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Vitality" />
+        <Id Subtype="Elixir_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Vitality</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -203,7 +203,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Mortality" />
+        <Id Subtype="Elixir_of_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Mortality</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -233,7 +233,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Duplicity" />
+        <Id Subtype="Elixir_of_Duplicity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Duplicity</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -265,7 +265,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -297,7 +297,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Aqua_Pura" />
+        <Id Subtype="Aqua_Pura" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Aqua Pura</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -313,7 +313,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -349,7 +349,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_And_Purity" />
+        <Id Subtype="Elixir_of_Endurance_And_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -366,7 +366,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -404,7 +404,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_And_Strength" />
+        <Id Subtype="Elixir_of_Endurance_And_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -421,7 +421,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -459,7 +459,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_And_Vitality" />
+        <Id Subtype="Elixir_of_Endurance_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -476,7 +476,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -514,7 +514,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_And_Strength" />
+        <Id Subtype="Elixir_of_Purity_And_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity And Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -531,7 +531,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -569,7 +569,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_And_Vitality" />
+        <Id Subtype="Elixir_of_Purity_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity And Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -586,7 +586,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -624,7 +624,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength_And_Vitality" />
+        <Id Subtype="Elixir_of_Strength_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Strength And Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -641,7 +641,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -679,7 +679,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_And_Torpor" />
+        <Id Subtype="Elixir_of_Corruption_And_Torpor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption And Torpor</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -696,7 +696,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -734,7 +734,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_And_Mortality" />
+        <Id Subtype="Elixir_of_Corruption_And_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption And Mortality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -751,7 +751,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -789,7 +789,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor_And_Mortality" />
+        <Id Subtype="Elixir_of_Torpor_And_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor And Mortality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -806,7 +806,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -840,7 +840,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Endurance_in_Extent" />
+        <Id Subtype="Elixir_of_Endurance_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -857,7 +857,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -891,7 +891,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Purity_in_Extent" />
+        <Id Subtype="Elixir_of_Purity_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -908,7 +908,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -942,7 +942,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Strength_in_Extent" />
+        <Id Subtype="Elixir_of_Strength_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Strength in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -959,7 +959,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -993,7 +993,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Corruption_in_Extent" />
+        <Id Subtype="Elixir_of_Corruption_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1010,7 +1010,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1044,7 +1044,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Torpor_in_Extent" />
+        <Id Subtype="Elixir_of_Torpor_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1061,7 +1061,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1098,7 +1098,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Vitality_in_Extent" />
+        <Id Subtype="Elixir_of_Vitality_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Vitality in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1115,7 +1115,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1152,7 +1152,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Elixir_of_Mortality_in_Extent" />
+        <Id Subtype="Elixir_of_Mortality_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Mortality in Extent</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1169,7 +1169,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>

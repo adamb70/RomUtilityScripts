@@ -16,7 +16,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Alchemy_Table</Category>
@@ -48,7 +48,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Bucket" />
+        <Id Subtype="Bucket" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Bucket</DisplayName>
         <Icon />
         <Category>Alchemy_Table</Category>
@@ -81,7 +81,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water" />
+        <Id Subtype="Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water</DisplayName>
         <Icon />
         <Category>Alchemy_Table</Category>
@@ -112,7 +112,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alchemy_Table</Category>
@@ -127,7 +127,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water" />
+        <Id Subtype="Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water</DisplayName>
         <Icon />
         <Category>Alchemy_Table</Category>
@@ -142,7 +142,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alchemy_Table</Category>
@@ -173,7 +173,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pure_Water_Vial" />
+        <Id Subtype="Pure_Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pure Water Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -187,7 +187,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pure_Water_Vial" />
+        <Id Subtype="Pure_Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pure Water Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -217,7 +217,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Ash" />
+        <Id Subtype="Soda_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
         <Icon />
         <Category>Mortar_Pestal</Category>
@@ -247,7 +247,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Soda" />
+        <Id Subtype="Milk_of_Soda" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Soda</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -278,7 +278,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Tartar" />
+        <Id Subtype="Milk_of_Tartar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Tartar</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -309,7 +309,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lime" />
+        <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon />
         <Category>Mortar_Pestal</Category>
@@ -339,7 +339,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Quicklime" />
+        <Id Subtype="Quicklime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Quicklime</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -370,7 +370,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mortar" />
+        <Id Subtype="Mortar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mortar</DisplayName>
         <Icon />
         <Category>Barrel</Category>
@@ -385,7 +385,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lime" />
+        <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -399,7 +399,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lime" />
+        <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -431,7 +431,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Caustic_Soda" />
+        <Id Subtype="Oyle_of_Caustic_Soda" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Caustic Soda</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -447,7 +447,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lime" />
+        <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -479,7 +479,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Caustic_Tartar" />
+        <Id Subtype="Oyle_of_Caustic_Tartar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Caustic Tartar</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -511,7 +511,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Bone_Ash" />
+        <Id Subtype="Bone_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Bone Ash</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -541,7 +541,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -555,7 +555,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -587,7 +587,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -603,7 +603,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -619,7 +619,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -635,7 +635,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -667,7 +667,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -683,7 +683,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -699,7 +699,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -715,7 +715,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -747,7 +747,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -763,7 +763,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mercury" />
+        <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -779,7 +779,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -795,7 +795,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -810,7 +810,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -825,7 +825,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -840,7 +840,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -855,7 +855,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -870,7 +870,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -901,7 +901,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Vitriolatus" />
+        <Id Subtype="Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -932,7 +932,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Tartarus_Vitriolatus" />
+        <Id Subtype="Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -963,7 +963,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -994,7 +994,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sulfur" />
+        <Id Subtype="Sulfur" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sulfur</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -1009,7 +1009,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sulfur" />
+        <Id Subtype="Sulfur" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sulfur</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -1040,7 +1040,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Nitre/Sal_Tartarum_Solution" />
+        <Id Subtype="Soda_Nitre/Sal_Tartarum_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Nitre/Sal Tartarum Solution</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1071,7 +1071,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Saltpeter" />
+        <Id Subtype="Saltpeter" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Saltpeter</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1102,7 +1102,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1133,7 +1133,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Calxum/Soda_Vitrioli_Solution" />
+        <Id Subtype="Sal_Calxum/Soda_Vitrioli_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Calxum/Soda Vitrioli Solution</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1164,7 +1164,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Calx_Vitrioli" />
+        <Id Subtype="Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1179,7 +1179,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1210,7 +1210,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt/Lime_Solution" />
+        <Id Subtype="Salt/Lime_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt/Lime Solution</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1225,7 +1225,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Ash" />
+        <Id Subtype="Soda_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1256,7 +1256,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1287,7 +1287,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Tartarum/Lime_Solution" />
+        <Id Subtype="Sal_Tartarum/Lime_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Tartarum/Lime Solution</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1318,7 +1318,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Potash" />
+        <Id Subtype="Potash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Potash</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1333,7 +1333,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -1364,7 +1364,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pearl_Ash" />
+        <Id Subtype="Pearl_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pearl Ash</DisplayName>
         <Icon />
         <Category>Furnace</Category>
@@ -1395,7 +1395,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gunpowder" />
+        <Id Subtype="Gunpowder" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gunpowder</DisplayName>
         <Icon />
         <Category>Alchemy Table</Category>
@@ -1411,7 +1411,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gunpowder" />
+        <Id Subtype="Gunpowder" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gunpowder</DisplayName>
         <Icon />
         <Category>Alchemy Table</Category>
@@ -1443,7 +1443,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1476,7 +1476,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Lye" />
+        <Id Subtype="Soda_Lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Lye</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1493,7 +1493,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1526,7 +1526,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pot_Lye" />
+        <Id Subtype="Pot_Lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pot Lye</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1559,7 +1559,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Aqua_Regia" />
+        <Id Subtype="Aqua_Regia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Aqua Regia</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1574,7 +1574,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1605,7 +1605,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1620,7 +1620,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Caustic_Tartar" />
+        <Id Subtype="Oyle_of_Caustic_Tartar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Caustic Tartar</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1651,7 +1651,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1682,7 +1682,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1697,7 +1697,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Tartar" />
+        <Id Subtype="Milk_of_Tartar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Tartar</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1712,7 +1712,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1743,7 +1743,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1758,7 +1758,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Caustic_Soda" />
+        <Id Subtype="Oyle_of_Caustic_Soda" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Caustic Soda</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1773,7 +1773,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1804,7 +1804,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1819,7 +1819,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Soda" />
+        <Id Subtype="Milk_of_Soda" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Soda</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1834,7 +1834,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1865,7 +1865,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1896,7 +1896,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Limewater" />
+        <Id Subtype="Limewater" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Limewater</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1911,7 +1911,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Limewater" />
+        <Id Subtype="Limewater" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Limewater</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1926,7 +1926,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1957,7 +1957,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1988,7 +1988,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Lime" />
+        <Id Subtype="Milk_of_Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Lime</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2019,7 +2019,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Tartarus_Vitrioli" />
+        <Id Subtype="Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2034,7 +2034,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Tartarus_Vitriolatus" />
+        <Id Subtype="Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2065,7 +2065,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pot_lye" />
+        <Id Subtype="Pot_lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pot lye</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2096,7 +2096,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Tartarum" />
+        <Id Subtype="Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Tartarum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2111,7 +2111,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Saltpeter" />
+        <Id Subtype="Saltpeter" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Saltpeter</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2126,7 +2126,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2141,7 +2141,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Potash" />
+        <Id Subtype="Potash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Potash</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2156,7 +2156,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2187,7 +2187,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Vitrioli" />
+        <Id Subtype="Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2202,7 +2202,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Vitriolatus" />
+        <Id Subtype="Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2233,7 +2233,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_lye" />
+        <Id Subtype="Soda_lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda lye</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2264,7 +2264,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Common_Salt" />
+        <Id Subtype="Common_Salt" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Common Salt</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2295,7 +2295,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Nitre" />
+        <Id Subtype="Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Nitre</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2310,7 +2310,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2325,7 +2325,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soda_Ash" />
+        <Id Subtype="Soda_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2340,7 +2340,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2355,7 +2355,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Calx_Vitrioli" />
+        <Id Subtype="Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2370,7 +2370,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2385,7 +2385,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2400,7 +2400,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2431,7 +2431,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Slacked_Lime" />
+        <Id Subtype="Slacked_Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Slacked Lime</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2446,7 +2446,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2477,7 +2477,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sal_Calxum" />
+        <Id Subtype="Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Calxum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2508,7 +2508,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Calx_Nitre" />
+        <Id Subtype="Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Calx Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2523,7 +2523,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lime" />
+        <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2538,7 +2538,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -2553,7 +2553,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2569,7 +2569,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2586,7 +2586,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2603,7 +2603,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2620,7 +2620,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2637,7 +2637,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2654,7 +2654,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2671,7 +2671,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2688,7 +2688,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2705,7 +2705,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2722,7 +2722,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2739,7 +2739,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2756,7 +2756,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2773,7 +2773,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2789,7 +2789,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2805,7 +2805,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2821,7 +2821,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2853,7 +2853,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+        <Id Subtype="Spiritus_Nitrum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Nitrum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -2869,7 +2869,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Tartarum" />
+        <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2885,7 +2885,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2901,7 +2901,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2918,7 +2918,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2935,7 +2935,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2952,7 +2952,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2969,7 +2969,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -2986,7 +2986,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3003,7 +3003,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3020,7 +3020,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3037,7 +3037,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3054,7 +3054,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3071,7 +3071,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3088,7 +3088,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3105,7 +3105,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3121,7 +3121,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3137,7 +3137,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3153,7 +3153,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3169,7 +3169,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+        <Id Subtype="Spiritus_Nitrum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Nitrum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3185,7 +3185,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Salt_Water" />
+        <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3201,7 +3201,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3217,7 +3217,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3234,7 +3234,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3251,7 +3251,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3268,7 +3268,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3285,7 +3285,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3302,7 +3302,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3319,7 +3319,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3336,7 +3336,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3353,7 +3353,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3370,7 +3370,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3387,7 +3387,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3404,7 +3404,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3421,7 +3421,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3437,7 +3437,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3453,7 +3453,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3469,7 +3469,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3485,7 +3485,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+        <Id Subtype="Spiritus_Nitrum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Nitrum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3501,7 +3501,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Sal_Calxum" />
+        <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3517,7 +3517,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3533,7 +3533,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3550,7 +3550,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3567,7 +3567,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3584,7 +3584,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3601,7 +3601,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3618,7 +3618,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3635,7 +3635,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3652,7 +3652,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3669,7 +3669,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3686,7 +3686,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3703,7 +3703,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3720,7 +3720,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3737,7 +3737,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3753,7 +3753,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3785,7 +3785,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+        <Id Subtype="Spiritus_Salis" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Salis</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3801,7 +3801,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3817,7 +3817,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+        <Id Subtype="Spiritus_Nitrum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Nitrum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -3833,7 +3833,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitriolatus" />
+        <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3849,7 +3849,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3865,7 +3865,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3882,7 +3882,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3899,7 +3899,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3916,7 +3916,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3933,7 +3933,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3950,7 +3950,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3967,7 +3967,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -3984,7 +3984,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4001,7 +4001,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4018,7 +4018,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4035,7 +4035,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4052,7 +4052,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4069,7 +4069,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -4085,7 +4085,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4101,7 +4101,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+        <Id Subtype="Spiritus_Salis" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Salis</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4117,7 +4117,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4133,7 +4133,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+        <Id Subtype="Spiritus_Nitrum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Nitrum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4149,7 +4149,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitriolatus" />
+        <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -4165,7 +4165,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4181,7 +4181,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4197,7 +4197,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4214,7 +4214,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4231,7 +4231,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4248,7 +4248,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4265,7 +4265,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4282,7 +4282,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4299,7 +4299,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4316,7 +4316,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4333,7 +4333,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4350,7 +4350,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4367,7 +4367,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Gypsum" />
+        <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4384,7 +4384,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4401,7 +4401,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4417,7 +4417,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4433,7 +4433,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4449,7 +4449,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+        <Id Subtype="Spiritus_Salis" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Salis</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4465,7 +4465,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4481,7 +4481,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Nitrum" />
+        <Id Subtype="Spiritus_Nitrum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Nitrum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4497,7 +4497,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gypsum" />
+        <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4513,7 +4513,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Water_Vial" />
+        <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
         <Icon />
         <Category>Filter</Category>
@@ -4529,7 +4529,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -4545,7 +4545,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4562,7 +4562,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4579,7 +4579,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4596,7 +4596,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4613,7 +4613,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4630,7 +4630,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4647,7 +4647,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4664,7 +4664,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4681,7 +4681,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4698,7 +4698,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4715,7 +4715,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4732,7 +4732,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4749,7 +4749,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4765,7 +4765,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4781,7 +4781,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -4797,7 +4797,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4813,7 +4813,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+        <Id Subtype="Spiritus_Salis" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Salis</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -4829,7 +4829,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Nitre" />
+        <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -4845,7 +4845,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -4861,7 +4861,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4878,7 +4878,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4895,7 +4895,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4912,7 +4912,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4929,7 +4929,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4946,7 +4946,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4963,7 +4963,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4980,7 +4980,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -4997,7 +4997,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5014,7 +5014,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5031,7 +5031,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5048,7 +5048,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5065,7 +5065,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5081,7 +5081,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5097,7 +5097,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -5113,7 +5113,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5129,7 +5129,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+        <Id Subtype="Spiritus_Salis" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Salis</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5145,7 +5145,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Nitre" />
+        <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -5161,7 +5161,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -5177,7 +5177,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5194,7 +5194,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5211,7 +5211,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5228,7 +5228,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5245,7 +5245,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5262,7 +5262,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5279,7 +5279,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5296,7 +5296,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5313,7 +5313,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5330,7 +5330,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5347,7 +5347,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5364,7 +5364,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5381,7 +5381,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5397,7 +5397,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Vitriolum" />
+        <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5413,7 +5413,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -5429,7 +5429,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5445,7 +5445,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spiritus_Salis" />
+        <Id Subtype="Spiritus_Salis" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Salis</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5461,7 +5461,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Calx_Nitre" />
+        <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -5493,7 +5493,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pine_Tar" />
+        <Id Subtype="Pine_Tar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pine Tar</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5524,7 +5524,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Charcoal" />
+        <Id Subtype="Charcoal" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Charcoal</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5555,7 +5555,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Bitumen" />
+        <Id Subtype="Bitumen" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Bitumen</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5587,7 +5587,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Soil" />
+        <Id Subtype="Soil" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soil</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5619,7 +5619,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5633,7 +5633,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5649,7 +5649,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5665,7 +5665,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5681,7 +5681,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Soda_Vitrioli" />
+        <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5697,7 +5697,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5713,7 +5713,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5729,7 +5729,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5745,7 +5745,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Tartarus_Vitrioli" />
+        <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5761,7 +5761,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5777,7 +5777,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5793,7 +5793,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Petrolia" />
+        <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5809,7 +5809,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Milk_of_Calx_Vitrioli" />
+        <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Icon />
         <Category>Alembic_Imbue</Category>
@@ -5841,7 +5841,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oil" />
+        <Id Subtype="Oil" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oil</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -5872,7 +5872,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Pitch" />
+        <Id Subtype="Pitch" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pitch</DisplayName>
         <Icon />
         <Category>Alembic</Category>

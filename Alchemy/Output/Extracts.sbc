@@ -16,7 +16,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Althea_Extract" />
+        <Id Subtype="Althea_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Althea Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -46,7 +46,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amaranth_Extract" />
+        <Id Subtype="Amaranth_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amaranth Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -76,7 +76,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Angelica_Extract" />
+        <Id Subtype="Angelica_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Angelica Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -106,7 +106,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Belladonna_Extract" />
+        <Id Subtype="Belladonna_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Belladonna Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -136,7 +136,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Broom_Extract" />
+        <Id Subtype="Broom_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Broom Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -166,7 +166,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Castor_Extract" />
+        <Id Subtype="Castor_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Castor Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -196,7 +196,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cinquefoil_Extract" />
+        <Id Subtype="Cinquefoil_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cinquefoil Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -226,7 +226,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crimson_Thristle_Extract" />
+        <Id Subtype="Crimson_Thristle_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crimson Thristle Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -256,7 +256,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crocus_Extract" />
+        <Id Subtype="Crocus_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crocus Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -286,7 +286,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cloud_Funnel_Extract" />
+        <Id Subtype="Cloud_Funnel_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cloud Funnel Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -316,7 +316,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gilliflower_Extract" />
+        <Id Subtype="Gilliflower_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gilliflower Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -346,7 +346,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glasswort_Extract" />
+        <Id Subtype="Glasswort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glasswort Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -376,7 +376,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Luceat_Extract" />
+        <Id Subtype="Luceat_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Luceat Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -406,7 +406,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Concordia_Extract" />
+        <Id Subtype="Concordia_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Concordia Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -436,7 +436,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hellebore_Extract" />
+        <Id Subtype="Hellebore_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hellebore Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -466,7 +466,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hemlock_Extract" />
+        <Id Subtype="Hemlock_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hemlock Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -496,7 +496,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hoppan_Extract" />
+        <Id Subtype="Hoppan_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hoppan Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -526,7 +526,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Knotweed_Extract" />
+        <Id Subtype="Knotweed_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Knotweed Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -556,7 +556,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Lichen_Extract" />
+        <Id Subtype="Rock_Lichen_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Lichen Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -586,7 +586,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mugwort_Extract" />
+        <Id Subtype="Mugwort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mugwort Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -616,7 +616,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Willow_Extract" />
+        <Id Subtype="Rock_Willow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Willow Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -646,7 +646,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sage_Extract" />
+        <Id Subtype="Sage_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sage Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -676,7 +676,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spalt_Extract" />
+        <Id Subtype="Spalt_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spalt Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -706,7 +706,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Vervain_Extract" />
+        <Id Subtype="Vervain_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Vervain Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -736,7 +736,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Wormwood_Extract" />
+        <Id Subtype="Wormwood_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Wormwood Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -766,7 +766,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Yarrow_Extract" />
+        <Id Subtype="Yarrow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yarrow Extract</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -780,7 +780,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Althea_Extract" />
+        <Id Subtype="Althea_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Althea Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -795,7 +795,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amaranth_Extract" />
+        <Id Subtype="Amaranth_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amaranth Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -810,7 +810,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Angelica_Extract" />
+        <Id Subtype="Angelica_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Angelica Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -825,7 +825,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Belladonna_Extract" />
+        <Id Subtype="Belladonna_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Belladonna Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -840,7 +840,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Broom_Extract" />
+        <Id Subtype="Broom_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Broom Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -855,7 +855,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Castor_Extract" />
+        <Id Subtype="Castor_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Castor Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -870,7 +870,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cinquefoil_Extract" />
+        <Id Subtype="Cinquefoil_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cinquefoil Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -885,7 +885,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crimson_Thristle_Extract" />
+        <Id Subtype="Crimson_Thristle_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crimson Thristle Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -900,7 +900,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crocus_Extract" />
+        <Id Subtype="Crocus_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crocus Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -915,7 +915,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cloud_Funnel_Extract" />
+        <Id Subtype="Cloud_Funnel_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cloud Funnel Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -930,7 +930,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gilliflower_Extract" />
+        <Id Subtype="Gilliflower_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gilliflower Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -945,7 +945,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glasswort_Extract" />
+        <Id Subtype="Glasswort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glasswort Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -960,7 +960,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Luceat_Extract" />
+        <Id Subtype="Luceat_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Luceat Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -975,7 +975,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Concordia_Extract" />
+        <Id Subtype="Concordia_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Concordia Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -990,7 +990,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hellebore_Extract" />
+        <Id Subtype="Hellebore_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hellebore Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1005,7 +1005,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hemlock_Extract" />
+        <Id Subtype="Hemlock_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hemlock Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1020,7 +1020,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hoppan_Extract" />
+        <Id Subtype="Hoppan_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hoppan Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1035,7 +1035,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Knotweed_Extract" />
+        <Id Subtype="Knotweed_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Knotweed Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1050,7 +1050,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Lichen_Extract" />
+        <Id Subtype="Rock_Lichen_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Lichen Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1065,7 +1065,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mugwort_Extract" />
+        <Id Subtype="Mugwort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mugwort Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1080,7 +1080,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Willow_Extract" />
+        <Id Subtype="Rock_Willow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Willow Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1095,7 +1095,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sage_Extract" />
+        <Id Subtype="Sage_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sage Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1110,7 +1110,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spalt_Extract" />
+        <Id Subtype="Spalt_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spalt Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1125,7 +1125,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Vervain_Extract" />
+        <Id Subtype="Vervain_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Vervain Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1140,7 +1140,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Wormwood_Extract" />
+        <Id Subtype="Wormwood_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Wormwood Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1155,7 +1155,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Yarrow_Extract" />
+        <Id Subtype="Yarrow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yarrow Extract</DisplayName>
         <Icon />
         <Category>Cauldron</Category>

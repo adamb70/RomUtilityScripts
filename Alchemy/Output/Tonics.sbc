@@ -22,7 +22,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_1" />
+        <Id Subtype="Health_Tonic_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -58,7 +58,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_2" />
+        <Id Subtype="Health_Tonic_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -94,7 +94,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_3" />
+        <Id Subtype="Health_Tonic_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -131,7 +131,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_4" />
+        <Id Subtype="Health_Tonic_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -168,7 +168,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_5" />
+        <Id Subtype="Health_Tonic_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -204,7 +204,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_6" />
+        <Id Subtype="Health_Tonic_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -241,7 +241,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_7" />
+        <Id Subtype="Health_Tonic_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -278,7 +278,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_8" />
+        <Id Subtype="Health_Tonic_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -314,7 +314,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_9" />
+        <Id Subtype="Health_Tonic_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -351,7 +351,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_10" />
+        <Id Subtype="Health_Tonic_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -388,7 +388,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_11" />
+        <Id Subtype="Health_Tonic_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -424,7 +424,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Tonic_12" />
+        <Id Subtype="Health_Tonic_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -461,7 +461,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_1" />
+        <Id Subtype="Poison_Tonic_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -497,7 +497,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_2" />
+        <Id Subtype="Poison_Tonic_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -533,7 +533,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_3" />
+        <Id Subtype="Poison_Tonic_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -569,7 +569,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_4" />
+        <Id Subtype="Poison_Tonic_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -605,7 +605,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_5" />
+        <Id Subtype="Poison_Tonic_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -642,7 +642,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_6" />
+        <Id Subtype="Poison_Tonic_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -679,7 +679,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_7" />
+        <Id Subtype="Poison_Tonic_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -715,7 +715,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_8" />
+        <Id Subtype="Poison_Tonic_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -751,7 +751,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_9" />
+        <Id Subtype="Poison_Tonic_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -788,7 +788,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_10" />
+        <Id Subtype="Poison_Tonic_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -824,7 +824,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_11" />
+        <Id Subtype="Poison_Tonic_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -861,7 +861,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Poison_Tonic_12" />
+        <Id Subtype="Poison_Tonic_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -897,7 +897,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_1" />
+        <Id Subtype="Stamina_Tonic_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -934,7 +934,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_2" />
+        <Id Subtype="Stamina_Tonic_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -971,7 +971,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_3" />
+        <Id Subtype="Stamina_Tonic_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1008,7 +1008,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_4" />
+        <Id Subtype="Stamina_Tonic_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1045,7 +1045,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_5" />
+        <Id Subtype="Stamina_Tonic_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1082,7 +1082,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_6" />
+        <Id Subtype="Stamina_Tonic_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1119,7 +1119,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_7" />
+        <Id Subtype="Stamina_Tonic_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1155,7 +1155,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_8" />
+        <Id Subtype="Stamina_Tonic_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1192,7 +1192,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_9" />
+        <Id Subtype="Stamina_Tonic_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1229,7 +1229,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_10" />
+        <Id Subtype="Stamina_Tonic_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1266,7 +1266,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_11" />
+        <Id Subtype="Stamina_Tonic_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1303,7 +1303,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Tonic_12" />
+        <Id Subtype="Stamina_Tonic_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Tonic</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1341,7 +1341,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_1" />
+        <Id Subtype="Health_Ointment_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1380,7 +1380,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_2" />
+        <Id Subtype="Health_Ointment_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1418,7 +1418,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_3" />
+        <Id Subtype="Health_Ointment_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1456,7 +1456,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_4" />
+        <Id Subtype="Health_Ointment_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1494,7 +1494,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_5" />
+        <Id Subtype="Health_Ointment_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1532,7 +1532,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_6" />
+        <Id Subtype="Health_Ointment_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1571,7 +1571,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_7" />
+        <Id Subtype="Health_Ointment_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1610,7 +1610,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_8" />
+        <Id Subtype="Health_Ointment_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1649,7 +1649,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_9" />
+        <Id Subtype="Health_Ointment_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1688,7 +1688,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_10" />
+        <Id Subtype="Health_Ointment_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1726,7 +1726,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_11" />
+        <Id Subtype="Health_Ointment_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1764,7 +1764,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_12" />
+        <Id Subtype="Health_Ointment_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1802,7 +1802,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_13" />
+        <Id Subtype="Health_Ointment_13" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1841,7 +1841,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_14" />
+        <Id Subtype="Health_Ointment_14" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1879,7 +1879,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_15" />
+        <Id Subtype="Health_Ointment_15" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1918,7 +1918,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_16" />
+        <Id Subtype="Health_Ointment_16" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1955,7 +1955,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_17" />
+        <Id Subtype="Health_Ointment_17" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1993,7 +1993,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_18" />
+        <Id Subtype="Health_Ointment_18" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2031,7 +2031,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_19" />
+        <Id Subtype="Health_Ointment_19" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2070,7 +2070,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_20" />
+        <Id Subtype="Health_Ointment_20" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2108,7 +2108,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_21" />
+        <Id Subtype="Health_Ointment_21" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2147,7 +2147,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_22" />
+        <Id Subtype="Health_Ointment_22" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2184,7 +2184,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_23" />
+        <Id Subtype="Health_Ointment_23" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2222,7 +2222,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Health_Ointment_24" />
+        <Id Subtype="Health_Ointment_24" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2259,7 +2259,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_1" />
+        <Id Subtype="Stamina_Ointment_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2297,7 +2297,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_2" />
+        <Id Subtype="Stamina_Ointment_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2335,7 +2335,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_3" />
+        <Id Subtype="Stamina_Ointment_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2374,7 +2374,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_4" />
+        <Id Subtype="Stamina_Ointment_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2412,7 +2412,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_5" />
+        <Id Subtype="Stamina_Ointment_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2451,7 +2451,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_6" />
+        <Id Subtype="Stamina_Ointment_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2489,7 +2489,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_7" />
+        <Id Subtype="Stamina_Ointment_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2528,7 +2528,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_8" />
+        <Id Subtype="Stamina_Ointment_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2566,7 +2566,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_9" />
+        <Id Subtype="Stamina_Ointment_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2605,7 +2605,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_10" />
+        <Id Subtype="Stamina_Ointment_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2643,7 +2643,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_11" />
+        <Id Subtype="Stamina_Ointment_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2682,7 +2682,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_12" />
+        <Id Subtype="Stamina_Ointment_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2720,7 +2720,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_13" />
+        <Id Subtype="Stamina_Ointment_13" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2759,7 +2759,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_14" />
+        <Id Subtype="Stamina_Ointment_14" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2796,7 +2796,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_15" />
+        <Id Subtype="Stamina_Ointment_15" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2834,7 +2834,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_16" />
+        <Id Subtype="Stamina_Ointment_16" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2872,7 +2872,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_17" />
+        <Id Subtype="Stamina_Ointment_17" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2911,7 +2911,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_18" />
+        <Id Subtype="Stamina_Ointment_18" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2949,7 +2949,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_19" />
+        <Id Subtype="Stamina_Ointment_19" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -2987,7 +2987,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_20" />
+        <Id Subtype="Stamina_Ointment_20" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3025,7 +3025,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_21" />
+        <Id Subtype="Stamina_Ointment_21" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3063,7 +3063,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_22" />
+        <Id Subtype="Stamina_Ointment_22" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3101,7 +3101,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_23" />
+        <Id Subtype="Stamina_Ointment_23" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -3139,7 +3139,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Stamina_Ointment_24" />
+        <Id Subtype="Stamina_Ointment_24" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Ointment</DisplayName>
         <Icon />
         <Category>Cauldron</Category>

@@ -16,7 +16,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Blue_Vitriol" />
+        <Id Subtype="Blue_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Blue Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -48,7 +48,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -80,7 +80,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Green_Vitriol" />
+        <Id Subtype="Green_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Green Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -96,7 +96,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -128,7 +128,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Yellow_Vitriol" />
+        <Id Subtype="Yellow_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yellow Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -144,7 +144,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -176,7 +176,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Black_Vitriol" />
+        <Id Subtype="Black_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Black Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -192,7 +192,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -224,7 +224,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amber_Vitriol" />
+        <Id Subtype="Amber_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amber Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -240,7 +240,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -272,7 +272,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Red_Vitriol" />
+        <Id Subtype="Red_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Red Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -288,7 +288,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -320,7 +320,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gray_Vitriol" />
+        <Id Subtype="Gray_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gray Vitriol</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -336,7 +336,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -368,7 +368,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -385,7 +385,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -402,7 +402,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -419,7 +419,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -436,7 +436,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -453,7 +453,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -470,7 +470,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -487,7 +487,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -504,7 +504,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -521,7 +521,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -538,7 +538,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purification" />
+        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -555,7 +555,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -588,7 +588,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Harmony" />
+        <Id Subtype="Virtue_of_Harmony" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Harmony</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -604,7 +604,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -620,7 +620,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Harmony" />
+        <Id Subtype="Virtue_of_Harmony" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Harmony</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -636,7 +636,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -668,7 +668,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Persistance" />
+        <Id Subtype="Virtue_of_Persistance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Persistance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -684,7 +684,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -700,7 +700,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Persistance" />
+        <Id Subtype="Virtue_of_Persistance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Persistance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -716,7 +716,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -748,7 +748,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -764,7 +764,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -780,7 +780,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -796,7 +796,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -812,7 +812,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -828,7 +828,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -844,7 +844,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Endurance" />
+        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -860,7 +860,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -892,7 +892,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -908,7 +908,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -924,7 +924,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -940,7 +940,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -956,7 +956,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -972,7 +972,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1004,7 +1004,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
+        <Id Subtype="Virtue_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1020,7 +1020,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1036,7 +1036,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
+        <Id Subtype="Virtue_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1052,7 +1052,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1068,7 +1068,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Strength" />
+        <Id Subtype="Virtue_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1084,7 +1084,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1116,7 +1116,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1132,7 +1132,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1148,7 +1148,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1164,7 +1164,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1180,7 +1180,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1196,7 +1196,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1228,7 +1228,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1244,7 +1244,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1260,7 +1260,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1276,7 +1276,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1292,7 +1292,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1308,7 +1308,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1324,7 +1324,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Vitality" />
+        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1340,7 +1340,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1372,7 +1372,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Jupiter" />
+        <Id Subtype="Lixivium_of_Jupiter" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Jupiter</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1389,7 +1389,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1422,7 +1422,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Sol" />
+        <Id Subtype="Lixivium_of_Sol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Sol</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1439,7 +1439,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1472,7 +1472,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Saturn" />
+        <Id Subtype="Lixivium_of_Saturn" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Saturn</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1489,7 +1489,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1522,7 +1522,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Luna" />
+        <Id Subtype="Lixivium_of_Luna" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Luna</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1539,7 +1539,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1572,7 +1572,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Opposition" />
+        <Id Subtype="Oyle_of_Opposition" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Opposition</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1588,7 +1588,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1604,7 +1604,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Opposition" />
+        <Id Subtype="Oyle_of_Opposition" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Opposition</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1620,7 +1620,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1636,7 +1636,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Oyle_of_Opposition" />
+        <Id Subtype="Oyle_of_Opposition" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Opposition</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1652,7 +1652,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1684,7 +1684,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Inversion" />
+        <Id Subtype="Virtue_of_Inversion" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Inversion</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1700,7 +1700,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -1732,7 +1732,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Torpor" />
+        <Id Subtype="Virtue_of_Torpor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Torpor</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1748,7 +1748,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1764,7 +1764,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Corruption" />
+        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1780,7 +1780,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1796,7 +1796,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Purity" />
+        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1812,7 +1812,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1844,7 +1844,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Virtue_of_Mortality" />
+        <Id Subtype="Virtue_of_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Mortality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1860,7 +1860,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1892,7 +1892,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Mercury_Intermedium" />
+        <Id Subtype="Lixivium_of_Mercury_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Mercury Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1908,7 +1908,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1940,7 +1940,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Venus_Intermedium" />
+        <Id Subtype="Lixivium_of_Venus_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Venus Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1956,7 +1956,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1988,7 +1988,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Mars_Intermedium" />
+        <Id Subtype="Lixivium_of_Mars_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Mars Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2004,7 +2004,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2036,7 +2036,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Jupiter_Intermedium" />
+        <Id Subtype="Lixivium_of_Jupiter_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Jupiter Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2052,7 +2052,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2084,7 +2084,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Saturn_Intermedium" />
+        <Id Subtype="Lixivium_of_Saturn_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Saturn Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2100,7 +2100,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2132,7 +2132,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Sol_Intermedium" />
+        <Id Subtype="Lixivium_of_Sol_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Sol Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2148,7 +2148,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2180,7 +2180,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Lixivium_of_Luna_Intermedium" />
+        <Id Subtype="Lixivium_of_Luna_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Luna Intermedium</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -2196,7 +2196,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glass_Vial" />
+        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>

@@ -160,7 +160,7 @@ class CraftableItem(Item, Craftable):
 
         crafting_id = ET.Element('Id')
         crafting_id.attrib['Type'] = 'MyObjectBuilder_CraftingRecipeDefinition'
-        crafting_id.attrib['subtype'] = self.id.attrib['Subtype']
+        crafting_id.attrib['Subtype'] = self.id.attrib['Subtype']
 
         root.append(crafting_id)
         root.append(self.display_name)

@@ -21,7 +21,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Althea_Tea" />
+        <Id Subtype="Althea_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Althea Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -57,7 +57,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Amaranth_Tea" />
+        <Id Subtype="Amaranth_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amaranth Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -93,7 +93,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Angelica_Tea" />
+        <Id Subtype="Angelica_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Angelica Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -129,7 +129,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Belladonna_Tea" />
+        <Id Subtype="Belladonna_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Belladonna Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -165,7 +165,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Broom_Tea" />
+        <Id Subtype="Broom_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Broom Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -201,7 +201,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Castor_Tea" />
+        <Id Subtype="Castor_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Castor Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -236,7 +236,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cinquefoil_Tea" />
+        <Id Subtype="Cinquefoil_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cinquefoil Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -272,7 +272,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crimson_Thristle_Tea" />
+        <Id Subtype="Crimson_Thristle_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crimson Thristle Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -308,7 +308,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Crocus_Tea" />
+        <Id Subtype="Crocus_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crocus Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -344,7 +344,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Cloud_Funnel_Tea" />
+        <Id Subtype="Cloud_Funnel_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cloud Funnel Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -379,7 +379,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Gilliflower_Tea" />
+        <Id Subtype="Gilliflower_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gilliflower Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -414,7 +414,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Glasswort_Tea" />
+        <Id Subtype="Glasswort_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glasswort Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -449,7 +449,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Luceat_Tea" />
+        <Id Subtype="Luceat_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Luceat Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -485,7 +485,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Concordia_Tea" />
+        <Id Subtype="Concordia_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Concordia Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -521,7 +521,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hellebore_Tea" />
+        <Id Subtype="Hellebore_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hellebore Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -557,7 +557,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hemlock_Tea" />
+        <Id Subtype="Hemlock_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hemlock Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -593,7 +593,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Hoppan_Tea" />
+        <Id Subtype="Hoppan_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hoppan Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -628,7 +628,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Knotweed_Tea" />
+        <Id Subtype="Knotweed_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Knotweed Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -663,7 +663,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Lichen_Tea" />
+        <Id Subtype="Rock_Lichen_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Lichen Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -698,7 +698,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Mugwort_Tea" />
+        <Id Subtype="Mugwort_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mugwort Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -734,7 +734,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Rock_Willow_Tea" />
+        <Id Subtype="Rock_Willow_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Willow Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -769,7 +769,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Sage_Tea" />
+        <Id Subtype="Sage_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sage Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -805,7 +805,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Spalt_Tea" />
+        <Id Subtype="Spalt_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spalt Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -840,7 +840,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Vervain_Tea" />
+        <Id Subtype="Vervain_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Vervain Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -876,7 +876,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Wormwood_Tea" />
+        <Id Subtype="Wormwood_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Wormwood Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
@@ -912,7 +912,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Yarrow_Tea" />
+        <Id Subtype="Yarrow_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yarrow Tea</DisplayName>
         <Icon />
         <Category>Simple_Alchemy_Stand</Category>
