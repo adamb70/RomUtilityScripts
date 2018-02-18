@@ -248,22 +248,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Glass_Vial" Type="InventoryItem" />
-        <Public>true</Public>
-        <DisplayName>Glass Vial</DisplayName>
-        <Description />
-        <Icon />
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glass Vial</DisplayName>

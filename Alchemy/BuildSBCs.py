@@ -56,6 +56,7 @@ for recipe in recipe_list:
     files[recipe[headers['Filename']]].append(recipe)
 
 
+completed_items = set()
 for filename in files:
     root = ET.Element('Definitions')
     processed_items = []
@@ -91,7 +92,6 @@ for filename in files:
                                                  results=res, categories=categories,
                                                  crafting_time=recipe[headers['Craft Time']]))
 
-    completed_items = set()
     for x in processed_items:
         if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
             root.append(x.build_item_def())
