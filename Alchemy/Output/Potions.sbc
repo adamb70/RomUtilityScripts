@@ -36,22 +36,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Anti_Poison_Potion_1" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Anti_Poison_Potion_2" Type="ConsumableItem" />
         <Public>true</Public>
@@ -76,22 +60,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Anti_Poison_Potion_2" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -142,22 +110,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Anti_Poison_Potion_3" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Anti_Poison_Potion_4" Type="ConsumableItem" />
         <Public>true</Public>
@@ -182,22 +134,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Anti_Poison_Potion_4" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -248,22 +184,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Anti_Poison_Potion_5" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Anti_Poison_Potion_6" Type="ConsumableItem" />
         <Public>true</Public>
@@ -288,22 +208,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Anti_Poison_Potion_6" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -354,22 +258,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Fury_Potion_1" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Fury_Potion_2" Type="ConsumableItem" />
         <Public>true</Public>
@@ -394,22 +282,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Fury_Potion_2" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -460,22 +332,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Fury_Potion_3" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Fury_Potion_4" Type="ConsumableItem" />
         <Public>true</Public>
@@ -500,22 +356,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Fury_Potion_4" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -566,22 +406,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Fury_Potion_5" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Fury_Potion_6" Type="ConsumableItem" />
         <Public>true</Public>
@@ -606,22 +430,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Fury_Potion_6" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -672,22 +480,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Health_Potion_1" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Health_Potion_2" Type="ConsumableItem" />
         <Public>true</Public>
@@ -712,22 +504,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Health_Potion_2" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -778,22 +554,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Health_Potion_3" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Health_Potion_4" Type="ConsumableItem" />
         <Public>true</Public>
@@ -818,22 +578,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Health_Potion_4" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -884,22 +628,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Health_Potion_5" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Health_Potion_6" Type="ConsumableItem" />
         <Public>true</Public>
@@ -924,22 +652,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Health_Potion_6" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -990,22 +702,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Poison_Potion_1" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Poison_Potion_2" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1030,22 +726,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Poison_Potion_2" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1096,22 +776,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Poison_Potion_3" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Poison_Potion_4" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1136,22 +800,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Poison_Potion_4" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1202,22 +850,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Poison_Potion_5" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Poison_Potion_6" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1242,22 +874,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Poison_Potion_6" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1308,22 +924,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_1" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Stamina_Potion_2" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1348,22 +948,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_2" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -1414,22 +998,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_3" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Stamina_Potion_4" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1454,22 +1022,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_4" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -1520,22 +1072,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_5" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Stamina_Potion_6" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1560,22 +1096,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_6" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -1626,22 +1146,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_7" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Stamina_Potion_8" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1679,22 +1183,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_8" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Stamina_Potion_9" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1719,22 +1207,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Stamina_Potion_9" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>

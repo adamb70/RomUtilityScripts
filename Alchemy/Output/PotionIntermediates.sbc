@@ -31,22 +31,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
         <Public>true</Public>
@@ -80,40 +64,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Anti_Poison_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Anti_Poison_1_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Anti Poison</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -146,22 +98,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Int_Fury_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Fury</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -208,40 +144,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Fury_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Fury_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Fury</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -288,40 +192,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Health_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Health_1_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -368,23 +240,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Health_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -400,23 +256,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Health_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -432,40 +272,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Health_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Health_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Health</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -512,40 +320,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Poison_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Poison_1_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Poison</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -591,22 +367,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Stamina_1" Type="InventoryItem" />
         <Public>true</Public>
@@ -626,22 +386,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Int_Stamina_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -688,40 +432,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Stamina_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Stamina_2_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -768,23 +480,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Stamina_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Stamina_1_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
@@ -800,40 +496,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Int_Stamina_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Int_Stamina_3_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Int Stamina</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>

@@ -57,6 +57,7 @@ for recipe in recipe_list:
 
 
 completed_items = set()
+completed_crafting = defaultdict(int)
 for filename in files:
     root = ET.Element('Definitions')
     processed_items = []
@@ -84,19 +85,16 @@ for filename in files:
                                              results=res, categories=categories,
                                              crafting_time=recipe[headers['Craft Time']]))
 
-        if recipe[headers['Result 2']]:
-            processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']],
-                                                 type=recipe[headers['Result 2 Type']],
-                                                 subtype=recipe[headers['Result 2']],
-                                                 stats=build_stats(eff), prereqs=pre,
-                                                 results=res, categories=categories,
-                                                 crafting_time=recipe[headers['Craft Time']]))
 
     for x in processed_items:
         if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
             root.append(x.build_item_def())
             completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
+
+        if (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_crafting:
+            x.id.attrib['Subtype'] = x.id.attrib['Subtype'] + '_' + str(completed_crafting[x.id.attrib['Type'], x.id.attrib['Subtype']] + 1)
         root.append(x.build_crafting_def())
+        completed_crafting[x.id.attrib['Type'], x.id.attrib['Subtype']] += 1
 
     indent(root)
     ET.ElementTree(root).write('Output/'+filename, xml_declaration=True, method="xml")

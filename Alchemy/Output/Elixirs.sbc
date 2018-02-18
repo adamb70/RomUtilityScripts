@@ -248,22 +248,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Aqua_Pura" Type="InventoryItem" />
         <Public>true</Public>
@@ -283,22 +267,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Aqua_Pura" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Aqua Pura</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -335,23 +303,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Purity</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Purity" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -404,23 +355,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Strength" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
@@ -445,23 +379,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Vitality</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Endurance_And_Vitality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -514,23 +431,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Purity_And_Strength" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Purity_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
@@ -555,23 +455,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Purity_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity And Vitality</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Purity_And_Vitality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -624,23 +507,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Strength_And_Vitality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Corruption_And_Torpor" Type="ConsumableItem" />
         <Public>true</Public>
@@ -665,23 +531,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Corruption_And_Torpor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption And Torpor</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Corruption_And_Torpor" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -734,23 +583,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Corruption_And_Mortality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Torpor_And_Mortality" Type="ConsumableItem" />
         <Public>true</Public>
@@ -775,23 +607,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Torpor_And_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor And Mortality</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Elixir_of_Torpor_And_Mortality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -840,23 +655,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Endurance_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Purity_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
@@ -877,23 +675,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Purity_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity in Extent</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Purity_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -942,23 +723,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Strength_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Corruption_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
@@ -993,23 +757,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Corruption_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Torpor_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1030,23 +777,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Torpor_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor in Extent</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Torpor_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1098,23 +828,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Vitality_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Elixir_of_Mortality_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
@@ -1138,23 +851,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Mortality_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Mortality in Extent</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Pura" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Elixir_of_Mortality_in_Extent" Type="ConsumableItem" />
-            <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>

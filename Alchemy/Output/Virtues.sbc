@@ -32,38 +32,6 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-        <Id Subtype="Glass_Vial" Type="InventoryItem" />
-        <Public>true</Public>
-        <DisplayName>Glass Vial</DisplayName>
-        <Description />
-        <Icon />
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Copper_Parts" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Blue_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Green_Vitriol" Type="InventoryItem" />
         <Public>true</Public>
         <DisplayName>Green Vitriol</DisplayName>
@@ -82,22 +50,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Green_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Green Vitriol</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Iron_Parts" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Green_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -143,22 +95,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Tin_Parts" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Yellow_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Black_Vitriol" Type="InventoryItem" />
         <Public>true</Public>
@@ -178,22 +114,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Black_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Black Vitriol</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lead_Parts" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Black_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -239,22 +159,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Gold_Parts" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Amber_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Red_Vitriol" Type="InventoryItem" />
         <Public>true</Public>
@@ -287,22 +191,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Mercury_Vial" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Red_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Gray_Vitriol" Type="InventoryItem" />
         <Public>true</Public>
@@ -322,22 +210,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gray_Vitriol" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gray Vitriol</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Silver_Parts" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -385,24 +257,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -419,24 +274,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -453,24 +291,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -487,24 +308,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Glasswort_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -521,42 +325,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Luceat_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purification" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purification_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purification</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Mugwort_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -604,40 +374,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Rock_Lichen_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Harmony" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Harmony_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Harmony</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Concordia_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -684,40 +422,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Sage_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Persistance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Persistance_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Persistance</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Rock_Lichen_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -764,23 +470,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Angelica_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Endurance_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -796,23 +486,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Saffron_Crocus_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Endurance_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -828,40 +502,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Spalt_Roots_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Endurance_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Endurance</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Yarrow_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -908,23 +550,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Althea_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purity_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -940,40 +566,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Broom_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purity_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Gilliflower_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1020,23 +614,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Cloud_Funnel_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Strength_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Strength</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1052,40 +630,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Hellebore_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Strength_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Strength</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Hoppan_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1132,23 +678,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Belladonna_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Corruption_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1164,40 +694,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Hemlock_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Corruption_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Wormwood_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1244,23 +742,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Amaranth_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Vitality_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1276,23 +758,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Castor_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Vitality_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1308,40 +774,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Crimson_Thristle_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Vitality_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Vitality</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Prepd_Rock_Willow_Essence" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1374,23 +808,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lixivium_of_Jupiter" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Jupiter</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Yellow_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1438,23 +855,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Amber_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
         <Public>true</Public>
@@ -1474,23 +874,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lixivium_of_Saturn" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Saturn</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Black_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Torpor" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1538,23 +921,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Gray_Vitriol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Mortality" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Oyle_of_Opposition" Type="InventoryItem" />
         <Public>true</Public>
@@ -1588,23 +954,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Mercury" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Oyle_of_Opposition" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Oyle_of_Opposition_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Opposition</DisplayName>
         <Icon />
         <Category>Balneum</Category>
@@ -1620,40 +970,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Venus" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Oyle_of_Opposition" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Oyle_of_Opposition_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Opposition</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -1686,22 +1004,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Virtue_of_Inversion" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Inversion</DisplayName>
-        <Icon />
-        <Category>Alembic</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1748,23 +1050,7 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Torpor" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Corruption_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Corruption</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
@@ -1780,40 +1066,8 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Virtue_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <Id Subtype="Virtue_of_Purity_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Virtue of Purity</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -1859,22 +1113,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Cauldron</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Inversion" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Virtue_of_Mortality" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Lixivium_of_Mercury_Intermedium" Type="InventoryItem" />
         <Public>true</Public>
@@ -1894,22 +1132,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lixivium_of_Mercury_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Mercury Intermedium</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Mercury" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Mercury_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -1955,22 +1177,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Venus" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Venus_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
         <Public>true</Public>
@@ -1990,22 +1196,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lixivium_of_Mars_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Mars Intermedium</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Mars" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -2051,22 +1241,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
         <Public>true</Public>
@@ -2086,22 +1260,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lixivium_of_Saturn_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Saturn Intermedium</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
@@ -2147,22 +1305,6 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
         <Public>true</Public>
@@ -2182,22 +1324,6 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lixivium_of_Luna_Intermedium" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lixivium of Luna Intermedium</DisplayName>
-        <Icon />
-        <Category>Balneum</Category>
-        <Prerequisites>
-            <Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
-        </Prerequisites>
-        <Results>
-            <Item Amount="1" Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
-        </Results>
-        <CraftingTime Seconds="20" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Glass_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Glass Vial</DisplayName>
         <Icon />
         <Category>Balneum</Category>
         <Prerequisites>
