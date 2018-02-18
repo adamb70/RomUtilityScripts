@@ -1,808 +1,808 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Althea" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Althea</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Althea" />
-		<DisplayName>Ground Althea</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Althea_Leaves" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Amaranth" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Amaranth</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Amaranth" />
-		<DisplayName>Ground Amaranth</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Amaranth_Seeds" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Angelica" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Angelica</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Angelica" />
-		<DisplayName>Ground Angelica</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Angelica_Roots" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Belladonna" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Belladonna</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Belladonna" />
-		<DisplayName>Ground Belladonna</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Belladonna_Berries" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Broom" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Broom</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Broom" />
-		<DisplayName>Ground Broom</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Broom_Flowers" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Castor" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Castor</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Castor" />
-		<DisplayName>Ground Castor</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Castor_Beans" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Cinquefoil" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Cinquefoil</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Cinquefoil" />
-		<DisplayName>Ground Cinquefoil</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Cinquefoil_Flowers" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Crimson Thristle</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Crimson_Thristle" />
-		<DisplayName>Ground Crimson Thristle</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Crimson_Thristle_Stems" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Crocus" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Crocus</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Crocus" />
-		<DisplayName>Ground Crocus</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Crocus_Roots" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Cloud Funnel</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Cloud_Funnel" />
-		<DisplayName>Ground Cloud Funnel</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Cloud_Funnel_Mushroom" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Gilliflower" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Gilliflower</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Gilliflower" />
-		<DisplayName>Ground Gilliflower</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Gilliflower_Buds" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Glasswort" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Glasswort</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Glasswort" />
-		<DisplayName>Ground Glasswort</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Glasswort_Shoots" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Luceat" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Luceat</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Luceat" />
-		<DisplayName>Ground Luceat</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Luceat_Berries" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Concordia" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Concordia</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Concordia" />
-		<DisplayName>Ground Concordia</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Concordia_Mushroom" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Hellebore" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Hellebore</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hellebore" />
-		<DisplayName>Ground Hellebore</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Hellebore_Flowers" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Hemlock" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Hemlock</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hemlock" />
-		<DisplayName>Ground Hemlock</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Hemlock_Stems" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Hoppan" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Hoppan</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hoppan" />
-		<DisplayName>Ground Hoppan</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Hoppan_Leaves" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Knotweed" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Knotweed</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Knotweed" />
-		<DisplayName>Ground Knotweed</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Knotweed_Shoots" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Rock Lichen</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Rock_Lichen" />
-		<DisplayName>Ground Rock Lichen</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Rock_Lichen" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Mugwort" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Mugwort</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Mugwort" />
-		<DisplayName>Ground Mugwort</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Mugwort_Stems" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Rock_Willow" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Rock Willow</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Rock_Willow" />
-		<DisplayName>Ground Rock Willow</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Rock_Willow_Leaves" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Sage" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Sage</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Sage" />
-		<DisplayName>Ground Sage</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Sage_Leaves" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Spalt" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Spalt</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Spalt" />
-		<DisplayName>Ground Spalt</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Spalt_Roots" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Vervain" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Vervain</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Vervain" />
-		<DisplayName>Ground Vervain</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Vervain_Flowers" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Wormwood" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Wormwood</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Wormwood" />
-		<DisplayName>Ground Wormwood</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Wormwood_Stems" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-		<Id Subtype="Ground_Yarrow" Type="InventoryItem" />
-		<Public>true</Public>
-		<DisplayName>Ground Yarrow</DisplayName>
-		<Description />
-		<Icon />
-		<PhysicalMaterial>None</PhysicalMaterial>
-		<Size>
-			<X>1</X>
-			<Z>1</Z>
-			<Y>1</Y>
-		</Size>
-		<Model />
-		<MaxStackAmount>16</MaxStackAmount>
-	</Definition>
-	
-	<Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-		<Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Yarrow" />
-		<DisplayName>Ground Yarrow</DisplayName>
-		<Icon />
-		<Category>Grind_Stone</Category>
-		<Category>Mortar_Pestle</Category>
-		<Prerequisites>
-			<Item Amount="1" Subtype="Dried_Yarrow_Leaves" Type="InventoryItem" />
-		</Prerequisites>
-		<Results>
-			<Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />
-		</Results>
-		<CraftingTime Seconds="20" />
-	</Definition>
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Althea" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Althea</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Althea" />
+        <DisplayName>Ground Althea</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Althea_Leaves" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Amaranth" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Amaranth</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Amaranth" />
+        <DisplayName>Ground Amaranth</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Amaranth_Seeds" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Angelica" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Angelica</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Angelica" />
+        <DisplayName>Ground Angelica</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Angelica_Roots" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Belladonna" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Belladonna</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Belladonna" />
+        <DisplayName>Ground Belladonna</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Belladonna_Berries" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Broom" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Broom</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Broom" />
+        <DisplayName>Ground Broom</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Broom_Flowers" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Castor" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Castor</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Castor" />
+        <DisplayName>Ground Castor</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Castor_Beans" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Cinquefoil" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Cinquefoil</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Cinquefoil" />
+        <DisplayName>Ground Cinquefoil</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Cinquefoil_Flowers" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Crimson Thristle</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Crimson_Thristle" />
+        <DisplayName>Ground Crimson Thristle</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Crimson_Thristle_Stems" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Crocus" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Crocus</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Crocus" />
+        <DisplayName>Ground Crocus</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Crocus_Roots" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Cloud Funnel</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Cloud_Funnel" />
+        <DisplayName>Ground Cloud Funnel</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Cloud_Funnel_Mushroom" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Gilliflower" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Gilliflower</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Gilliflower" />
+        <DisplayName>Ground Gilliflower</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Gilliflower_Buds" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Glasswort" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Glasswort</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Glasswort" />
+        <DisplayName>Ground Glasswort</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Glasswort_Shoots" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Luceat" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Luceat</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Luceat" />
+        <DisplayName>Ground Luceat</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Luceat_Berries" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Concordia" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Concordia</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Concordia" />
+        <DisplayName>Ground Concordia</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Concordia_Mushroom" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Hellebore" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Hellebore</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hellebore" />
+        <DisplayName>Ground Hellebore</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Hellebore_Flowers" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Hemlock" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Hemlock</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hemlock" />
+        <DisplayName>Ground Hemlock</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Hemlock_Stems" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Hoppan" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Hoppan</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Hoppan" />
+        <DisplayName>Ground Hoppan</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Hoppan_Leaves" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Knotweed" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Knotweed</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Knotweed" />
+        <DisplayName>Ground Knotweed</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Knotweed_Shoots" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Rock Lichen</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Rock_Lichen" />
+        <DisplayName>Ground Rock Lichen</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Rock_Lichen" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Mugwort" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Mugwort</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Mugwort" />
+        <DisplayName>Ground Mugwort</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Mugwort_Stems" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Rock_Willow" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Rock Willow</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Rock_Willow" />
+        <DisplayName>Ground Rock Willow</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Rock_Willow_Leaves" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Sage" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Sage</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Sage" />
+        <DisplayName>Ground Sage</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Sage_Leaves" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Spalt" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Spalt</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Spalt" />
+        <DisplayName>Ground Spalt</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Spalt_Roots" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Vervain" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Vervain</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Vervain" />
+        <DisplayName>Ground Vervain</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Vervain_Flowers" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Wormwood" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Wormwood</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Wormwood" />
+        <DisplayName>Ground Wormwood</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Wormwood_Stems" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Ground_Yarrow" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Ground Yarrow</DisplayName>
+        <Description />
+        <Icon />
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Ground_Yarrow" />
+        <DisplayName>Ground Yarrow</DisplayName>
+        <Icon />
+        <Category>Grind_Stone</Category>
+        <Category>Mortar_Pestle</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Dried_Yarrow_Leaves" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
 </Definitions>
 
