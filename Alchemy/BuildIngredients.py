@@ -119,4 +119,4 @@ def build_ingredients_from_sheet(generate_ground=True):
     ET.ElementTree(ing_root).write('Output/Ingredients.sbc', xml_declaration=True, method="xml")
     ET.ElementTree(dried_root).write('Output/DriedIngredients.sbc', xml_declaration=True, method="xml")
     if generate_ground:
-        ET.ElementTree(ground_root).write('Otput/GroundIngredients.sbc', xml_declaration=True, method="xml")
+        ET.ElementTree(ground_root).write('Output/GroundIngredients.sbc', xml_declaration=True, method="xml")
