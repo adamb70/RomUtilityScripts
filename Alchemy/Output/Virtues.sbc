@@ -677,7 +677,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -693,7 +693,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -709,7 +709,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -725,7 +725,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Persistance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -757,7 +757,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -773,7 +773,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -789,7 +789,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -805,7 +805,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -821,7 +821,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -837,7 +837,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -853,7 +853,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -869,7 +869,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Endurance" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -901,7 +901,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -917,7 +917,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -933,7 +933,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -949,7 +949,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -965,7 +965,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -981,7 +981,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Purity" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Purity" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1013,7 +1013,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1029,7 +1029,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1045,7 +1045,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1061,7 +1061,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1077,7 +1077,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1093,7 +1093,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Strength" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Strength" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1125,7 +1125,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1141,7 +1141,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1157,7 +1157,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1173,7 +1173,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1189,7 +1189,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1205,7 +1205,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Corruption" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1237,7 +1237,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1253,7 +1253,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1269,7 +1269,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1285,7 +1285,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1301,7 +1301,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1317,7 +1317,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1333,7 +1333,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
@@ -1349,7 +1349,7 @@
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
+            <Item Amount="2" Subtype="Virtue_of_Vitality" Type="InventoryItem" />
             <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
