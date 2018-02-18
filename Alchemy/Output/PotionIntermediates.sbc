@@ -2,7 +2,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Anti Poison 1</DisplayName>
+        <DisplayName>Int Anti Poison</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -17,7 +17,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_1" />
-        <DisplayName>Int Anti Poison 1</DisplayName>
+        <DisplayName>Int Anti Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -66,7 +66,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Anti Poison 2</DisplayName>
+        <DisplayName>Int Anti Poison</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -81,7 +81,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_2" />
-        <DisplayName>Int Anti Poison 2</DisplayName>
+        <DisplayName>Int Anti Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -113,7 +113,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Anti_Poison_1" />
-        <DisplayName>Int Anti Poison 1</DisplayName>
+        <DisplayName>Int Anti Poison</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -146,7 +146,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Fury_1" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Fury 1</DisplayName>
+        <DisplayName>Int Fury</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -161,7 +161,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_1" />
-        <DisplayName>Int Fury 1</DisplayName>
+        <DisplayName>Int Fury</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -194,7 +194,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Fury_2" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Fury 2</DisplayName>
+        <DisplayName>Int Fury</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -209,7 +209,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_2" />
-        <DisplayName>Int Fury 2</DisplayName>
+        <DisplayName>Int Fury</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -241,7 +241,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Fury_2" />
-        <DisplayName>Int Fury 2</DisplayName>
+        <DisplayName>Int Fury</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -274,7 +274,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Health_1" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Health 1</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -289,7 +289,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
-        <DisplayName>Int Health 1</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -321,7 +321,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_1" />
-        <DisplayName>Int Health 1</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -354,7 +354,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Health_2" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Health 2</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -369,7 +369,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
-        <DisplayName>Int Health 2</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -401,7 +401,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
-        <DisplayName>Int Health 2</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -433,7 +433,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
-        <DisplayName>Int Health 2</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -465,7 +465,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Health_2" />
-        <DisplayName>Int Health 2</DisplayName>
+        <DisplayName>Int Health</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -498,7 +498,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Poison_1" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Poison 1</DisplayName>
+        <DisplayName>Int Poison</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -513,7 +513,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
-        <DisplayName>Int Poison 1</DisplayName>
+        <DisplayName>Int Poison</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -545,7 +545,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_1" />
-        <DisplayName>Int Poison 1</DisplayName>
+        <DisplayName>Int Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -578,7 +578,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Poison_2" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Poison 2</DisplayName>
+        <DisplayName>Int Poison</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -593,7 +593,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Poison_2" />
-        <DisplayName>Int Poison 2</DisplayName>
+        <DisplayName>Int Poison</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -626,7 +626,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Stamina_1" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Stamina 1</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -641,7 +641,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
-        <DisplayName>Int Stamina 1</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -674,7 +674,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Stamina_2" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Stamina 2</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -689,7 +689,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
-        <DisplayName>Int Stamina 2</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -721,7 +721,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_2" />
-        <DisplayName>Int Stamina 2</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -754,7 +754,7 @@
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Int_Stamina_3" Type="InventoryItem" />
         <Public>true</Public>
-        <DisplayName>Int Stamina 3</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Description />
         <Icon />
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -769,7 +769,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
-        <DisplayName>Int Stamina 3</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Cauldron</Category>
         <Prerequisites>
@@ -801,7 +801,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_1" />
-        <DisplayName>Int Stamina 1</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>
@@ -833,7 +833,7 @@
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Type="MyObjectBuilder_CraftingRecipeDefinition" subtype="Int_Stamina_3" />
-        <DisplayName>Int Stamina 3</DisplayName>
+        <DisplayName>Int Stamina</DisplayName>
         <Icon />
         <Category>Alembic</Category>
         <Prerequisites>

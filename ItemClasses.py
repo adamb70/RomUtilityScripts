@@ -98,7 +98,7 @@ class Item(object):
         if display_name:
             self.display_name.text = display_name
         else:
-            self.display_name.text = subtype.replace('_', ' ')
+            self.display_name.text = subtype.rstrip('1234567890').rstrip('_').replace('_', ' ')
 
         if tags:
             for t in tags:
