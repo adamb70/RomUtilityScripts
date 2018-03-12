@@ -17,6 +17,9 @@ class Craftable(object):
                 if not (amount and type and subtype):
                     continue
                 item = ET.Element('Item')
+                if amount == "SET MANUALLY":
+                    amount = 1
+
                 item.attrib['Amount'] = str(amount)
                 item.attrib['Type'] = type
                 item.attrib['Subtype'] = subtype
@@ -27,6 +30,9 @@ class Craftable(object):
                 if not (amount and type and subtype):
                     continue
                 item = ET.Element('Item')
+                if amount == "SET MANUALLY":
+                    amount = 1
+
                 item.attrib['Amount'] = str(amount)
                 item.attrib['Type'] = type
                 item.attrib['Subtype'] = subtype
