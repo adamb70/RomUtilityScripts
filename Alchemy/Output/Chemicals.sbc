@@ -142,7 +142,7 @@
         <Id Subtype="Soda_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Mortar_Pestal</Category>
+        <Category>Mortar_Pestle</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Natron" Type="InventoryItem" />
         </Prerequisites>
@@ -234,7 +234,7 @@
         <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Mortar_Pestal</Category>
+        <Category>Mortar_Pestle</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Limestone" Type="InventoryItem" />
         </Prerequisites>
