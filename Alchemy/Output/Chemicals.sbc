@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Water Vial</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -18,7 +18,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water Vial</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
@@ -36,7 +36,7 @@
         <Public>true</Public>
         <DisplayName>Water</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -51,7 +51,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
@@ -66,7 +66,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Water_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Pure_Water_Vial" Type="InventoryItem" />
@@ -83,7 +83,7 @@
         <Public>true</Public>
         <DisplayName>Pure Water Vial</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -97,7 +97,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Pure_Water_Vial" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pure Water Vial</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
@@ -111,7 +111,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Pure_Water_Vial_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pure Water Vial</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
@@ -127,7 +127,7 @@
         <Public>true</Public>
         <DisplayName>Soda Ash</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -141,7 +141,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Mortar_Pestal</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Natron" Type="InventoryItem" />
@@ -157,7 +157,7 @@
         <Public>true</Public>
         <DisplayName>Milk of Soda</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -171,7 +171,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Soda" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Soda</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="White_Ash" Type="InventoryItem" />
@@ -188,7 +188,7 @@
         <Public>true</Public>
         <DisplayName>Milk of Tartar</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -202,7 +202,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Tartar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Tartar</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Black_Ash" Type="InventoryItem" />
@@ -219,7 +219,7 @@
         <Public>true</Public>
         <DisplayName>Lime</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -233,7 +233,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Mortar_Pestal</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Limestone" Type="InventoryItem" />
@@ -249,7 +249,7 @@
         <Public>true</Public>
         <DisplayName>Quicklime</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -263,7 +263,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Quicklime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Quicklime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -280,7 +280,7 @@
         <Public>true</Public>
         <DisplayName>Mortar</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -294,7 +294,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mortar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mortar</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Barrel</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Limewater" Type="InventoryItem" />
@@ -309,7 +309,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lime_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Slacked_Lime" Type="InventoryItem" />
@@ -323,7 +323,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lime_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Ash" Type="InventoryItem" />
@@ -339,7 +339,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lime_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Potash" Type="InventoryItem" />
@@ -357,7 +357,7 @@
         <Public>true</Public>
         <DisplayName>Bone Ash</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -371,7 +371,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Bone_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Bone Ash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bone" Type="InventoryItem" />
@@ -387,7 +387,7 @@
         <Public>true</Public>
         <DisplayName>Mercury</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -401,7 +401,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -415,7 +415,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -431,7 +431,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -447,7 +447,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -463,7 +463,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -479,7 +479,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -495,7 +495,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mercury_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mercury</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
@@ -513,7 +513,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -527,7 +527,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -542,7 +542,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitrioli_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -559,7 +559,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -573,7 +573,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -588,7 +588,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitrioli_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -605,7 +605,7 @@
         <Public>true</Public>
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -619,7 +619,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -634,7 +634,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Calx_Vitrioli_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -651,7 +651,7 @@
         <Public>true</Public>
         <DisplayName>Soda Vitriolatus</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -665,7 +665,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -682,7 +682,7 @@
         <Public>true</Public>
         <DisplayName>Tartarus Vitriolatus</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -696,7 +696,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -713,7 +713,7 @@
         <Public>true</Public>
         <DisplayName>Gypsum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -727,7 +727,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -744,7 +744,7 @@
         <Public>true</Public>
         <DisplayName>Sulfur</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -758,7 +758,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sulfur" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sulfur</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -773,7 +773,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sulfur_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sulfur</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -790,7 +790,7 @@
         <Public>true</Public>
         <DisplayName>Soda Nitre/Sal Tartarum Solution</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -804,7 +804,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Nitre/Sal_Tartarum_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Nitre/Sal Tartarum Solution</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
@@ -821,7 +821,7 @@
         <Public>true</Public>
         <DisplayName>Saltpeter</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -835,7 +835,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Saltpeter" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Saltpeter</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Nitre/Sal_Tartarum_Solution" Type="InventoryItem" />
@@ -852,7 +852,7 @@
         <Public>true</Public>
         <DisplayName>Sal Calxum/Soda Vitrioli Solution</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -866,7 +866,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sal_Calxum/Soda_Vitrioli_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Calxum/Soda Vitrioli Solution</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -883,7 +883,7 @@
         <Public>true</Public>
         <DisplayName>Calx Vitrioli</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -897,7 +897,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Calx_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Calx Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sal_Calxum/Soda_Vitrioli_Solution" Type="InventoryItem" />
@@ -914,7 +914,7 @@
         <Public>true</Public>
         <DisplayName>Salt/Lime Solution</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -928,7 +928,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt/Lime_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt/Lime Solution</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
@@ -943,7 +943,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Ash_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Salt/Lime_Solution" Type="InventoryItem" />
@@ -960,7 +960,7 @@
         <Public>true</Public>
         <DisplayName>Sal Tartarum/Lime Solution</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -974,7 +974,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sal_Tartarum/Lime_Solution" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Tartarum/Lime Solution</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
@@ -991,7 +991,7 @@
         <Public>true</Public>
         <DisplayName>Potash</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1005,7 +1005,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Potash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Potash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sal_Tartarum/Lime_Solution" Type="InventoryItem" />
@@ -1022,7 +1022,7 @@
         <Public>true</Public>
         <DisplayName>Pearl Ash</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1036,7 +1036,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Pearl_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pearl Ash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1053,7 +1053,7 @@
         <Public>true</Public>
         <DisplayName>Gunpowder</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1067,7 +1067,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gunpowder" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gunpowder</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy Table</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -1083,7 +1083,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gunpowder_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gunpowder</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy Table</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -1101,7 +1101,7 @@
         <Public>true</Public>
         <DisplayName>Spiritus Vitriolum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1115,7 +1115,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Spiritus_Vitriolum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -1132,7 +1132,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Spiritus_Vitriolum_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spiritus Vitriolum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
@@ -1151,7 +1151,7 @@
         <Public>true</Public>
         <DisplayName>Aqua Regia</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1165,7 +1165,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Aqua_Regia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Aqua Regia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
@@ -1180,7 +1180,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitrioli_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Tartarus_Vitrioli" Type="InventoryItem" />
@@ -1197,7 +1197,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1211,7 +1211,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Tartarus_Vitriolatus" Type="InventoryItem" />
@@ -1228,7 +1228,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Caustic Tartar</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1242,7 +1242,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Caustic_Tartar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Caustic Tartar</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Pot_lye" Type="InventoryItem" />
@@ -1259,7 +1259,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1273,7 +1273,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sal_Tartarum" Type="InventoryItem" />
@@ -1290,7 +1290,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Nitre</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1304,7 +1304,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Saltpeter" Type="InventoryItem" />
@@ -1319,7 +1319,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Tartar_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Tartar</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Potash" Type="InventoryItem" />
@@ -1334,7 +1334,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitrioli_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Vitrioli" Type="InventoryItem" />
@@ -1351,7 +1351,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1365,7 +1365,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Vitriolatus" Type="InventoryItem" />
@@ -1382,7 +1382,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Caustic Soda</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1396,7 +1396,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Caustic_Soda" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Caustic Soda</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_lye" Type="InventoryItem" />
@@ -1413,7 +1413,7 @@
         <Public>true</Public>
         <DisplayName>Salt Water</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1427,7 +1427,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Common_Salt" Type="InventoryItem" />
@@ -1444,7 +1444,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Soda Nitre</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1458,7 +1458,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Nitre" Type="InventoryItem" />
@@ -1473,7 +1473,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Soda_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Soda</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Ash" Type="InventoryItem" />
@@ -1488,7 +1488,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Calx_Vitrioli_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Calx Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Calx_Vitrioli" Type="InventoryItem" />
@@ -1505,7 +1505,7 @@
         <Public>true</Public>
         <DisplayName>Milk of Gypsum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1519,7 +1519,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Gypsum" Type="InventoryItem" />
@@ -1536,7 +1536,7 @@
         <Public>true</Public>
         <DisplayName>Limewater</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1550,7 +1550,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Limewater" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Limewater</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Slacked_Lime" Type="InventoryItem" />
@@ -1565,7 +1565,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Limewater_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Limewater</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Quicklime" Type="InventoryItem" />
@@ -1582,7 +1582,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Sal Calxum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1596,7 +1596,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sal_Calxum" Type="InventoryItem" />
@@ -1613,7 +1613,7 @@
         <Public>true</Public>
         <DisplayName>Oyle of Calx Nitre</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1627,7 +1627,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Calx_Nitre" Type="InventoryItem" />
@@ -1644,7 +1644,7 @@
         <Public>true</Public>
         <DisplayName>Milk of Lime</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1658,7 +1658,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lime" Type="InventoryItem" />
@@ -1675,7 +1675,7 @@
         <Public>true</Public>
         <DisplayName>Tartarus Vitrioli</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1689,7 +1689,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Tartarus_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1704,7 +1704,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Tartarus_Vitriolatus_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1721,7 +1721,7 @@
         <Public>true</Public>
         <DisplayName>Pot lye</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1735,7 +1735,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Pot_lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pot lye</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1752,7 +1752,7 @@
         <Public>true</Public>
         <DisplayName>Sal Tartarum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1766,7 +1766,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sal_Tartarum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1781,7 +1781,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Saltpeter_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Saltpeter</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
@@ -1796,7 +1796,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Potash_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Potash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Tartar" Type="InventoryItem" />
@@ -1813,7 +1813,7 @@
         <Public>true</Public>
         <DisplayName>Soda Vitrioli</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1827,7 +1827,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Vitrioli" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1842,7 +1842,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Vitriolatus_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1859,7 +1859,7 @@
         <Public>true</Public>
         <DisplayName>Soda lye</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1873,7 +1873,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda lye</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1890,7 +1890,7 @@
         <Public>true</Public>
         <DisplayName>Common Salt</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1904,7 +1904,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Common_Salt" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Common Salt</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -1921,7 +1921,7 @@
         <Public>true</Public>
         <DisplayName>Soda Nitre</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1935,7 +1935,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
@@ -1950,7 +1950,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Soda_Ash_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Ash</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Soda" Type="InventoryItem" />
@@ -1965,7 +1965,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Calx_Vitrioli_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Calx Vitrioli</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -1980,7 +1980,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Gypsum" Type="InventoryItem" />
@@ -1997,7 +1997,7 @@
         <Public>true</Public>
         <DisplayName>Slacked Lime</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -2011,7 +2011,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Slacked_Lime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Slacked Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Limewater" Type="InventoryItem" />
@@ -2028,7 +2028,7 @@
         <Public>true</Public>
         <DisplayName>Sal Calxum</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -2042,7 +2042,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sal_Calxum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2059,7 +2059,7 @@
         <Public>true</Public>
         <DisplayName>Calx Nitre</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -2073,7 +2073,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Calx_Nitre" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2088,7 +2088,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Lime_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Lime" Type="InventoryItem" />
@@ -2103,7 +2103,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2119,7 +2119,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2136,7 +2136,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2153,7 +2153,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2170,7 +2170,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2187,7 +2187,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2204,7 +2204,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2221,7 +2221,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
@@ -2237,7 +2237,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2253,7 +2253,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
@@ -2269,7 +2269,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Tartarum_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Tartarum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2285,7 +2285,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2301,7 +2301,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2318,7 +2318,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2335,7 +2335,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2352,7 +2352,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2369,7 +2369,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2386,7 +2386,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2403,7 +2403,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
@@ -2419,7 +2419,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2435,7 +2435,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
@@ -2451,7 +2451,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Salt_Water_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Salt Water</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2467,7 +2467,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2483,7 +2483,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -2500,7 +2500,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -2517,7 +2517,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -2534,7 +2534,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -2551,7 +2551,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -2568,7 +2568,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -2585,7 +2585,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Gypsum" Type="InventoryItem" />
@@ -2601,7 +2601,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2617,7 +2617,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
@@ -2633,7 +2633,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Sal_Calxum_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Sal Calxum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2649,7 +2649,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2665,7 +2665,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2682,7 +2682,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2699,7 +2699,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2716,7 +2716,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2733,7 +2733,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2750,7 +2750,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -2767,7 +2767,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2783,7 +2783,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
@@ -2799,7 +2799,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
@@ -2815,7 +2815,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Tartarus_Vitriolatus_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Tartarus Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2831,7 +2831,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2847,7 +2847,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2864,7 +2864,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2881,7 +2881,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2898,7 +2898,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2915,7 +2915,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2932,7 +2932,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -2949,7 +2949,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -2965,7 +2965,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
@@ -2981,7 +2981,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
@@ -2997,7 +2997,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Vitriolatus_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Vitriolatus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3013,7 +3013,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3029,7 +3029,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3046,7 +3046,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3063,7 +3063,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3080,7 +3080,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3097,7 +3097,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3114,7 +3114,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Milk_of_Gypsum_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Milk of Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3131,7 +3131,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Limewater" Type="InventoryItem" />
@@ -3147,7 +3147,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
@@ -3163,7 +3163,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
@@ -3179,7 +3179,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gypsum_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Filter</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Lime" Type="InventoryItem" />
@@ -3195,7 +3195,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3211,7 +3211,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -3228,7 +3228,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -3245,7 +3245,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -3262,7 +3262,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -3279,7 +3279,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -3296,7 +3296,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
@@ -3313,7 +3313,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
@@ -3329,7 +3329,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3345,7 +3345,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
@@ -3361,7 +3361,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Nitre_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3377,7 +3377,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3393,7 +3393,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -3410,7 +3410,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -3427,7 +3427,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -3444,7 +3444,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -3461,7 +3461,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -3478,7 +3478,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
@@ -3495,7 +3495,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
@@ -3511,7 +3511,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3527,7 +3527,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
@@ -3543,7 +3543,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Soda_Nitre_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Soda Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3559,7 +3559,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3575,7 +3575,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3592,7 +3592,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3609,7 +3609,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3626,7 +3626,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3643,7 +3643,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3660,7 +3660,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
@@ -3677,7 +3677,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Milk_of_Gypsum" Type="InventoryItem" />
@@ -3693,7 +3693,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_10" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3709,7 +3709,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_11" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
@@ -3725,7 +3725,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oyle_of_Calx_Nitre_12" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oyle of Calx Nitre</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Category>Alembic</Category>
         <Prerequisites>
@@ -3743,7 +3743,7 @@
         <Public>true</Public>
         <DisplayName>Pine Tar</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -3757,7 +3757,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Pine_Tar" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pine Tar</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Wood" Type="InventoryItem" />
@@ -3774,7 +3774,7 @@
         <Public>true</Public>
         <DisplayName>Bitumen</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -3788,7 +3788,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Bitumen" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Bitumen</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumus_Soil" Type="InventoryItem" />
@@ -3806,7 +3806,7 @@
         <Public>true</Public>
         <DisplayName>Petrolia</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -3820,7 +3820,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3834,7 +3834,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3850,7 +3850,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3866,7 +3866,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3882,7 +3882,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3898,7 +3898,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3914,7 +3914,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Petrolia_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Petrolia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic_Imbue</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
@@ -3932,7 +3932,7 @@
         <Public>true</Public>
         <DisplayName>Oil</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -3946,7 +3946,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Oil" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Oil</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Petrolia" Type="InventoryItem" />

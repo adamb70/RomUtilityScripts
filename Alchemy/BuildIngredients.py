@@ -6,9 +6,9 @@ from DataImporter import SheetCon
 class Ingredient(Item):
     decayed_item = None
 
-    def __init__(self, name, max_stack=16, dried_suffix=None, consumable=False):
+    def __init__(self, name, max_stack=16, icon="", dried_suffix=None, consumable=False):
         super(Ingredient, self).__init__(display_name=name.replace('_', ' '), subtype=name, type='DurableItem',
-                                         max_stack=max_stack, consumable=consumable)
+                                         max_stack=max_stack, consumable=consumable, icon=icon)
         self.max_durability = ET.Element('MaxDurability')
         self.max_durability.text = str(6)
 
@@ -51,9 +51,9 @@ class Ingredient(Item):
 
 
 class DriedIngredient(Item):
-    def __init__(self, name, ingredient, max_stack=16, consumable=False):
+    def __init__(self, name, ingredient, max_stack=16, consumable=False, icon=""):
         super(DriedIngredient, self).__init__(display_name=name.replace('_', ' '), subtype=name, max_stack=max_stack,
-                                              consumable=consumable)
+                                              consumable=consumable, icon=icon)
 
         if not self.description.text:
             self.description.text = "Dried %s." % ingredient.replace('Dried_', '').replace('_', ' ')
@@ -93,7 +93,7 @@ def build_ingredients_from_sheet(generate_ground=True):
     ground_ingreds = {}
     dried_ingreds = {}
     for row in ingreds:
-        processed_ingreds[row[0]] = Ingredient(name=row[0], dried_suffix=row[10])
+        processed_ingreds[row[0]] = Ingredient(name=row[0], dried_suffix=row[10], icon=row[11])
         ground_name = "Ground_" + row[0]
         ground_ingreds[ground_name] = GroundIngredient(name=ground_name, ingredient=row[0],
                                                        ingredient_type=processed_ingreds[row[0]].id.attrib['Type'])
@@ -101,7 +101,7 @@ def build_ingredients_from_sheet(generate_ground=True):
         dried_name = "Dried_" + row[0]
         if row[10]:
             dried_name += '_' + row[10]
-        dried_ingreds[dried_name] = DriedIngredient(name=dried_name, ingredient=row[0])
+        dried_ingreds[dried_name] = DriedIngredient(name=dried_name, ingredient=row[0], icon=row[11])
 
     for x in processed_ingreds.values():
         ing_root.append(x.build_item_def())

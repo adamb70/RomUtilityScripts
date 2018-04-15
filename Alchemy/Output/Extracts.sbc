@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Althea Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -18,7 +18,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Althea_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Althea Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Althea_Tea" Type="ConsumableItem" />
@@ -34,7 +34,7 @@
         <Public>true</Public>
         <DisplayName>Amaranth Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -48,7 +48,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Amaranth_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amaranth Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Amaranth_Tea" Type="ConsumableItem" />
@@ -64,7 +64,7 @@
         <Public>true</Public>
         <DisplayName>Angelica Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -78,7 +78,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Angelica_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Angelica Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Angelica_Tea" Type="ConsumableItem" />
@@ -94,7 +94,7 @@
         <Public>true</Public>
         <DisplayName>Belladonna Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -108,7 +108,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Belladonna_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Belladonna Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Belladonna_Tea" Type="ConsumableItem" />
@@ -124,7 +124,7 @@
         <Public>true</Public>
         <DisplayName>Broom Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -138,7 +138,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Broom_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Broom Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Broom_Tea" Type="ConsumableItem" />
@@ -154,7 +154,7 @@
         <Public>true</Public>
         <DisplayName>Castor Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -168,7 +168,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Castor_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Castor Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Castor_Tea" Type="ConsumableItem" />
@@ -184,7 +184,7 @@
         <Public>true</Public>
         <DisplayName>Cinquefoil Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -198,7 +198,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Cinquefoil_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cinquefoil Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
@@ -214,7 +214,7 @@
         <Public>true</Public>
         <DisplayName>Crimson Thristle Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -228,7 +228,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Crimson_Thristle_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crimson Thristle Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
@@ -244,7 +244,7 @@
         <Public>true</Public>
         <DisplayName>Crocus Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -258,7 +258,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Crocus_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crocus Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Crocus_Tea" Type="ConsumableItem" />
@@ -274,7 +274,7 @@
         <Public>true</Public>
         <DisplayName>Cloud Funnel Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -288,7 +288,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Cloud_Funnel_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cloud Funnel Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
@@ -304,7 +304,7 @@
         <Public>true</Public>
         <DisplayName>Gilliflower Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -318,7 +318,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gilliflower_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gilliflower Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Gilliflower_Tea" Type="ConsumableItem" />
@@ -334,7 +334,7 @@
         <Public>true</Public>
         <DisplayName>Glasswort Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -348,7 +348,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Glasswort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glasswort Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Glasswort_Tea" Type="ConsumableItem" />
@@ -364,7 +364,7 @@
         <Public>true</Public>
         <DisplayName>Luceat Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -378,7 +378,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Luceat_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Luceat Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Luceat_Tea" Type="ConsumableItem" />
@@ -394,7 +394,7 @@
         <Public>true</Public>
         <DisplayName>Concordia Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -408,7 +408,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Concordia_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Concordia Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Concordia_Tea" Type="ConsumableItem" />
@@ -424,7 +424,7 @@
         <Public>true</Public>
         <DisplayName>Hellebore Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -438,7 +438,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hellebore_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hellebore Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Hellebore_Tea" Type="ConsumableItem" />
@@ -454,7 +454,7 @@
         <Public>true</Public>
         <DisplayName>Hemlock Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -468,7 +468,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hemlock_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hemlock Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Hemlock_Tea" Type="ConsumableItem" />
@@ -484,7 +484,7 @@
         <Public>true</Public>
         <DisplayName>Hoppan Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -498,7 +498,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hoppan_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hoppan Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Hoppan_Tea" Type="ConsumableItem" />
@@ -514,7 +514,7 @@
         <Public>true</Public>
         <DisplayName>Knotweed Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -528,7 +528,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Knotweed_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Knotweed Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Knotweed_Tea" Type="ConsumableItem" />
@@ -544,7 +544,7 @@
         <Public>true</Public>
         <DisplayName>Rock Lichen Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -558,7 +558,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Rock_Lichen_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Lichen Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
@@ -574,7 +574,7 @@
         <Public>true</Public>
         <DisplayName>Mugwort Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -588,7 +588,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mugwort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mugwort Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Mugwort_Tea" Type="ConsumableItem" />
@@ -604,7 +604,7 @@
         <Public>true</Public>
         <DisplayName>Rock Willow Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -618,7 +618,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Rock_Willow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Willow Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
@@ -634,7 +634,7 @@
         <Public>true</Public>
         <DisplayName>Sage Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -648,7 +648,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sage_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sage Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sage_Tea" Type="ConsumableItem" />
@@ -664,7 +664,7 @@
         <Public>true</Public>
         <DisplayName>Spalt Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -678,7 +678,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Spalt_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spalt Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Spalt_Tea" Type="ConsumableItem" />
@@ -694,7 +694,7 @@
         <Public>true</Public>
         <DisplayName>Vervain Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -708,7 +708,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Vervain_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Vervain Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Vervain_Tea" Type="ConsumableItem" />
@@ -724,7 +724,7 @@
         <Public>true</Public>
         <DisplayName>Wormwood Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -738,7 +738,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Wormwood_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Wormwood Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Wormwood_Tea" Type="ConsumableItem" />
@@ -754,7 +754,7 @@
         <Public>true</Public>
         <DisplayName>Yarrow Extract</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -768,7 +768,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Yarrow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yarrow Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Yarrow_Tea" Type="ConsumableItem" />
@@ -782,7 +782,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Althea_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Althea Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
@@ -797,7 +797,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Amaranth_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amaranth Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
@@ -812,7 +812,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Angelica_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Angelica Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
@@ -827,7 +827,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Belladonna_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Belladonna Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
@@ -842,7 +842,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Broom_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Broom Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
@@ -857,7 +857,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Castor_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Castor Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
@@ -872,7 +872,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Cinquefoil_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cinquefoil Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
@@ -887,7 +887,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Crimson_Thristle_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crimson Thristle Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
@@ -902,7 +902,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Crocus_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crocus Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
@@ -917,7 +917,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Cloud_Funnel_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cloud Funnel Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
@@ -932,7 +932,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gilliflower_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gilliflower Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
@@ -947,7 +947,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Glasswort_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glasswort Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
@@ -962,7 +962,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Luceat_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Luceat Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
@@ -977,7 +977,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Concordia_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Concordia Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
@@ -992,7 +992,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hellebore_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hellebore Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
@@ -1007,7 +1007,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hemlock_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hemlock Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
@@ -1022,7 +1022,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hoppan_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hoppan Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
@@ -1037,7 +1037,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Knotweed_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Knotweed Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
@@ -1052,7 +1052,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Rock_Lichen_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Lichen Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
@@ -1067,7 +1067,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mugwort_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mugwort Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
@@ -1082,7 +1082,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Rock_Willow_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Willow Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
@@ -1097,7 +1097,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sage_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sage Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
@@ -1112,7 +1112,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Spalt_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spalt Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
@@ -1127,7 +1127,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Vervain_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Vervain Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
@@ -1142,7 +1142,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Wormwood_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Wormwood Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
@@ -1157,7 +1157,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Yarrow_Extract_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yarrow Extract</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />

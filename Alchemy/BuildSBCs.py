@@ -45,7 +45,8 @@ Effect 4 Time
 Categories
 Craft Time
 Stack Size
-Filename"""
+Filename
+Icon"""
 
 
 # Ingredients and dried ingredients are not in final sheet, use ingredients sheet to generate
@@ -80,7 +81,7 @@ for filename in files:
 
         processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']],
                                              type=recipe[headers['Result 1 Type']],
-                                             subtype=recipe[headers['Result 1']],
+                                             subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
                                              stats=build_stats(eff), prereqs=pre,
                                              results=res, categories=categories,
                                              crafting_time=recipe[headers['Craft Time']]))

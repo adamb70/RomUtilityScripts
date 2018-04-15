@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Dried Rock Lichen</DisplayName>
         <Description>Dried Rock Lichen.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -20,7 +20,7 @@
         <Public>true</Public>
         <DisplayName>Dried Hoppan Leaves</DisplayName>
         <Description>Dried Hoppan.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -36,7 +36,7 @@
         <Public>true</Public>
         <DisplayName>Dried Hemlock Stems</DisplayName>
         <Description>Dried Hemlock.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -52,7 +52,7 @@
         <Public>true</Public>
         <DisplayName>Dried Angelica Roots</DisplayName>
         <Description>Dried Angelica.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -68,7 +68,7 @@
         <Public>true</Public>
         <DisplayName>Dried Belladonna Berries</DisplayName>
         <Description>Dried Belladonna.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -84,7 +84,7 @@
         <Public>true</Public>
         <DisplayName>Dried Glasswort Shoots</DisplayName>
         <Description>Dried Glasswort.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -100,7 +100,7 @@
         <Public>true</Public>
         <DisplayName>Dried Wormwood Stems</DisplayName>
         <Description>Dried Wormwood.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -116,7 +116,7 @@
         <Public>true</Public>
         <DisplayName>Dried Luceat Berries</DisplayName>
         <Description>Dried Luceat.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -132,7 +132,7 @@
         <Public>true</Public>
         <DisplayName>Dried Yarrow Leaves</DisplayName>
         <Description>Dried Yarrow.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -148,7 +148,7 @@
         <Public>true</Public>
         <DisplayName>Dried Concordia Mushroom</DisplayName>
         <Description>Dried Concordia.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -164,7 +164,7 @@
         <Public>true</Public>
         <DisplayName>Dried Gilliflower Buds</DisplayName>
         <Description>Dried Gilliflower.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -180,7 +180,7 @@
         <Public>true</Public>
         <DisplayName>Dried Crimson Thristle Stems</DisplayName>
         <Description>Dried Crimson Thristle.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -196,7 +196,7 @@
         <Public>true</Public>
         <DisplayName>Dried Crocus Roots</DisplayName>
         <Description>Dried Crocus.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -212,7 +212,7 @@
         <Public>true</Public>
         <DisplayName>Dried Knotweed Shoots</DisplayName>
         <Description>Dried Knotweed.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -228,7 +228,7 @@
         <Public>true</Public>
         <DisplayName>Dried Rock Willow Leaves</DisplayName>
         <Description>Dried Rock Willow.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -244,7 +244,7 @@
         <Public>true</Public>
         <DisplayName>Dried Cinquefoil Flowers</DisplayName>
         <Description>Dried Cinquefoil.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -260,7 +260,7 @@
         <Public>true</Public>
         <DisplayName>Dried Amaranth Seeds</DisplayName>
         <Description>Dried Amaranth.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -276,7 +276,7 @@
         <Public>true</Public>
         <DisplayName>Dried Althea Leaves</DisplayName>
         <Description>Dried Althea.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -292,7 +292,7 @@
         <Public>true</Public>
         <DisplayName>Dried Castor Beans</DisplayName>
         <Description>Dried Castor.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -308,7 +308,7 @@
         <Public>true</Public>
         <DisplayName>Dried Cloud Funnel Mushroom</DisplayName>
         <Description>Dried Cloud Funnel.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -324,7 +324,7 @@
         <Public>true</Public>
         <DisplayName>Dried Mugwort Stems</DisplayName>
         <Description>Dried Mugwort.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -340,7 +340,7 @@
         <Public>true</Public>
         <DisplayName>Dried Broom Flowers</DisplayName>
         <Description>Dried Broom.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -356,7 +356,7 @@
         <Public>true</Public>
         <DisplayName>Dried Spalt Roots</DisplayName>
         <Description>Dried Spalt.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -372,7 +372,7 @@
         <Public>true</Public>
         <DisplayName>Dried Hellebore Flowers</DisplayName>
         <Description>Dried Hellebore.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -388,7 +388,7 @@
         <Public>true</Public>
         <DisplayName>Dried Vervain Flowers</DisplayName>
         <Description>Dried Vervain.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -404,7 +404,7 @@
         <Public>true</Public>
         <DisplayName>Dried Sage Leaves</DisplayName>
         <Description>Dried Sage.</Description>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>

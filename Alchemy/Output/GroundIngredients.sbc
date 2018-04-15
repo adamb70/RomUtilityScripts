@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Ground Althea</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -18,7 +18,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Althea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Althea</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -35,7 +35,7 @@
         <Public>true</Public>
         <DisplayName>Ground Amaranth</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -49,7 +49,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Amaranth" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Amaranth</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -66,7 +66,7 @@
         <Public>true</Public>
         <DisplayName>Ground Angelica</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -80,7 +80,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Angelica" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Angelica</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -97,7 +97,7 @@
         <Public>true</Public>
         <DisplayName>Ground Belladonna</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -111,7 +111,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Belladonna" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Belladonna</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -128,7 +128,7 @@
         <Public>true</Public>
         <DisplayName>Ground Broom</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -142,7 +142,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Broom" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Broom</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -159,7 +159,7 @@
         <Public>true</Public>
         <DisplayName>Ground Castor</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -173,7 +173,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Castor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Castor</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -190,7 +190,7 @@
         <Public>true</Public>
         <DisplayName>Ground Cinquefoil</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -204,7 +204,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Cinquefoil" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Cinquefoil</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -221,7 +221,7 @@
         <Public>true</Public>
         <DisplayName>Ground Crimson Thristle</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -235,7 +235,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Crimson_Thristle" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Crimson Thristle</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -252,7 +252,7 @@
         <Public>true</Public>
         <DisplayName>Ground Crocus</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -266,7 +266,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Crocus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Crocus</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -283,7 +283,7 @@
         <Public>true</Public>
         <DisplayName>Ground Cloud Funnel</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -297,7 +297,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Cloud_Funnel" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Cloud Funnel</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -314,7 +314,7 @@
         <Public>true</Public>
         <DisplayName>Ground Gilliflower</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -328,7 +328,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Gilliflower" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Gilliflower</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -345,7 +345,7 @@
         <Public>true</Public>
         <DisplayName>Ground Glasswort</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -359,7 +359,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Glasswort" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Glasswort</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -376,7 +376,7 @@
         <Public>true</Public>
         <DisplayName>Ground Luceat</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -390,7 +390,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Luceat" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Luceat</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -407,7 +407,7 @@
         <Public>true</Public>
         <DisplayName>Ground Concordia</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -421,7 +421,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Concordia" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Concordia</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -438,7 +438,7 @@
         <Public>true</Public>
         <DisplayName>Ground Hellebore</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -452,7 +452,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Hellebore" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Hellebore</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -469,7 +469,7 @@
         <Public>true</Public>
         <DisplayName>Ground Hemlock</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -483,7 +483,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Hemlock" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Hemlock</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -500,7 +500,7 @@
         <Public>true</Public>
         <DisplayName>Ground Hoppan</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -514,7 +514,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Hoppan" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Hoppan</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -531,7 +531,7 @@
         <Public>true</Public>
         <DisplayName>Ground Knotweed</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -545,7 +545,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Knotweed" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Knotweed</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -562,7 +562,7 @@
         <Public>true</Public>
         <DisplayName>Ground Rock Lichen</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -576,7 +576,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Rock_Lichen" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Rock Lichen</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -593,7 +593,7 @@
         <Public>true</Public>
         <DisplayName>Ground Mugwort</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -607,7 +607,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Mugwort" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Mugwort</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -624,7 +624,7 @@
         <Public>true</Public>
         <DisplayName>Ground Rock Willow</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -638,7 +638,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Rock_Willow" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Rock Willow</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -655,7 +655,7 @@
         <Public>true</Public>
         <DisplayName>Ground Sage</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -669,7 +669,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Sage" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Sage</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -686,7 +686,7 @@
         <Public>true</Public>
         <DisplayName>Ground Spalt</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -700,7 +700,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Spalt" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Spalt</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -717,7 +717,7 @@
         <Public>true</Public>
         <DisplayName>Ground Vervain</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -731,7 +731,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Vervain" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Vervain</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -748,7 +748,7 @@
         <Public>true</Public>
         <DisplayName>Ground Wormwood</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -762,7 +762,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Wormwood" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Wormwood</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>
@@ -779,7 +779,7 @@
         <Public>true</Public>
         <DisplayName>Ground Yarrow</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -793,7 +793,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Ground_Yarrow" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Ground Yarrow</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Grind_Stone</Category>
         <Category>Mortar_Pestle</Category>
         <Prerequisites>

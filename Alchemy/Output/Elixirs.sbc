@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Endurance</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -19,7 +19,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Mercury_Intermedium" Type="InventoryItem" />
@@ -35,7 +35,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Purity</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -50,7 +50,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Venus_Intermedium" Type="InventoryItem" />
@@ -66,7 +66,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Strength</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -81,7 +81,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Strength</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Mars_Intermedium" Type="InventoryItem" />
@@ -97,7 +97,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Corruption</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -112,7 +112,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Corruption" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Jupiter_Intermedium" Type="InventoryItem" />
@@ -128,7 +128,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Torpor</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -143,7 +143,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Torpor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Saturn_Intermedium" Type="InventoryItem" />
@@ -159,7 +159,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Vitality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -174,7 +174,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Vitality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Sol_Intermedium" Type="InventoryItem" />
@@ -190,7 +190,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Mortality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -205,7 +205,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Mortality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lixivium_of_Luna_Intermedium" Type="InventoryItem" />
@@ -221,7 +221,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Duplicity</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -235,7 +235,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Duplicity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Duplicity</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Virtue_of_Harmony" Type="InventoryItem" />
@@ -253,7 +253,7 @@
         <Public>true</Public>
         <DisplayName>Aqua Pura</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -267,7 +267,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Aqua_Pura" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Aqua Pura</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
@@ -285,7 +285,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Endurance And Purity</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -303,7 +303,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Purity" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Purity</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -322,7 +322,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Endurance And Strength</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -341,7 +341,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Strength</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -360,7 +360,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Endurance And Vitality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -379,7 +379,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance And Vitality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -398,7 +398,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Purity And Strength</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -417,7 +417,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Purity_And_Strength" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity And Strength</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -436,7 +436,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Purity And Vitality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -455,7 +455,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Purity_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity And Vitality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -474,7 +474,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Strength And Vitality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -493,7 +493,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Strength_And_Vitality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Strength And Vitality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -512,7 +512,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Corruption And Torpor</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -531,7 +531,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Corruption_And_Torpor" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption And Torpor</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -550,7 +550,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Corruption And Mortality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -569,7 +569,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Corruption_And_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption And Mortality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -588,7 +588,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Torpor And Mortality</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -607,7 +607,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Torpor_And_Mortality" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor And Mortality</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Cauldron</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Duplicity" Type="InventoryItem" />
@@ -626,7 +626,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Endurance in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -641,7 +641,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Endurance_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Endurance in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
@@ -660,7 +660,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Purity in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -675,7 +675,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Purity_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Purity in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Purity" Type="ConsumableItem" />
@@ -694,7 +694,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Strength in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -709,7 +709,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Strength_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Strength in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Strength" Type="ConsumableItem" />
@@ -728,7 +728,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Corruption in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -743,7 +743,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Corruption_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Corruption in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
@@ -762,7 +762,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Torpor in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -777,7 +777,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Torpor_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Torpor in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
@@ -796,7 +796,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Vitality in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -814,7 +814,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Vitality_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Vitality in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
@@ -833,7 +833,7 @@
         <Public>true</Public>
         <DisplayName>Elixir of Mortality in Extent</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -851,7 +851,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Elixir_of_Mortality_in_Extent" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Elixir of Mortality in Extent</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Elixir_of_Mortality" Type="ConsumableItem" />

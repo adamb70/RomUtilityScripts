@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Anti Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -23,7 +23,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
@@ -41,7 +41,7 @@
         <Public>true</Public>
         <DisplayName>Anti Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -60,7 +60,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
@@ -78,7 +78,7 @@
         <Public>true</Public>
         <DisplayName>Anti Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -97,7 +97,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Anti_Poison_1" Type="InventoryItem" />
@@ -115,7 +115,7 @@
         <Public>true</Public>
         <DisplayName>Anti Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -134,7 +134,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
@@ -152,7 +152,7 @@
         <Public>true</Public>
         <DisplayName>Anti Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -171,7 +171,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
@@ -189,7 +189,7 @@
         <Public>true</Public>
         <DisplayName>Anti Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -208,7 +208,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Anti_Poison_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Anti Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Anti_Poison_2" Type="InventoryItem" />
@@ -226,7 +226,7 @@
         <Public>true</Public>
         <DisplayName>Fury Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -245,7 +245,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
@@ -263,7 +263,7 @@
         <Public>true</Public>
         <DisplayName>Fury Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -282,7 +282,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
@@ -300,7 +300,7 @@
         <Public>true</Public>
         <DisplayName>Fury Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -319,7 +319,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Fury_1" Type="InventoryItem" />
@@ -337,7 +337,7 @@
         <Public>true</Public>
         <DisplayName>Fury Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -356,7 +356,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
@@ -374,7 +374,7 @@
         <Public>true</Public>
         <DisplayName>Fury Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -393,7 +393,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
@@ -411,7 +411,7 @@
         <Public>true</Public>
         <DisplayName>Fury Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -430,7 +430,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Fury_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Fury Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Fury_2" Type="InventoryItem" />
@@ -448,7 +448,7 @@
         <Public>true</Public>
         <DisplayName>Health Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -467,7 +467,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
@@ -485,7 +485,7 @@
         <Public>true</Public>
         <DisplayName>Health Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -504,7 +504,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
@@ -522,7 +522,7 @@
         <Public>true</Public>
         <DisplayName>Health Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -541,7 +541,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Health_1" Type="InventoryItem" />
@@ -559,7 +559,7 @@
         <Public>true</Public>
         <DisplayName>Health Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -578,7 +578,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
@@ -596,7 +596,7 @@
         <Public>true</Public>
         <DisplayName>Health Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -615,7 +615,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
@@ -633,7 +633,7 @@
         <Public>true</Public>
         <DisplayName>Health Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -652,7 +652,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Health_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Health Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Health_2" Type="InventoryItem" />
@@ -670,7 +670,7 @@
         <Public>true</Public>
         <DisplayName>Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -689,7 +689,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
@@ -707,7 +707,7 @@
         <Public>true</Public>
         <DisplayName>Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -726,7 +726,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
@@ -744,7 +744,7 @@
         <Public>true</Public>
         <DisplayName>Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -763,7 +763,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Poison_1" Type="InventoryItem" />
@@ -781,7 +781,7 @@
         <Public>true</Public>
         <DisplayName>Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -800,7 +800,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
@@ -818,7 +818,7 @@
         <Public>true</Public>
         <DisplayName>Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -837,7 +837,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
@@ -855,7 +855,7 @@
         <Public>true</Public>
         <DisplayName>Poison Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -874,7 +874,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Poison_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Poison Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Poison_2" Type="InventoryItem" />
@@ -892,7 +892,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -911,7 +911,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_1" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
@@ -929,7 +929,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -948,7 +948,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
@@ -966,7 +966,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -985,7 +985,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_3" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_1" Type="InventoryItem" />
@@ -1003,7 +1003,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1022,7 +1022,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_4" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
@@ -1040,7 +1040,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1059,7 +1059,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_5" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
@@ -1077,7 +1077,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1096,7 +1096,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_6" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_2" Type="InventoryItem" />
@@ -1114,7 +1114,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1133,7 +1133,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_7" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
@@ -1151,7 +1151,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1170,7 +1170,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_8" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />
@@ -1188,7 +1188,7 @@
         <Public>true</Public>
         <DisplayName>Stamina Potion</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -1207,7 +1207,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Stamina_Potion_9" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Stamina Potion</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Balneum</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Int_Stamina_3" Type="InventoryItem" />

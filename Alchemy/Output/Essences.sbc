@@ -4,7 +4,7 @@
         <Public>true</Public>
         <DisplayName>Althea Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -18,7 +18,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Althea_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Althea Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Althea_Extract" Type="InventoryItem" />
@@ -36,7 +36,7 @@
         <Public>true</Public>
         <DisplayName>Amaranth Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -50,7 +50,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Amaranth_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Amaranth Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Amaranth_Extract" Type="InventoryItem" />
@@ -68,7 +68,7 @@
         <Public>true</Public>
         <DisplayName>Angelica Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -82,7 +82,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Angelica_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Angelica Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Angelica_Extract" Type="InventoryItem" />
@@ -100,7 +100,7 @@
         <Public>true</Public>
         <DisplayName>Belladonna Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -114,7 +114,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Belladonna_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Belladonna Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Belladonna_Extract" Type="InventoryItem" />
@@ -132,7 +132,7 @@
         <Public>true</Public>
         <DisplayName>Broom Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -146,7 +146,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Broom_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Broom Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Broom_Extract" Type="InventoryItem" />
@@ -164,7 +164,7 @@
         <Public>true</Public>
         <DisplayName>Castor Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -178,7 +178,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Castor_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Castor Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Castor_Extract" Type="InventoryItem" />
@@ -196,7 +196,7 @@
         <Public>true</Public>
         <DisplayName>Cinquefoil Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -210,7 +210,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Cinquefoil_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cinquefoil Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cinquefoil_Extract" Type="InventoryItem" />
@@ -228,7 +228,7 @@
         <Public>true</Public>
         <DisplayName>Crimson Thristle Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -242,7 +242,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Crimson_Thristle_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crimson Thristle Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Crimson_Thristle_Extract" Type="InventoryItem" />
@@ -260,7 +260,7 @@
         <Public>true</Public>
         <DisplayName>Crocus Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -274,7 +274,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Crocus_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Crocus Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Crocus_Extract" Type="InventoryItem" />
@@ -292,7 +292,7 @@
         <Public>true</Public>
         <DisplayName>Cloud Funnel Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -306,7 +306,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Cloud_Funnel_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Cloud Funnel Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Cloud_Funnel_Extract" Type="InventoryItem" />
@@ -324,7 +324,7 @@
         <Public>true</Public>
         <DisplayName>Gilliflower Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -338,7 +338,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Gilliflower_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gilliflower Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Gilliflower_Extract" Type="InventoryItem" />
@@ -356,7 +356,7 @@
         <Public>true</Public>
         <DisplayName>Glasswort Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -370,7 +370,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Glasswort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Glasswort Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Glasswort_Extract" Type="InventoryItem" />
@@ -388,7 +388,7 @@
         <Public>true</Public>
         <DisplayName>Luceat Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -402,7 +402,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Luceat_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Luceat Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Luceat_Extract" Type="InventoryItem" />
@@ -420,7 +420,7 @@
         <Public>true</Public>
         <DisplayName>Concordia Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -434,7 +434,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Concordia_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Concordia Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Concordia_Extract" Type="InventoryItem" />
@@ -452,7 +452,7 @@
         <Public>true</Public>
         <DisplayName>Hellebore Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -466,7 +466,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hellebore_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hellebore Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Hellebore_Extract" Type="InventoryItem" />
@@ -484,7 +484,7 @@
         <Public>true</Public>
         <DisplayName>Hemlock Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -498,7 +498,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hemlock_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hemlock Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Hemlock_Extract" Type="InventoryItem" />
@@ -516,7 +516,7 @@
         <Public>true</Public>
         <DisplayName>Hoppan Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -530,7 +530,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Hoppan_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Hoppan Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Hoppan_Extract" Type="InventoryItem" />
@@ -548,7 +548,7 @@
         <Public>true</Public>
         <DisplayName>Knotweed Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -562,7 +562,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Knotweed_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Knotweed Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Knotweed_Extract" Type="InventoryItem" />
@@ -580,7 +580,7 @@
         <Public>true</Public>
         <DisplayName>Rock Lichen Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -594,7 +594,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Rock_Lichen_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Lichen Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Rock_Lichen_Extract" Type="InventoryItem" />
@@ -612,7 +612,7 @@
         <Public>true</Public>
         <DisplayName>Mugwort Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -626,7 +626,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Mugwort_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Mugwort Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Mugwort_Extract" Type="InventoryItem" />
@@ -644,7 +644,7 @@
         <Public>true</Public>
         <DisplayName>Rock Willow Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -658,7 +658,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Rock_Willow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Rock Willow Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Rock_Willow_Extract" Type="InventoryItem" />
@@ -676,7 +676,7 @@
         <Public>true</Public>
         <DisplayName>Sage Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -690,7 +690,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Sage_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sage Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sage_Extract" Type="InventoryItem" />
@@ -708,7 +708,7 @@
         <Public>true</Public>
         <DisplayName>Spalt Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -722,7 +722,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Spalt_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Spalt Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Spalt_Extract" Type="InventoryItem" />
@@ -740,7 +740,7 @@
         <Public>true</Public>
         <DisplayName>Vervain Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -754,7 +754,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Vervain_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Vervain Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Vervain_Extract" Type="InventoryItem" />
@@ -772,7 +772,7 @@
         <Public>true</Public>
         <DisplayName>Wormwood Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -786,7 +786,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Wormwood_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Wormwood Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Wormwood_Extract" Type="InventoryItem" />
@@ -804,7 +804,7 @@
         <Public>true</Public>
         <DisplayName>Yarrow Essence</DisplayName>
         <Description />
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
         <Size>
             <X>1</X>
@@ -818,7 +818,7 @@
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
         <Id Subtype="Yarrow_Essence" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Yarrow Essence</DisplayName>
-        <Icon />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Yarrow_Extract" Type="InventoryItem" />
