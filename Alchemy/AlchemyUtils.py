@@ -9,8 +9,8 @@ def build_stats(effects):
             stat = "Health"
         elif "Stamina" in eff:
             stat = "Stamina"
-        elif "Hunger" in eff:
-            stat = "Hunger"
+        elif "Food" in eff:
+            stat = "Food"
         elif "Thirst" in eff:
             stat = "Thirst"
         elif "Poison" in eff:

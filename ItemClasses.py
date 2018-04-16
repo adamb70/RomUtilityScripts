@@ -6,11 +6,15 @@ class Craftable(object):
     prereqs = None  # List of (amount, type, subtype) tuples
     results = None  # List of (amount, type, subtype) tuples
     categories = None  # List of strings
+    hidden_without_prereqs = None
 
-    def __init__(self, prereqs=None, categories=None, crafting_time=3, results=None, **kwargs):
+    def __init__(self, prereqs=None, categories=None, crafting_time=3, results=None, hidden_without_prereqs=None, **kwargs):
         super(Craftable, self).__init__()
         self.crafting_time = ET.Element('CraftingTime')
         self.crafting_time.attrib['Seconds'] = str(crafting_time)
+        if hidden_without_prereqs == 'TRUE':
+            self.hidden_without_prereqs = ET.Element('HiddenWithoutPrereqs')
+            self.hidden_without_prereqs.text = 'true'
         if prereqs:
             self.prereqs = ET.Element('Prerequisites')
             for amount, type, subtype in prereqs:
@@ -77,13 +81,11 @@ class Item(object):
         self.display_name = ET.Element('DisplayName')
         self.tags = []
 
+        self.id.attrib['Type'] = type
         self.id.attrib['Subtype'] = subtype
-        self.consumable = consumable
 
-        if consumable:
-            self.id.attrib['Type'] = "ConsumableItem"
-        else:
-            self.id.attrib['Type'] = type
+        if type == 'ConsumableItem':
+            self.consumable = True
 
         self.max_stack.text = str(max_stack)
         if health:
@@ -177,5 +179,7 @@ class CraftableItem(Item, Craftable):
         root.append(self.prereqs)
         root.append(self.results)
         root.append(self.crafting_time)
+        if self.hidden_without_prereqs is not None:
+            root.append(self.hidden_without_prereqs)
 
         return root

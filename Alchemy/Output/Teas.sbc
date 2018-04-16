@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Althea_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Althea Tea</DisplayName>
@@ -16,7 +16,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="-10" />
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -36,7 +36,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Amaranth_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Amaranth Tea</DisplayName>
@@ -72,7 +72,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Angelica_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Angelica Tea</DisplayName>
@@ -108,7 +108,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Belladonna_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Belladonna Tea</DisplayName>
@@ -144,7 +144,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Broom_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Broom Tea</DisplayName>
@@ -180,7 +180,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Castor_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Castor Tea</DisplayName>
@@ -216,7 +216,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Cinquefoil Tea</DisplayName>
@@ -251,7 +251,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Crimson Thristle Tea</DisplayName>
@@ -287,7 +287,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Crocus_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Crocus Tea</DisplayName>
@@ -323,7 +323,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Cloud Funnel Tea</DisplayName>
@@ -359,7 +359,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Gilliflower_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Gilliflower Tea</DisplayName>
@@ -394,7 +394,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Glasswort_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Glasswort Tea</DisplayName>
@@ -429,7 +429,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Luceat_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Luceat Tea</DisplayName>
@@ -464,7 +464,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Concordia_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Concordia Tea</DisplayName>
@@ -500,7 +500,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Hellebore_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Hellebore Tea</DisplayName>
@@ -536,7 +536,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Hemlock_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Hemlock Tea</DisplayName>
@@ -572,7 +572,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Hoppan_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Hoppan Tea</DisplayName>
@@ -608,7 +608,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Knotweed_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Knotweed Tea</DisplayName>
@@ -643,7 +643,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Rock Lichen Tea</DisplayName>
@@ -678,7 +678,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Mugwort_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Mugwort Tea</DisplayName>
@@ -693,7 +693,7 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -713,7 +713,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Rock Willow Tea</DisplayName>
@@ -749,7 +749,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Sage_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Sage Tea</DisplayName>
@@ -764,7 +764,7 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -784,7 +784,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Spalt_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Spalt Tea</DisplayName>
@@ -820,7 +820,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Vervain_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Vervain Tea</DisplayName>
@@ -855,7 +855,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Wormwood_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Wormwood Tea</DisplayName>
@@ -891,7 +891,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Yarrow_Tea" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Yarrow Tea</DisplayName>
@@ -907,7 +907,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>

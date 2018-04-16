@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Endurance" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Endurance</DisplayName>
@@ -31,7 +31,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Purity" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Purity</DisplayName>
@@ -62,7 +62,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Strength" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Strength</DisplayName>
@@ -93,7 +93,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Corruption" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Corruption</DisplayName>
@@ -124,7 +124,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Torpor" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Torpor</DisplayName>
@@ -155,7 +155,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Vitality</DisplayName>
@@ -186,7 +186,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Mortality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Mortality</DisplayName>
@@ -281,7 +281,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Purity" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Endurance And Purity</DisplayName>
@@ -318,7 +318,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Strength" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Endurance And Strength</DisplayName>
@@ -356,7 +356,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Endurance_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Endurance And Vitality</DisplayName>
@@ -394,7 +394,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Purity_And_Strength" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Purity And Strength</DisplayName>
@@ -432,7 +432,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Purity_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Purity And Vitality</DisplayName>
@@ -470,7 +470,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Strength_And_Vitality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Strength And Vitality</DisplayName>
@@ -508,7 +508,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Corruption_And_Torpor" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Corruption And Torpor</DisplayName>
@@ -546,7 +546,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Corruption_And_Mortality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Corruption And Mortality</DisplayName>
@@ -584,7 +584,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Torpor_And_Mortality" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Torpor And Mortality</DisplayName>
@@ -622,7 +622,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Endurance_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Endurance in Extent</DisplayName>
@@ -656,7 +656,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Purity_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Purity in Extent</DisplayName>
@@ -690,7 +690,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Strength_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Strength in Extent</DisplayName>
@@ -724,7 +724,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Corruption_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Corruption in Extent</DisplayName>
@@ -758,7 +758,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Torpor_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Torpor in Extent</DisplayName>
@@ -792,7 +792,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Vitality_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Vitality in Extent</DisplayName>
@@ -829,7 +829,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Elixir_of_Mortality_in_Extent" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Elixir of Mortality in Extent</DisplayName>

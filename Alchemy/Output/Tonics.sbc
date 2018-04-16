@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_1" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -37,7 +37,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_2" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -73,7 +73,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_3" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -109,7 +109,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_4" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -146,7 +146,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_5" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -183,7 +183,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_6" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -219,7 +219,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_7" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -256,7 +256,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_8" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -293,7 +293,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_9" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -329,7 +329,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_10" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -366,7 +366,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_11" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -403,7 +403,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Tonic_12" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Tonic</DisplayName>
@@ -439,7 +439,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_1" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -476,7 +476,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_2" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -512,7 +512,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_3" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -548,7 +548,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_4" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -584,7 +584,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_5" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -620,7 +620,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_6" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -657,7 +657,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_7" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -694,7 +694,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_8" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -730,7 +730,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_9" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -766,7 +766,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_10" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -803,7 +803,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_11" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -839,7 +839,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Poison_Tonic_12" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Poison Tonic</DisplayName>
@@ -876,7 +876,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_1" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -912,7 +912,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_2" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -949,7 +949,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_3" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -986,7 +986,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_4" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1023,7 +1023,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_5" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1060,7 +1060,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_6" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1097,7 +1097,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_7" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1134,7 +1134,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_8" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1170,7 +1170,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_9" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1207,7 +1207,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_10" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1223,7 +1223,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -1244,7 +1244,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_11" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1260,7 +1260,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -1281,7 +1281,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Tonic_12" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Tonic</DisplayName>
@@ -1297,7 +1297,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
-            <Stat Name="Hunger" Time="1" Value="-10" />
+            <Stat Name="Food" Time="1" Value="-10" />
             <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -1318,7 +1318,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_1" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1357,7 +1357,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_2" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1375,7 +1375,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1396,7 +1396,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_3" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1434,7 +1434,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_4" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1451,7 +1451,7 @@
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1472,7 +1472,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_5" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1510,7 +1510,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_6" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1527,7 +1527,7 @@
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1548,7 +1548,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_7" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1587,7 +1587,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_8" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1605,7 +1605,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Thirst" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1626,7 +1626,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_9" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1665,7 +1665,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_10" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1683,7 +1683,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Thirst" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1704,7 +1704,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_11" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1742,7 +1742,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_12" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1759,7 +1759,7 @@
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
             <Stat Name="Thirst" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1780,7 +1780,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_13" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1818,7 +1818,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_14" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1836,7 +1836,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Stamina" Time="10" Value="-1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1857,7 +1857,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_15" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1895,7 +1895,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_16" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1913,7 +1913,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Stamina" Time="10" Value="-1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -1934,7 +1934,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_17" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1971,7 +1971,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_18" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -1988,7 +1988,7 @@
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
             <Stat Name="Stamina" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2009,7 +2009,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_19" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -2047,7 +2047,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_20" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -2065,7 +2065,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Stamina" Time="10" Value="-1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2086,7 +2086,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_21" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -2124,7 +2124,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_22" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -2142,7 +2142,7 @@
             <Stat Name="Health" Time="10" Value="1" />
             <Stat Name="Stamina" Time="10" Value="-1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2163,7 +2163,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_23" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -2200,7 +2200,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Health_Ointment_24" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Health Ointment</DisplayName>
@@ -2217,7 +2217,7 @@
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
             <Stat Name="Stamina" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2238,7 +2238,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_1" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2275,7 +2275,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_2" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2292,7 +2292,7 @@
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2313,7 +2313,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_3" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2351,7 +2351,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_4" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2369,7 +2369,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2390,7 +2390,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_5" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2428,7 +2428,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_6" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2446,7 +2446,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
             <Stat Name="Health" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2467,7 +2467,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_7" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2505,7 +2505,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_8" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2523,7 +2523,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Thirst" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2544,7 +2544,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_9" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2582,7 +2582,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_10" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2600,7 +2600,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Thirst" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2621,7 +2621,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_11" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2659,7 +2659,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_12" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2677,7 +2677,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Thirst" Time="10" Value="1" />
             <Stat Name="Health" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2698,7 +2698,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_13" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2736,7 +2736,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_14" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2754,7 +2754,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
             <Stat Name="Mood" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2775,7 +2775,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_15" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2812,7 +2812,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_16" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2829,7 +2829,7 @@
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2850,7 +2850,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_17" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2888,7 +2888,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_18" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2906,7 +2906,7 @@
             <Stat Name="Stamina" Time="10" Value="1" />
             <Stat Name="Poison" Time="10" Value="1" />
             <Stat Name="Health" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -2927,7 +2927,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_19" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2943,7 +2943,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
             <Stat Name="Mood" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -2965,7 +2965,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_20" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -2981,7 +2981,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
             <Stat Name="Mood" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -3003,7 +3003,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_21" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -3019,7 +3019,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
             <Stat Name="Poison" Time="10" Value="1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -3041,7 +3041,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_22" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -3057,7 +3057,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
             <Stat Name="Poison" Time="10" Value="1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -3079,7 +3079,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_23" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -3095,7 +3095,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
             <Stat Name="Health" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>
@@ -3117,7 +3117,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Stamina_Ointment_24" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Stamina Ointment</DisplayName>
@@ -3133,7 +3133,7 @@
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
-            <Stat Name="Hunger" Time="10" Value="-1" />
+            <Stat Name="Food" Time="10" Value="-1" />
             <Stat Name="Health" Time="10" Value="-1" />
         </Stats>
         <UseSound>PlayEat</UseSound>

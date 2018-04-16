@@ -32,7 +32,7 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id Subtype="Water" Type="ConsumableItem" />
         <Public>true</Public>
         <DisplayName>Water</DisplayName>

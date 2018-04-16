@@ -61,7 +61,7 @@ class DriedIngredient(Item):
 
 class GroundIngredient(CraftableItem):
     def __init__(self, name, ingredient, ingredient_type, max_stack=16, crafting_time=3, consumable=False,
-                 categories=None, prereqs=None, results=None):
+                 categories=None, prereqs=None, results=None, hidden_without_prereqs=None):
 
         if not prereqs:
             prereqs = [(1, ingredient_type, ingredient)]
@@ -74,7 +74,7 @@ class GroundIngredient(CraftableItem):
 
         super(GroundIngredient, self).__init__(display_name=name.replace('_', ' '), subtype=name,
                                                max_stack=max_stack, crafting_time=crafting_time, consumable=consumable,
-                                               categories=categories, prereqs=prereqs, results=results)
+                                               categories=categories, prereqs=prereqs, results=results, hidden_without_prereqs=hidden_without_prereqs)
 
         if not self.description.text:
             self.description.text = "A powder made by grinding %s." % ingredient.replace('Ground_', '')

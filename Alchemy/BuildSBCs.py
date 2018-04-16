@@ -47,7 +47,9 @@ Craft Time
 Stack Size
 Filename
 Icon
-Tags"""
+Tags
+HiddenWithoutPrereqs
+"""
 
 
 # Ingredients and dried ingredients are not in final sheet, use ingredients sheet to generate
@@ -84,7 +86,7 @@ for filename in files:
                                              type=recipe[headers['Result 1 Type']],
                                              subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
                                              stats=build_stats(eff), prereqs=pre, tags=recipe[headers['Tags']],
-                                             results=res, categories=categories,
+                                             results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],
                                              crafting_time=recipe[headers['Craft Time']]))
 
     for x in processed_items:
