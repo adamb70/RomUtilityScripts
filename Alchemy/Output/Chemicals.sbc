@@ -264,7 +264,7 @@
         <Id Subtype="Quicklime" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Quicklime</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Lime" Type="InventoryItem" />
@@ -310,7 +310,7 @@
         <Id Subtype="Lime_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Lime</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Slacked_Lime" Type="InventoryItem" />
         </Prerequisites>
@@ -372,7 +372,7 @@
         <Id Subtype="Bone_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Bone Ash</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Bone" Type="InventoryItem" />
         </Prerequisites>
@@ -666,7 +666,7 @@
         <Id Subtype="Soda_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Soda Vitriolatus</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Vitrioli" Type="InventoryItem" />
@@ -697,7 +697,7 @@
         <Id Subtype="Tartarus_Vitriolatus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Tartarus Vitriolatus</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Tartarus_Vitrioli" Type="InventoryItem" />
@@ -728,7 +728,7 @@
         <Id Subtype="Gypsum" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gypsum</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Calx_Vitrioli" Type="InventoryItem" />
@@ -759,7 +759,7 @@
         <Id Subtype="Sulfur" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sulfur</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Tartarus_Vitriolatus" Type="InventoryItem" />
@@ -774,7 +774,7 @@
         <Id Subtype="Sulfur_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Sulfur</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Soda_Vitriolatus" Type="InventoryItem" />
@@ -1037,7 +1037,7 @@
         <Id Subtype="Pearl_Ash" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Pearl Ash</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Furnace</Category>
+        <Category>Alchemy_Furnace</Category>
         <Category>Alembic</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Potash" Type="InventoryItem" />
