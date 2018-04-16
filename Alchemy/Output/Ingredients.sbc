@@ -1,4 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Althea" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Althea</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Althea_Leaves" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Amaranth" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Amaranth</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Amaranth_Seeds" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
         <Id Subtype="Angelica" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
@@ -16,6 +55,44 @@
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Angelica_Roots" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Belladonna" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Belladonna</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Belladonna_Berries" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Broom" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Broom</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Broom_Flowers" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
@@ -57,63 +134,6 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Broom" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Broom</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Broom_Flowers" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Amaranth" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Amaranth</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Amaranth_Seeds" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Althea" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Althea</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Althea_Leaves" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
         <Id Subtype="Crimson_Thristle" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
@@ -133,10 +153,10 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Vervain" Type="DurableItem" />
+        <Id Subtype="Crocus" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Vervain</DisplayName>
+        <DisplayName>Crocus</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -148,83 +168,7 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Vervain_Flowers" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Rock_Willow" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Rock Willow</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Rock_Willow_Leaves" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Gilliflower" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Gilliflower</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Gilliflower_Buds" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Hemlock" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Hemlock</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Hemlock_Stems" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Knotweed" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Knotweed</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Knotweed_Shoots" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Crocus_Roots" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
@@ -247,10 +191,10 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Hoppan" Type="DurableItem" />
+        <Id Subtype="Gilliflower" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Hoppan</DisplayName>
+        <DisplayName>Gilliflower</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -262,7 +206,64 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Hoppan_Leaves" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Gilliflower_Buds" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Glasswort" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Glasswort</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Glasswort_Shoots" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Luceat" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Luceat</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Luceat_Berries" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Concordia" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Concordia</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Concordia_Mushroom" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
@@ -285,10 +286,10 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Belladonna" Type="DurableItem" />
+        <Id Subtype="Hemlock" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Belladonna</DisplayName>
+        <DisplayName>Hemlock</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -300,14 +301,14 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Belladonna_Berries" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Hemlock_Stems" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Glasswort" Type="DurableItem" />
+        <Id Subtype="Hoppan" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Glasswort</DisplayName>
+        <DisplayName>Hoppan</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -319,7 +320,26 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Glasswort_Shoots" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Hoppan_Leaves" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Knotweed" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Knotweed</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Knotweed_Shoots" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
@@ -361,10 +381,10 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Wormwood" Type="DurableItem" />
+        <Id Subtype="Rock_Willow" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Wormwood</DisplayName>
+        <DisplayName>Rock Willow</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -376,26 +396,7 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Wormwood_Stems" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Luceat" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Luceat</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Luceat_Berries" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Rock_Willow_Leaves" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
@@ -418,10 +419,10 @@
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Crocus" Type="DurableItem" />
+        <Id Subtype="Spalt" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Crocus</DisplayName>
+        <DisplayName>Spalt</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -433,14 +434,14 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Crocus_Roots" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Spalt_Roots" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Concordia" Type="DurableItem" />
+        <Id Subtype="Vervain" Type="DurableItem" />
         <Tag>Dryable_Ingredient</Tag>
         <Public>true</Public>
-        <DisplayName>Concordia</DisplayName>
+        <DisplayName>Vervain</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -452,7 +453,26 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Concordia_Mushroom" Type="MyObjectBuilder_InventoryItem" />
+        <BrokenItem Subtype="Dried_Vervain_Flowers" Type="MyObjectBuilder_InventoryItem" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
+        <Id Subtype="Wormwood" Type="DurableItem" />
+        <Tag>Dryable_Ingredient</Tag>
+        <Public>true</Public>
+        <DisplayName>Wormwood</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+        <MaxDurability>6</MaxDurability>
+        <BrokenItem Subtype="Dried_Wormwood_Stems" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
@@ -472,25 +492,6 @@
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Yarrow_Leaves" Type="MyObjectBuilder_InventoryItem" />
-    </Definition>
-    
-    <Definition xsi:type="MyObjectBuilder_DurableItemDefinition">
-        <Id Subtype="Spalt" Type="DurableItem" />
-        <Tag>Dryable_Ingredient</Tag>
-        <Public>true</Public>
-        <DisplayName>Spalt</DisplayName>
-        <Description />
-        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <PhysicalMaterial>None</PhysicalMaterial>
-        <Size>
-            <X>1</X>
-            <Z>1</Z>
-            <Y>1</Y>
-        </Size>
-        <Model />
-        <MaxStackAmount>16</MaxStackAmount>
-        <MaxDurability>6</MaxDurability>
-        <BrokenItem Subtype="Dried_Spalt_Roots" Type="MyObjectBuilder_InventoryItem" />
     </Definition>
 </Definitions>
 

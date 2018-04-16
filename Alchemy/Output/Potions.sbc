@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Anti_Poison_Potion_1" Type="ConsumableItem" />
@@ -14,8 +15,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Thirst" Time="1" Value="10" />
             <Stat Name="Poison" Time="1" Value="-10" />
+            <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -51,8 +52,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Thirst" Time="1" Value="10" />
             <Stat Name="Poison" Time="1" Value="-10" />
+            <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -88,8 +89,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Thirst" Time="1" Value="10" />
             <Stat Name="Poison" Time="1" Value="-10" />
+            <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -569,8 +570,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Stamina" Time="1" Value="-10" />
             <Stat Name="Health" Time="1" Value="10" />
+            <Stat Name="Stamina" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -606,8 +607,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Stamina" Time="1" Value="-10" />
             <Stat Name="Health" Time="1" Value="10" />
+            <Stat Name="Stamina" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -643,8 +644,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Stamina" Time="1" Value="-10" />
             <Stat Name="Health" Time="1" Value="10" />
+            <Stat Name="Stamina" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -680,8 +681,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Health" Time="1" Value="-10" />
             <Stat Name="Poison" Time="1" Value="10" />
+            <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -717,8 +718,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Health" Time="1" Value="-10" />
             <Stat Name="Poison" Time="1" Value="10" />
+            <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -754,8 +755,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Health" Time="1" Value="-10" />
             <Stat Name="Poison" Time="1" Value="10" />
+            <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -791,8 +792,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Thirst" Time="1" Value="10" />
             <Stat Name="Poison" Time="1" Value="10" />
+            <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -828,8 +829,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Thirst" Time="1" Value="10" />
             <Stat Name="Poison" Time="1" Value="10" />
+            <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>
@@ -865,8 +866,8 @@
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
-            <Stat Name="Thirst" Time="1" Value="10" />
             <Stat Name="Poison" Time="1" Value="10" />
+            <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
     </Definition>

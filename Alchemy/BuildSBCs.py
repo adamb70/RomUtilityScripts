@@ -100,4 +100,4 @@ for filename in files:
         completed_crafting[(x.id.attrib['Type'], old_subtype)] += 1
 
     indent(root)
-    ET.ElementTree(root).write('Output/'+filename, xml_declaration=True, method="xml")
+    ET.ElementTree(root).write('Output/'+filename, xml_declaration=True, method="xml", encoding="UTF-8")

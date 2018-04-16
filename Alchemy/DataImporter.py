@@ -21,7 +21,8 @@ class SheetCon(object):
     ss = None
 
     def connect(self):
-        scope = ['https://spreadsheets.google.com/feeds']
+        scope = ['https://spreadsheets.google.com/feeds',
+                 'https://www.googleapis.com/auth/drive']
         credentials = ServiceAccountCredentials.from_json_keyfile_name('../Mistvalin-b3c187e87518.json', scope)
         gc = gspread.authorize(credentials)
 
