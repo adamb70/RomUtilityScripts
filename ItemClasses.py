@@ -107,9 +107,9 @@ class Item(object):
             self.display_name.text = subtype.rstrip('1234567890').rstrip('_').replace('_', ' ')
 
         if tags:
-            for t in tags:
+            for t in tags.strip().split(','):
                 tag = ET.Element('Tag')
-                tag.text = t
+                tag.text = t.strip()
                 self.tags.append(tag)
 
         if stats is not None:

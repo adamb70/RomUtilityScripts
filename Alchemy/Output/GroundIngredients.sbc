@@ -1,6 +1,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Althea" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Althea</DisplayName>
         <Description />
@@ -32,6 +33,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Amaranth" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Amaranth</DisplayName>
         <Description />
@@ -63,6 +65,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Angelica" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Angelica</DisplayName>
         <Description />
@@ -94,6 +97,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Belladonna" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Belladonna</DisplayName>
         <Description />
@@ -125,6 +129,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Broom" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Broom</DisplayName>
         <Description />
@@ -156,6 +161,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Castor" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Castor</DisplayName>
         <Description />
@@ -187,6 +193,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Cinquefoil" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Cinquefoil</DisplayName>
         <Description />
@@ -218,6 +225,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Crimson Thristle</DisplayName>
         <Description />
@@ -249,6 +257,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Crocus" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Crocus</DisplayName>
         <Description />
@@ -280,6 +289,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Cloud Funnel</DisplayName>
         <Description />
@@ -311,6 +321,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Gilliflower" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Gilliflower</DisplayName>
         <Description />
@@ -342,6 +353,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Glasswort" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Glasswort</DisplayName>
         <Description />
@@ -373,6 +385,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Luceat" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Luceat</DisplayName>
         <Description />
@@ -404,6 +417,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Concordia" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Concordia</DisplayName>
         <Description />
@@ -435,6 +449,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Hellebore" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Hellebore</DisplayName>
         <Description />
@@ -466,6 +481,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Hemlock" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Hemlock</DisplayName>
         <Description />
@@ -497,6 +513,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Hoppan" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Hoppan</DisplayName>
         <Description />
@@ -528,6 +545,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Knotweed" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Knotweed</DisplayName>
         <Description />
@@ -559,6 +577,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Rock Lichen</DisplayName>
         <Description />
@@ -590,6 +609,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Mugwort" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Mugwort</DisplayName>
         <Description />
@@ -621,6 +641,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Rock_Willow" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Rock Willow</DisplayName>
         <Description />
@@ -652,6 +673,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Sage" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Sage</DisplayName>
         <Description />
@@ -683,6 +705,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Spalt" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Spalt</DisplayName>
         <Description />
@@ -714,6 +737,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Vervain" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Vervain</DisplayName>
         <Description />
@@ -745,6 +769,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Wormwood" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Wormwood</DisplayName>
         <Description />
@@ -776,6 +801,7 @@
     
     <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
         <Id Subtype="Ground_Yarrow" Type="InventoryItem" />
+        <Tag>Ground_Ingredient</Tag>
         <Public>true</Public>
         <DisplayName>Ground Yarrow</DisplayName>
         <Description />

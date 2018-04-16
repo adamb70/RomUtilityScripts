@@ -41,7 +41,7 @@ class SheetCon(object):
 
     def get_ingreds(self):
         ingred_ws = self.ss.worksheet('Ingredients')
-        return [x[:col('L') + 1] for x in ingred_ws.get_all_values()[1:] if any(x[:col('L') + 1])]
+        return [x[:col('M') + 1] for x in ingred_ws.get_all_values()[1:] if any(x[:col('M') + 1])]
 
     def get_final_recipes(self):
         recipes_ws = self.ss.worksheet('Final Recipes')
