@@ -22,7 +22,7 @@
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Table</Category>
         <Prerequisites>
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Water_Bucket" Type="CubeBlock" />
             <Item Amount="10" Subtype="Glass_Vial" Type="InventoryItem" />
         </Prerequisites>
         <Results>
@@ -32,10 +32,26 @@
         <CraftingTime Seconds="20" />
     </Definition>
     
-    <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-        <Id Subtype="Water" Type="ConsumableItem" />
+    <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+        <Id Subtype="Water_Vial_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <DisplayName>Water Vial</DisplayName>
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <Category>Alchemy_Table</Category>
+        <Prerequisites>
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
+            <Item Amount="5" Subtype="Glass_Vial" Type="InventoryItem" />
+        </Prerequisites>
+        <Results>
+            <Item Amount="5" Subtype="Water_Vial" Type="InventoryItem" />
+            <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
+        </Results>
+        <CraftingTime Seconds="20" />
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Water_Bucket" Type="CubeBlock" />
         <Public>true</Public>
-        <DisplayName>Water</DisplayName>
+        <DisplayName>Water Bucket</DisplayName>
         <Description />
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <PhysicalMaterial>None</PhysicalMaterial>
@@ -46,34 +62,35 @@
         </Size>
         <Model />
         <MaxStackAmount>16</MaxStackAmount>
-        <UseSound>PlayEat</UseSound>
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Water" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Water</DisplayName>
+        <Id Subtype="Water_Bucket" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <DisplayName>Water Bucket</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Water_Bucket" Type="CubeBlock" />
             <Item Amount="10" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-        <Id Subtype="Water_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-        <DisplayName>Water</DisplayName>
+        <Id Subtype="Water_Bucket_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+        <DisplayName>Water Bucket</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Pure_Water_Vial" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
         </Prerequisites>
         <Results>
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Water_Bucket" Type="CubeBlock" />
             <Item Amount="10" Subtype="Glass_Vial" Type="InventoryItem" />
         </Results>
         <CraftingTime Seconds="20" />

@@ -28,7 +28,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Althea_Tea" Type="ConsumableItem" />
@@ -64,7 +64,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Amaranth_Tea" Type="ConsumableItem" />
@@ -100,7 +100,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Angelica_Tea" Type="ConsumableItem" />
@@ -136,7 +136,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Belladonna_Tea" Type="ConsumableItem" />
@@ -172,7 +172,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Broom_Tea" Type="ConsumableItem" />
@@ -208,7 +208,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Castor_Tea" Type="ConsumableItem" />
@@ -243,7 +243,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
@@ -279,7 +279,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
@@ -315,7 +315,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Crocus_Tea" Type="ConsumableItem" />
@@ -351,7 +351,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
@@ -386,7 +386,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Gilliflower_Tea" Type="ConsumableItem" />
@@ -421,7 +421,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Glasswort_Tea" Type="ConsumableItem" />
@@ -456,7 +456,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Luceat_Tea" Type="ConsumableItem" />
@@ -492,7 +492,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Concordia_Tea" Type="ConsumableItem" />
@@ -528,7 +528,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Hellebore_Tea" Type="ConsumableItem" />
@@ -564,7 +564,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Hemlock_Tea" Type="ConsumableItem" />
@@ -600,7 +600,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Hoppan_Tea" Type="ConsumableItem" />
@@ -635,7 +635,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Knotweed_Tea" Type="ConsumableItem" />
@@ -670,7 +670,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
@@ -705,7 +705,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Mugwort_Tea" Type="ConsumableItem" />
@@ -741,7 +741,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
@@ -776,7 +776,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Sage_Tea" Type="ConsumableItem" />
@@ -812,7 +812,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Spalt_Tea" Type="ConsumableItem" />
@@ -847,7 +847,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Vervain_Tea" Type="ConsumableItem" />
@@ -883,7 +883,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Wormwood_Tea" Type="ConsumableItem" />
@@ -919,7 +919,7 @@
         <Category>Simple_Alchemy_Stand</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Water" Type="ConsumableItem" />
+            <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Yarrow_Tea" Type="ConsumableItem" />
