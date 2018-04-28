@@ -49,6 +49,8 @@ Filename
 Icon
 Tags
 HiddenWithoutPrereqs
+Returned Item, Type 1
+Returned Item, Type 2
 """
 
 
@@ -80,10 +82,16 @@ for filename in files:
                (recipe[headers['Effect 3']], recipe[headers['Effect 3 Amount']], recipe[headers['Effect 3 Time']]),
                (recipe[headers['Effect 4']], recipe[headers['Effect 4 Amount']], recipe[headers['Effect 4 Time']])]
 
+        returned_items = []
+        if recipe[headers['Returned Item, Type 1']]:
+            returned_items.append(tuple(x.strip() for x in recipe[headers['Returned Item, Type 1']].strip().split(',')))
+        if recipe[headers['Returned Item, Type 2']]:
+            returned_items.append(tuple(x.strip() for x in recipe[headers['Returned Item, Type 2']].strip().split(',')))
+
         categories = recipe[headers['Categories']].strip().split(',')
 
         processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']],
-                                             type=recipe[headers['Result 1 Type']],
+                                             type=recipe[headers['Result 1 Type']], returned_items=returned_items,
                                              subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
                                              stats=build_stats(eff), prereqs=pre, tags=recipe[headers['Tags']],
                                              results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],

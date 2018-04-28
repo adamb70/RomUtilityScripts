@@ -19,6 +19,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -56,6 +57,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -93,6 +95,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -130,6 +133,7 @@
             <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -167,6 +171,7 @@
             <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -204,6 +209,7 @@
             <Stat Name="Food" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -241,6 +247,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -278,6 +285,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -315,6 +323,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -352,6 +361,7 @@
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -389,6 +399,7 @@
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -426,6 +437,7 @@
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -463,6 +475,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -500,6 +513,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -537,6 +551,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -574,6 +589,7 @@
             <Stat Name="Stamina" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -611,6 +627,7 @@
             <Stat Name="Stamina" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -648,6 +665,7 @@
             <Stat Name="Stamina" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -685,6 +703,7 @@
             <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -722,6 +741,7 @@
             <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -759,6 +779,7 @@
             <Stat Name="Health" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -796,6 +817,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -833,6 +855,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -870,6 +893,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -907,6 +931,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -944,6 +969,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -981,6 +1007,7 @@
             <Stat Name="Thirst" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1018,6 +1045,7 @@
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1055,6 +1083,7 @@
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1092,6 +1121,7 @@
             <Stat Name="Mood" Time="1" Value="-10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1129,6 +1159,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1166,6 +1197,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1203,6 +1235,7 @@
             <Stat Name="Poison" Time="1" Value="10" />
         </Stats>
         <UseSound>PlayEat</UseSound>
+        <ReturnedItem Subtype="Glass_Vial" Type="InventoryItem" />
     </Definition>
     
     <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">

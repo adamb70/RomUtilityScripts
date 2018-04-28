@@ -65,10 +65,11 @@ class Item(object):
     consumable = False
     stats = None
     use_sound = None
+    returned_items = None # List of elements
 
     def __init__(self, type="InventoryItem", subtype="", max_stack=16, health=200, mass=2, size=(1, 1, 1), model="",
                  icon="", description="", display_name="", tags=None, consumable=False, stats=None, material="None",
-                 **kwargs):
+                 returned_items=list(), **kwargs):
 
         self.id = ET.Element('Id')
         self.max_stack = ET.Element('MaxStackAmount')
@@ -114,16 +115,25 @@ class Item(object):
                 tag.text = t.strip()
                 self.tags.append(tag)
 
-        if stats is not None:
-            self.stats = ET.Element('Stats')
-            for k, (x, y) in stats.items():
-                stat = ET.Element('Stat')
-                stat.attrib['Name'] = k
-                stat.attrib['Value'] = str(x)
-                stat.attrib['Time'] = str(y)
-                self.stats.append(stat)
+        if self.consumable:
+            if stats is not None:
+                self.stats = ET.Element('Stats')
+                for k, (x, y) in stats.items():
+                    stat = ET.Element('Stat')
+                    stat.attrib['Name'] = k
+                    stat.attrib['Value'] = str(x)
+                    stat.attrib['Time'] = str(y)
+                    self.stats.append(stat)
             self.use_sound = ET.Element('UseSound')
             self.use_sound.text = "PlayEat"
+            if returned_items:
+                self.returned_items = []
+                for item in returned_items:
+                    ret = ET.Element('ReturnedItem')
+                    ret.attrib['Type'] = item[1]
+                    ret.attrib['Subtype'] = item[0]
+                    self.returned_items.append(ret)
+
         super(Item, self).__init__(**kwargs)
 
     def __repr__(self):
@@ -157,6 +167,8 @@ class Item(object):
             if list(self.stats):
                 root.append(self.stats)
             root.append(self.use_sound)
+            for item in self.returned_items:
+                root.append(item)
 
         return root
 
