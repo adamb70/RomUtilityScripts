@@ -51,6 +51,8 @@ Tags
 HiddenWithoutPrereqs
 Returned Item, Type 1
 Returned Item, Type 2
+Crafting Recipe Only
+Model
 """
 
 
@@ -90,17 +92,18 @@ for filename in files:
 
         categories = recipe[headers['Categories']].strip().split(',')
 
-        processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']],
+        processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']], model=recipe[headers['Model']],
                                              type=recipe[headers['Result 1 Type']], returned_items=returned_items,
                                              subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
                                              stats=build_stats(eff), prereqs=pre, tags=recipe[headers['Tags']],
                                              results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],
-                                             crafting_time=recipe[headers['Craft Time']]))
+                                             crafting_time=recipe[headers['Craft Time']], recipe_only=recipe[headers['Crafting Recipe Only']]))
 
     for x in processed_items:
-        if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
-            root.append(x.build_item_def())
-            completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
+        if not x.recipe_only:
+            if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
+                root.append(x.build_item_def())
+                completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
 
         old_subtype = x.id.attrib['Subtype']
         if completed_crafting[(x.id.attrib['Type'], old_subtype)] > 0:
