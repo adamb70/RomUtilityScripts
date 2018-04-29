@@ -3,7 +3,7 @@ def indent(elem, level=0, tabs=False):
     if tabs:
         spacer = "\t"
     else:
-        spacer = "    "
+        spacer = "  "
     i = "\n" + level * spacer
     if len(elem):
         if not elem.text or not elem.text.strip():
