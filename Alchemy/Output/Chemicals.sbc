@@ -27,7 +27,7 @@
         </Prerequisites>
         <Results>
             <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
@@ -55,7 +55,7 @@
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Water_Vial" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Water_Bucket" Type="CubeBlock" />
@@ -71,7 +71,7 @@
         <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="10" Subtype="Pure_Water_Vial" Type="InventoryItem" />
-            <Item Amount="1" Subtype="Bucket" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Water_Bucket" Type="CubeBlock" />
@@ -136,7 +136,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -166,7 +166,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -197,7 +197,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -228,7 +228,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -258,7 +258,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -289,7 +289,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -366,7 +366,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -376,7 +376,7 @@
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
         <Category>Alchemy_Furnace</Category>
         <Prerequisites>
-            <Item Amount="1" Subtype="Bone" Type="InventoryItem" />
+            <Item Amount="1" Subtype="Bones" Type="ConsumableItem" />
         </Prerequisites>
         <Results>
             <Item Amount="1" Subtype="Bone_Ash" Type="InventoryItem" />
@@ -396,7 +396,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -522,7 +522,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -568,7 +568,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -614,7 +614,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -660,7 +660,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -691,7 +691,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -722,7 +722,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -753,7 +753,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -799,7 +799,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -830,7 +830,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -861,7 +861,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -892,7 +892,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -923,7 +923,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -969,7 +969,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1000,7 +1000,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1031,7 +1031,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1062,7 +1062,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1070,7 +1070,7 @@
         <Id Subtype="Gunpowder" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gunpowder</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Alchemy Table</Category>
+        <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
             <Item Amount="1" Subtype="Saltpeter" Type="InventoryItem" />
@@ -1086,7 +1086,7 @@
         <Id Subtype="Gunpowder_2" Type="MyObjectBuilder_CraftingRecipeDefinition" />
         <DisplayName>Gunpowder</DisplayName>
         <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-        <Category>Alchemy Table</Category>
+        <Category>Alchemy_Table</Category>
         <Prerequisites>
             <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
             <Item Amount="1" Subtype="Soda_Nitre" Type="InventoryItem" />
@@ -1110,7 +1110,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1160,7 +1160,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1206,7 +1206,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1237,7 +1237,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1268,7 +1268,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1299,7 +1299,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1360,7 +1360,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1391,7 +1391,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1422,7 +1422,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1453,7 +1453,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1514,7 +1514,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1545,7 +1545,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1591,7 +1591,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1622,7 +1622,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1653,7 +1653,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1684,7 +1684,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1730,7 +1730,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1761,7 +1761,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1822,7 +1822,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1868,7 +1868,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1899,7 +1899,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1930,7 +1930,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -2006,7 +2006,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -2037,7 +2037,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -2068,7 +2068,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -3752,7 +3752,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -3783,7 +3783,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -3815,7 +3815,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -3941,7 +3941,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -3972,7 +3972,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -3988,7 +3988,39 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="White_Ash" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>White Ash</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Black_Ash" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Black Ash</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
 </Definitions>
