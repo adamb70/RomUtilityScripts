@@ -51,7 +51,7 @@ Tags
 HiddenWithoutPrereqs
 Returned Item, Type 1
 Returned Item, Type 2
-Crafting Recipe Only
+Build Data Type
 Model
 """
 
@@ -61,7 +61,9 @@ BuildIngredients.build_ingredients_from_sheet(generate_ground=False)
 
 files = defaultdict(list)
 for recipe in recipe_list:
-    files[recipe[headers['Filename']]].append(recipe)
+    filename = recipe[headers['Filename']]
+    if filename != '':
+        files[filename].append(recipe)
 
 
 completed_items = set()
@@ -97,20 +99,21 @@ for filename in files:
                                              subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
                                              stats=build_stats(eff), prereqs=pre, tags=recipe[headers['Tags']],
                                              results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],
-                                             crafting_time=recipe[headers['Craft Time']], recipe_only=recipe[headers['Crafting Recipe Only']]))
+                                             crafting_time=recipe[headers['Craft Time']], data_type=recipe[headers['Build Data Type']]))
 
     for x in processed_items:
-        if not x.recipe_only:
+        if not x.data_type == 'CRAFTING':
             if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
                 root.append(x.build_item_def())
                 completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
 
-        old_subtype = x.id.attrib['Subtype']
-        if completed_crafting[(x.id.attrib['Type'], old_subtype)] > 0:
-            x.id.attrib['Subtype'] = old_subtype + '_' + str(completed_crafting[(x.id.attrib['Type'], x.id.attrib['Subtype'])] + 1)
+        if not x.data_type == 'ITEM':
+            old_subtype = x.id.attrib['Subtype']
+            if completed_crafting[(x.id.attrib['Type'], old_subtype)] > 0:
+                x.id.attrib['Subtype'] = old_subtype + '_' + str(completed_crafting[(x.id.attrib['Type'], x.id.attrib['Subtype'])] + 1)
 
-        root.append(x.build_crafting_def())
-        completed_crafting[(x.id.attrib['Type'], old_subtype)] += 1
+            root.append(x.build_crafting_def())
+            completed_crafting[(x.id.attrib['Type'], old_subtype)] += 1
 
     indent(root)
     ET.ElementTree(root).write('Output/'+filename, xml_declaration=True, method="xml", encoding="UTF-8")

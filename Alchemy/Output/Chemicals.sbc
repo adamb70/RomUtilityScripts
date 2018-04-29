@@ -3959,5 +3959,37 @@
         </Results>
         <CraftingTime Seconds="20" />
     </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Spiritus_Nitrum" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Spiritus Nitrum</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+        <Id Subtype="Spiritus_Salis" Type="InventoryItem" />
+        <Public>true</Public>
+        <DisplayName>Spiritus Salis</DisplayName>
+        <Description />
+        <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+        <PhysicalMaterial>None</PhysicalMaterial>
+        <Size>
+            <X>1</X>
+            <Z>1</Z>
+            <Y>1</Y>
+        </Size>
+        <Model />
+        <MaxStackAmount>16</MaxStackAmount>
+    </Definition>
 </Definitions>
 

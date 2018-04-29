@@ -61,7 +61,7 @@ class Item(object):
     description = None
     display_name = None
     tags = None
-    recipe_only = False
+    data_type = 'BOTH'
 
     consumable = False
     stats = None
@@ -70,7 +70,7 @@ class Item(object):
 
     def __init__(self, type="InventoryItem", subtype="", max_stack=16, health=200, mass=2, size=(1, 1, 1), model="",
                  icon="", description="", display_name="", tags=None, consumable=False, stats=None, material="None",
-                 returned_items=list(), recipe_only=False, **kwargs):
+                 returned_items=list(), data_type='BOTH', **kwargs):
 
         self.id = ET.Element('Id')
         self.max_stack = ET.Element('MaxStackAmount')
@@ -135,8 +135,7 @@ class Item(object):
                     ret.attrib['Subtype'] = item[0]
                     self.returned_items.append(ret)
 
-        if recipe_only == 'TRUE':
-            self.recipe_only = True
+        self.data_type = data_type
 
         super(Item, self).__init__(**kwargs)
 
