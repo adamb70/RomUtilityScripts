@@ -12,7 +12,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -43,7 +43,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -74,7 +74,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -105,7 +105,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -136,7 +136,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -167,7 +167,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -198,7 +198,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -229,7 +229,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -347,7 +347,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -395,7 +395,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -441,7 +441,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -517,7 +517,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -578,7 +578,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -639,7 +639,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -700,7 +700,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -776,7 +776,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -809,7 +809,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -842,7 +842,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -875,7 +875,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -908,7 +908,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -972,7 +972,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1004,7 +1004,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1068,7 +1068,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1100,7 +1100,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1132,7 +1132,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1164,7 +1164,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1196,7 +1196,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1228,7 +1228,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1260,7 +1260,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -1292,7 +1292,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     

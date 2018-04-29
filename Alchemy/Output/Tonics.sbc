@@ -12,7 +12,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -51,7 +51,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -89,7 +89,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="-10" />
@@ -127,7 +127,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -166,7 +166,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -205,7 +205,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="-10" />
@@ -243,7 +243,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -282,7 +282,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -321,7 +321,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="-10" />
@@ -359,7 +359,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -398,7 +398,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="10" />
@@ -437,7 +437,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="1" Value="-10" />
@@ -475,7 +475,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -514,7 +514,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -552,7 +552,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -590,7 +590,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -628,7 +628,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -666,7 +666,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -705,7 +705,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -744,7 +744,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -782,7 +782,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -820,7 +820,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -859,7 +859,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -897,7 +897,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Poison" Time="1" Value="10" />
@@ -936,7 +936,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -974,7 +974,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1013,7 +1013,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1052,7 +1052,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1091,7 +1091,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1130,7 +1130,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1169,7 +1169,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1208,7 +1208,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1246,7 +1246,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1285,7 +1285,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1324,7 +1324,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1363,7 +1363,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="1" Value="10" />
@@ -1402,7 +1402,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1443,7 +1443,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1484,7 +1484,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1524,7 +1524,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1564,7 +1564,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -1604,7 +1604,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -1644,7 +1644,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1685,7 +1685,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1726,7 +1726,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1767,7 +1767,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1808,7 +1808,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -1848,7 +1848,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -1888,7 +1888,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1928,7 +1928,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -1969,7 +1969,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -2009,7 +2009,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -2050,7 +2050,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -2089,7 +2089,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -2129,7 +2129,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -2169,7 +2169,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -2210,7 +2210,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -2250,7 +2250,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="1" />
@@ -2291,7 +2291,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -2330,7 +2330,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Health" Time="10" Value="-1" />
@@ -2370,7 +2370,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2409,7 +2409,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2449,7 +2449,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2489,7 +2489,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2530,7 +2530,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2570,7 +2570,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2611,7 +2611,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2651,7 +2651,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2692,7 +2692,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2732,7 +2732,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2773,7 +2773,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2813,7 +2813,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2854,7 +2854,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2894,7 +2894,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -2935,7 +2935,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -2974,7 +2974,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -3014,7 +3014,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -3054,7 +3054,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -3095,7 +3095,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -3135,7 +3135,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -3175,7 +3175,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -3215,7 +3215,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />
@@ -3255,7 +3255,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="-1" />
@@ -3295,7 +3295,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Universal\potion_strength.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <Stats>
             <Stat Name="Stamina" Time="10" Value="1" />

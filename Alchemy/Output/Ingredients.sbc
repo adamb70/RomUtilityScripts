@@ -13,7 +13,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Althea_Leaves" Type="MyObjectBuilder_InventoryItem" />
@@ -32,7 +32,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Amaranth_Seeds" Type="MyObjectBuilder_InventoryItem" />
@@ -51,7 +51,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Angelica_Roots" Type="MyObjectBuilder_InventoryItem" />
@@ -70,7 +70,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Belladonna_Berries" Type="MyObjectBuilder_InventoryItem" />
@@ -89,7 +89,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Broom_Flowers" Type="MyObjectBuilder_InventoryItem" />
@@ -108,7 +108,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Castor_Beans" Type="MyObjectBuilder_InventoryItem" />
@@ -127,7 +127,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Cinquefoil_Flowers" Type="MyObjectBuilder_InventoryItem" />
@@ -146,7 +146,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Crimson_Thristle_Stems" Type="MyObjectBuilder_InventoryItem" />
@@ -165,7 +165,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Crocus_Roots" Type="MyObjectBuilder_InventoryItem" />
@@ -184,7 +184,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Cloud_Funnel_Mushroom" Type="MyObjectBuilder_InventoryItem" />
@@ -203,7 +203,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Gilliflower_Buds" Type="MyObjectBuilder_InventoryItem" />
@@ -222,7 +222,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Glasswort_Shoots" Type="MyObjectBuilder_InventoryItem" />
@@ -241,7 +241,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Luceat_Berries" Type="MyObjectBuilder_InventoryItem" />
@@ -260,7 +260,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Concordia_Mushroom" Type="MyObjectBuilder_InventoryItem" />
@@ -279,7 +279,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Hellebore_Flowers" Type="MyObjectBuilder_InventoryItem" />
@@ -298,7 +298,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Hemlock_Stems" Type="MyObjectBuilder_InventoryItem" />
@@ -317,7 +317,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Hoppan_Leaves" Type="MyObjectBuilder_InventoryItem" />
@@ -336,7 +336,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Knotweed_Shoots" Type="MyObjectBuilder_InventoryItem" />
@@ -355,7 +355,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Rock_Lichen" Type="MyObjectBuilder_InventoryItem" />
@@ -374,7 +374,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Mugwort_Stems" Type="MyObjectBuilder_InventoryItem" />
@@ -393,7 +393,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Rock_Willow_Leaves" Type="MyObjectBuilder_InventoryItem" />
@@ -412,7 +412,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Sage_Leaves" Type="MyObjectBuilder_InventoryItem" />
@@ -431,7 +431,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Spalt_Roots" Type="MyObjectBuilder_InventoryItem" />
@@ -450,7 +450,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Vervain_Flowers" Type="MyObjectBuilder_InventoryItem" />
@@ -469,7 +469,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Wormwood_Stems" Type="MyObjectBuilder_InventoryItem" />
@@ -488,7 +488,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
         <MaxDurability>6</MaxDurability>
         <BrokenItem Subtype="Dried_Yarrow_Leaves" Type="MyObjectBuilder_InventoryItem" />

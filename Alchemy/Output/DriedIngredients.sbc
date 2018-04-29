@@ -13,7 +13,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -30,7 +30,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -47,7 +47,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -64,7 +64,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -81,7 +81,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -98,7 +98,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -115,7 +115,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -132,7 +132,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -149,7 +149,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -166,7 +166,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -183,7 +183,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -200,7 +200,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -217,7 +217,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -234,7 +234,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -251,7 +251,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -268,7 +268,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -285,7 +285,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -302,7 +302,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -319,7 +319,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -336,7 +336,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -353,7 +353,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -370,7 +370,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -387,7 +387,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -404,7 +404,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -421,7 +421,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
     
@@ -438,7 +438,7 @@
             <Z>1</Z>
             <Y>1</Y>
         </Size>
-        <Model />
+        <Model>Models\Consumables\Herbs.mwm</Model>
         <MaxStackAmount>16</MaxStackAmount>
     </Definition>
 </Definitions>
