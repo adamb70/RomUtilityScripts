@@ -24,9 +24,12 @@ class Craftable(object):
                 if amount == "SET MANUALLY":
                     amount = 1
 
+                if type.lower() == 'tag':
+                    item.attrib['Tag'] = subtype
+                else:
+                    item.attrib['Type'] = type
+                    item.attrib['Subtype'] = subtype
                 item.attrib['Amount'] = str(amount)
-                item.attrib['Type'] = type
-                item.attrib['Subtype'] = subtype
                 self.prereqs.append(item)
         if results:
             self.results = ET.Element('Results')
@@ -37,9 +40,12 @@ class Craftable(object):
                 if amount == "SET MANUALLY":
                     amount = 1
 
+                if type.lower() == 'tag':
+                    item.attrib['Tag'] = subtype
+                else:
+                    item.attrib['Type'] = type
+                    item.attrib['Subtype'] = subtype
                 item.attrib['Amount'] = str(amount)
-                item.attrib['Type'] = type
-                item.attrib['Subtype'] = subtype
                 self.results.append(item)
         if categories:
             self.categories = []

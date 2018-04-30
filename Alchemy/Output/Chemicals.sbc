@@ -1247,7 +1247,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Cauldron</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Pot_lye" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Pot_Lye" Type="InventoryItem" />
       <Item Amount="1" Subtype="Pure_Water_Vial" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -1401,7 +1401,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Cauldron</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Soda_lye" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Soda_Lye" Type="InventoryItem" />
       <Item Amount="1" Subtype="Pure_Water_Vial" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -1719,9 +1719,9 @@
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-    <Id Subtype="Pot_lye" Type="InventoryItem" />
+    <Id Subtype="Pot_Lye" Type="InventoryItem" />
     <Public>true</Public>
-    <DisplayName>Pot lye</DisplayName>
+    <DisplayName>Pot Lye</DisplayName>
     <Description />
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
@@ -1735,8 +1735,8 @@
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-    <Id Subtype="Pot_lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-    <DisplayName>Pot lye</DisplayName>
+    <Id Subtype="Pot_Lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Pot Lye</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Cauldron</Category>
     <Category>Alembic</Category>
@@ -1744,7 +1744,7 @@
       <Item Amount="1" Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
     </Prerequisites>
     <Results>
-      <Item Amount="1" Subtype="Pot_lye" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Pot_Lye" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
   </Definition>
@@ -1857,9 +1857,9 @@
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
-    <Id Subtype="Soda_lye" Type="InventoryItem" />
+    <Id Subtype="Soda_Lye" Type="InventoryItem" />
     <Public>true</Public>
-    <DisplayName>Soda lye</DisplayName>
+    <DisplayName>Soda Lye</DisplayName>
     <Description />
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
@@ -1873,8 +1873,8 @@
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
-    <Id Subtype="Soda_lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
-    <DisplayName>Soda lye</DisplayName>
+    <Id Subtype="Soda_Lye" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Soda Lye</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Cauldron</Category>
     <Category>Alembic</Category>
@@ -1882,7 +1882,7 @@
       <Item Amount="1" Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
     </Prerequisites>
     <Results>
-      <Item Amount="1" Subtype="Soda_lye" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Soda_Lye" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
   </Definition>
@@ -3762,7 +3762,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Wood" Type="InventoryItem" />
+      <Item Amount="1" Tag="Universal_Timber" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Pine_Tar" Type="InventoryItem" />
@@ -4012,6 +4012,22 @@
     <Id Subtype="Black_Ash" Type="InventoryItem" />
     <Public>true</Public>
     <DisplayName>Black Ash</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Natron" Type="InventoryItem" />
+    <Public>true</Public>
+    <DisplayName>Natron</DisplayName>
     <Description />
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
