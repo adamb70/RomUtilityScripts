@@ -857,5 +857,68 @@
     <CraftingTime Seconds="20" />
     <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Ennerite_Powder" Type="InventoryItem" />
+    <Tag>Ground_Ingredient</Tag>
+    <Public>true</Public>
+    <DisplayName>Ennerite Powder</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Alchemy\Items\GroundHerbs.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Ennerite_Powder" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Ennerite Powder</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Mortar_Pestle</Category>
+    <Prerequisites>
+      <Item Amount="1" Subtype="Ennerite_Raw" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="5" Subtype="Ennerite_Powder" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Cinnabar_Powder" Type="InventoryItem" />
+    <Tag>Ground_Ingredient</Tag>
+    <Public>true</Public>
+    <DisplayName>Cinnabar Powder</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Alchemy\Items\GroundHerbs.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Cinnabar_Powder" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Cinnabar Powder</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Grind_Stone</Category>
+    <Category>Mortar_Pestle</Category>
+    <Prerequisites>
+      <Item Amount="1" Subtype="Cinnabar_Raw" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="5" Subtype="Cinnabar_Powder" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+  </Definition>
 </Definitions>
 

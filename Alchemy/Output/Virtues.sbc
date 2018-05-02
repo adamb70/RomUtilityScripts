@@ -466,7 +466,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Cauldron</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Prepd_Saffron_Crocus_Essence" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Prepd_Crocus_Essence" Type="InventoryItem" />
       <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -481,7 +481,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Cauldron</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Prepd_Spalt_Roots_Essence" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Prepd_Spalt_Essence" Type="InventoryItem" />
       <Item Amount="1" Subtype="Virtue_of_Purification" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -892,6 +892,102 @@
     <Results>
       <Item Amount="1" Subtype="Lixivium_of_Luna" Type="InventoryItem" />
       <Item Amount="2" Subtype="Glass_Vial" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Lixivium_of_Mercury" Type="InventoryItem" />
+    <Public>true</Public>
+    <DisplayName>Lixivium of Mercury</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Universal\potion_strength.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Lixivium_of_Mercury" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Lixivium of Mercury</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Cauldron</Category>
+    <Prerequisites>
+      <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Lixivium_of_Saturn" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="1" Subtype="Lixivium_of_Mercury" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Lixivium_of_Venus" Type="InventoryItem" />
+    <Public>true</Public>
+    <DisplayName>Lixivium of Venus</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Universal\potion_strength.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Lixivium_of_Venus" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Lixivium of Venus</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Cauldron</Category>
+    <Prerequisites>
+      <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Lixivium_of_Jupiter" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="1" Subtype="Lixivium_of_Venus" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Lixivium_of_Mars" Type="InventoryItem" />
+    <Public>true</Public>
+    <DisplayName>Lixivium of Mars</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Universal\potion_strength.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Lixivium_of_Mars" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Lixivium of Mars</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Cauldron</Category>
+    <Prerequisites>
+      <Item Amount="1" Subtype="Oyle_of_Opposition" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Lixivium_of_Sol" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="1" Subtype="Lixivium_of_Mars" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
   </Definition>

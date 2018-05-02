@@ -406,7 +406,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Mercury" Type="InventoryItem" />
@@ -420,7 +420,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic_Imbue</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
       <Item Amount="1" Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -436,7 +436,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic_Imbue</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
       <Item Amount="1" Subtype="Milk_of_Soda" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -452,7 +452,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic_Imbue</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
       <Item Amount="1" Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -468,7 +468,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic_Imbue</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
       <Item Amount="1" Subtype="Milk_of_Tartar" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -484,7 +484,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic_Imbue</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
       <Item Amount="1" Subtype="Milk_of_Lime" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -500,7 +500,7 @@
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
     <Category>Alembic_Imbue</Category>
     <Prerequisites>
-      <Item Amount="1" Subtype="Cinnabar" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Cinnabar_Powder" Type="InventoryItem" />
       <Item Amount="1" Subtype="Slacked_Lime" Type="InventoryItem" />
     </Prerequisites>
     <Results>
@@ -3798,7 +3798,7 @@
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Bitumen" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Soil" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Dirt" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
   </Definition>
