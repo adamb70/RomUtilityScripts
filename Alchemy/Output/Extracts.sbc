@@ -20,7 +20,7 @@
     <Id Subtype="Althea_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Althea Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Althea_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -30,6 +30,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -52,7 +53,7 @@
     <Id Subtype="Amaranth_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Amaranth Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Amaranth_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -62,6 +63,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -84,7 +86,7 @@
     <Id Subtype="Angelica_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Angelica Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Angelica_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -94,6 +96,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -116,7 +119,7 @@
     <Id Subtype="Belladonna_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Belladonna Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Belladonna_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -126,6 +129,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -148,7 +152,7 @@
     <Id Subtype="Broom_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Broom Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Broom_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -158,6 +162,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -180,7 +185,7 @@
     <Id Subtype="Castor_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Castor Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Castor_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -190,6 +195,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -212,7 +218,7 @@
     <Id Subtype="Cinquefoil_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Cinquefoil Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -222,6 +228,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -244,7 +251,7 @@
     <Id Subtype="Crimson_Thristle_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Crimson Thristle Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -254,6 +261,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -276,7 +284,7 @@
     <Id Subtype="Crocus_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Crocus Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Crocus_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -286,6 +294,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -308,7 +317,7 @@
     <Id Subtype="Cloud_Funnel_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Cloud Funnel Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -318,6 +327,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -340,7 +350,7 @@
     <Id Subtype="Gilliflower_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Gilliflower Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Gilliflower_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -350,6 +360,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -372,7 +383,7 @@
     <Id Subtype="Glasswort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Glasswort Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Glasswort_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -382,6 +393,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -404,7 +416,7 @@
     <Id Subtype="Luceat_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Luceat Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Luceat_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -414,6 +426,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -436,7 +449,7 @@
     <Id Subtype="Concordia_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Concordia Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Concordia_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -446,6 +459,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -468,7 +482,7 @@
     <Id Subtype="Hellebore_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hellebore Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Hellebore_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -478,6 +492,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -500,7 +515,7 @@
     <Id Subtype="Hemlock_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hemlock Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Hemlock_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -510,6 +525,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -532,7 +548,7 @@
     <Id Subtype="Hoppan_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hoppan Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Hoppan_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -542,6 +558,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -564,7 +581,7 @@
     <Id Subtype="Knotweed_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Knotweed Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Knotweed_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -574,6 +591,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -596,7 +614,7 @@
     <Id Subtype="Rock_Lichen_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Rock Lichen Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -606,6 +624,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -628,7 +647,7 @@
     <Id Subtype="Mugwort_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Mugwort Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Mugwort_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -638,6 +657,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -660,7 +680,7 @@
     <Id Subtype="Rock_Willow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Rock Willow Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -670,6 +690,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -692,7 +713,7 @@
     <Id Subtype="Sage_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Sage Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Sage_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -702,6 +723,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -724,7 +746,7 @@
     <Id Subtype="Spalt_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Spalt Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Spalt_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -734,6 +756,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -756,7 +779,7 @@
     <Id Subtype="Vervain_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Vervain Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Vervain_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -766,6 +789,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -788,7 +812,7 @@
     <Id Subtype="Wormwood_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Wormwood Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Wormwood_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -798,6 +822,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -820,7 +845,7 @@
     <Id Subtype="Yarrow_Extract" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Yarrow Extract</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Yarrow_Tea" Type="ConsumableItem" />
       <Item Amount="1" Subtype="Glass_Vial" Type="InventoryItem" />
@@ -830,6 +855,7 @@
       <Item Amount="1" Subtype="JarClay" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -847,6 +873,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -864,6 +891,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -881,6 +909,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -898,6 +927,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -915,6 +945,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -932,6 +963,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -949,6 +981,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -966,6 +999,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -983,6 +1017,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1000,6 +1035,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1017,6 +1053,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1034,6 +1071,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1051,6 +1089,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1068,6 +1107,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1085,6 +1125,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1102,6 +1143,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1119,6 +1161,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1136,6 +1179,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1153,6 +1197,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1170,6 +1215,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1187,6 +1233,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1204,6 +1251,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1221,6 +1269,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1238,6 +1287,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1255,6 +1305,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1272,6 +1323,7 @@
       <Item Amount="1" Subtype="Empty_Bucket" Type="CubeBlock" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
 </Definitions>
 

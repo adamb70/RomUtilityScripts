@@ -152,6 +152,7 @@
       <Item Amount="1" Subtype="Soda_Ash" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -183,6 +184,7 @@
       <Item Amount="1" Subtype="Milk_of_Soda" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -214,6 +216,7 @@
       <Item Amount="1" Subtype="Milk_of_Tartar" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -244,6 +247,7 @@
       <Item Amount="1" Subtype="Lime" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -275,6 +279,7 @@
       <Item Amount="1" Subtype="Quicklime" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -306,6 +311,7 @@
       <Item Amount="1" Subtype="Mortar" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -320,6 +326,7 @@
       <Item Amount="1" Subtype="Lime" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -336,6 +343,7 @@
       <Item Amount="1" Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -352,6 +360,7 @@
       <Item Amount="1" Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -382,6 +391,7 @@
       <Item Amount="1" Subtype="Bone_Ash" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -412,6 +422,7 @@
       <Item Amount="1" Subtype="Mercury" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -428,6 +439,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -444,6 +456,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -460,6 +473,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -476,6 +490,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -492,6 +507,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -508,6 +524,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -539,6 +556,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -554,6 +572,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -585,6 +604,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -600,6 +620,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -631,6 +652,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -646,6 +668,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -677,6 +700,7 @@
       <Item Amount="1" Subtype="Soda_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -708,6 +732,7 @@
       <Item Amount="1" Subtype="Tartarus_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -739,6 +764,7 @@
       <Item Amount="1" Subtype="Gypsum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -770,6 +796,7 @@
       <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -785,6 +812,7 @@
       <Item Amount="1" Subtype="Sulfur" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -816,6 +844,7 @@
       <Item Amount="1" Subtype="Soda_Nitre/Sal_Tartarum_Solution" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -847,6 +876,7 @@
       <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -878,6 +908,7 @@
       <Item Amount="1" Subtype="Sal_Calxum/Soda_Vitrioli_Solution" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -909,6 +940,7 @@
       <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -940,6 +972,7 @@
       <Item Amount="1" Subtype="Salt/Lime_Solution" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -955,6 +988,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -986,6 +1020,7 @@
       <Item Amount="1" Subtype="Sal_Tartarum/Lime_Solution" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1017,6 +1052,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1048,6 +1084,7 @@
       <Item Amount="1" Subtype="Pearl_Ash" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1080,6 +1117,7 @@
       <Item Amount="1" Subtype="Gunpowder" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1096,6 +1134,7 @@
       <Item Amount="1" Subtype="Gunpowder" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1129,6 +1168,7 @@
       <Item Amount="1" Subtype="Soda_Lye" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1146,6 +1186,7 @@
       <Item Amount="1" Subtype="Pot_Lye" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1177,6 +1218,7 @@
       <Item Amount="1" Subtype="Aqua_Regia" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1192,6 +1234,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1223,6 +1266,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1254,6 +1298,7 @@
       <Item Amount="1" Subtype="Oyle_of_Caustic_Tartar" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1285,6 +1330,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1316,6 +1362,7 @@
       <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1331,6 +1378,7 @@
       <Item Amount="1" Subtype="Milk_of_Tartar" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1346,6 +1394,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1377,6 +1426,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1408,6 +1458,7 @@
       <Item Amount="1" Subtype="Oyle_of_Caustic_Soda" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1439,6 +1490,7 @@
       <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1470,6 +1522,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1485,6 +1538,7 @@
       <Item Amount="1" Subtype="Milk_of_Soda" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1500,6 +1554,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1531,6 +1586,7 @@
       <Item Amount="1" Subtype="Milk_of_Gypsum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1562,6 +1618,7 @@
       <Item Amount="1" Subtype="Limewater" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1577,6 +1634,7 @@
       <Item Amount="1" Subtype="Limewater" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1608,6 +1666,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1639,6 +1698,7 @@
       <Item Amount="1" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1670,6 +1730,7 @@
       <Item Amount="1" Subtype="Milk_of_Lime" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1701,6 +1762,7 @@
       <Item Amount="1" Subtype="Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1716,6 +1778,7 @@
       <Item Amount="1" Subtype="Tartarus_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1747,6 +1810,7 @@
       <Item Amount="1" Subtype="Pot_Lye" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1778,6 +1842,7 @@
       <Item Amount="1" Subtype="Sal_Tartarum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1793,6 +1858,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1808,6 +1874,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1839,6 +1906,7 @@
       <Item Amount="1" Subtype="Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1854,6 +1922,7 @@
       <Item Amount="1" Subtype="Soda_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1885,6 +1954,7 @@
       <Item Amount="1" Subtype="Soda_Lye" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1916,6 +1986,7 @@
       <Item Amount="1" Subtype="Common_Salt" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -1947,6 +2018,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1962,6 +2034,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1977,6 +2050,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -1992,6 +2066,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -2023,6 +2098,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -2054,6 +2130,7 @@
       <Item Amount="1" Subtype="Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -2085,6 +2162,7 @@
       <Item Amount="1" Subtype="Calx_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2100,6 +2178,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2116,6 +2195,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2133,6 +2213,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2150,6 +2231,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2167,6 +2249,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2184,6 +2267,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2201,6 +2285,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2218,6 +2303,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2234,6 +2320,7 @@
       <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2250,6 +2337,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2266,6 +2354,7 @@
       <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2282,6 +2371,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Tartarum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2298,6 +2388,7 @@
       <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2315,6 +2406,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2332,6 +2424,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2349,6 +2442,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2366,6 +2460,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2383,6 +2478,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2400,6 +2496,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2416,6 +2513,7 @@
       <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2432,6 +2530,7 @@
       <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2448,6 +2547,7 @@
       <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2464,6 +2564,7 @@
       <Item Amount="1" Subtype="Salt_Water" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2480,6 +2581,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2497,6 +2599,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2514,6 +2617,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2531,6 +2635,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2548,6 +2653,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2565,6 +2671,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2582,6 +2689,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2598,6 +2706,7 @@
       <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2614,6 +2723,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2630,6 +2740,7 @@
       <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2646,6 +2757,7 @@
       <Item Amount="1" Subtype="Oyle_of_Sal_Calxum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2662,6 +2774,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2679,6 +2792,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2696,6 +2810,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2713,6 +2828,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2730,6 +2846,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2747,6 +2864,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2764,6 +2882,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2780,6 +2899,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2796,6 +2916,7 @@
       <Item Amount="1" Subtype="Spiritus_Salis" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2812,6 +2933,7 @@
       <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2828,6 +2950,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2844,6 +2967,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2861,6 +2985,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2878,6 +3003,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2895,6 +3021,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2912,6 +3039,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2929,6 +3057,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2946,6 +3075,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2962,6 +3092,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2978,6 +3109,7 @@
       <Item Amount="1" Subtype="Spiritus_Salis" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -2994,6 +3126,7 @@
       <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3010,6 +3143,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitriolatus" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3026,6 +3160,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3043,6 +3178,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3060,6 +3196,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3077,6 +3214,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3094,6 +3232,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3111,6 +3250,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3128,6 +3268,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3144,6 +3285,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3160,6 +3302,7 @@
       <Item Amount="1" Subtype="Spiritus_Salis" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3176,6 +3319,7 @@
       <Item Amount="1" Subtype="Spiritus_Nitrum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3192,6 +3336,7 @@
       <Item Amount="1" Subtype="Water_Vial" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3208,6 +3353,7 @@
       <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3225,6 +3371,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3242,6 +3389,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3259,6 +3407,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3276,6 +3425,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3293,6 +3443,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3310,6 +3461,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3326,6 +3478,7 @@
       <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3342,6 +3495,7 @@
       <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3358,6 +3512,7 @@
       <Item Amount="1" Subtype="Spiritus_Salis" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3374,6 +3529,7 @@
       <Item Amount="1" Subtype="Oyle_of_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3390,6 +3546,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3407,6 +3564,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3424,6 +3582,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3441,6 +3600,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3458,6 +3618,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3475,6 +3636,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3492,6 +3654,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3508,6 +3671,7 @@
       <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3524,6 +3688,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3540,6 +3705,7 @@
       <Item Amount="1" Subtype="Spiritus_Salis" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3556,6 +3722,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3572,6 +3739,7 @@
       <Item Amount="1" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3589,6 +3757,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3606,6 +3775,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3623,6 +3793,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3640,6 +3811,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3657,6 +3829,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3674,6 +3847,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3690,6 +3864,7 @@
       <Item Amount="1" Subtype="Spiritus_Vitriolum" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3706,6 +3881,7 @@
       <Item Amount="1" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3722,6 +3898,7 @@
       <Item Amount="1" Subtype="Spiritus_Salis" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3738,6 +3915,7 @@
       <Item Amount="1" Subtype="Oyle_of_Calx_Nitre" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -3769,6 +3947,7 @@
       <Item Amount="1" Subtype="Charcoal" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -3801,6 +3980,7 @@
       <Item Amount="1" Subtype="Dirt" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -3831,6 +4011,7 @@
       <Item Amount="1" Subtype="Petrolia" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3847,6 +4028,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3863,6 +4045,7 @@
       <Item Amount="1" Subtype="Oyle_of_Soda_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3879,6 +4062,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3895,6 +4079,7 @@
       <Item Amount="1" Subtype="Oyle_of_Tartarus_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3911,6 +4096,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
@@ -3927,6 +4113,7 @@
       <Item Amount="1" Subtype="Milk_of_Calx_Vitrioli" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -3958,6 +4145,71 @@
       <Item Amount="1" Subtype="Pitch" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Ennerite_Filtered" Type="InventoryItem" />
+    <Public>true</Public>
+    <DisplayName>Ennerite Filtered</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Ennerite_Filtered" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Ennerite Filtered</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Filter</Category>
+    <Prerequisites>
+      <Item Amount="5" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="2" Subtype="Mercury_Vial" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="1" Subtype="Ennerite_Filtered" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
+    <Id Subtype="Ennerite_Refined" Type="InventoryItem" />
+    <Public>true</Public>
+    <DisplayName>Ennerite Refined</DisplayName>
+    <Description />
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <PhysicalMaterial>None</PhysicalMaterial>
+    <Size>
+      <X>1</X>
+      <Z>1</Z>
+      <Y>1</Y>
+    </Size>
+    <Model>Models\Alchemy\Items\PlaceholderModel.mwm</Model>
+    <MaxStackAmount>16</MaxStackAmount>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
+    <Id Subtype="Ennerite_Refined" Type="MyObjectBuilder_CraftingRecipeDefinition" />
+    <DisplayName>Ennerite Refined</DisplayName>
+    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Category>Alembic</Category>
+    <Prerequisites>
+      <Item Amount="1" Subtype="Ennerite_Filtered" Type="InventoryItem" />
+    </Prerequisites>
+    <Results>
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Mercury_Vial" Type="InventoryItem" />
+    </Results>
+    <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">

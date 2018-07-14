@@ -23,12 +23,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Althea_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Althea_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -54,12 +55,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Amaranth_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Amaranth_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -85,12 +87,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Angelica_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Angelica_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -116,12 +119,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Belladonna_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Belladonna_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -147,12 +151,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Broom_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Broom_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -178,12 +183,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Castor_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Castor_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -209,12 +215,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Cinquefoil_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Cinquefoil_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -240,12 +247,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Crimson_Thristle_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Crimson_Thristle_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -271,12 +279,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Crocus_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Crocus_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -302,12 +311,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Cloud_Funnel_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Cloud_Funnel_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -333,12 +343,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Gilliflower_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Gilliflower_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -364,12 +375,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Glasswort_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Glasswort_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -395,12 +407,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Luceat_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Luceat_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -426,12 +439,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Concordia_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Concordia_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -457,12 +471,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Hellebore_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Hellebore_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -488,12 +503,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Hemlock_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Hemlock_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -519,12 +535,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Hoppan_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Hoppan_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -550,12 +567,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Knotweed_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Knotweed_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -581,12 +599,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Rock_Lichen_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Rock_Lichen_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -612,12 +631,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Mugwort_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Mugwort_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -643,12 +663,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Rock_Willow_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Rock_Willow_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -674,12 +695,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Sage_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Sage_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -705,12 +727,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Spalt_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Spalt_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -736,12 +759,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Vervain_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Vervain_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -767,12 +791,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Wormwood_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Wormwood_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_InventoryItemDefinition">
@@ -798,12 +823,13 @@
     <Category>Alembic</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Yarrow_Extract" Type="InventoryItem" />
-      <Item Amount="1" Subtype="Ennerite_Powder" Type="InventoryItem" />
+      <Item Amount="1" Subtype="Ennerite_Refined" Type="InventoryItem" />
     </Prerequisites>
     <Results>
       <Item Amount="1" Subtype="Yarrow_Essence" Type="InventoryItem" />
     </Results>
     <CraftingTime Seconds="4" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
 </Definitions>
 

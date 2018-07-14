@@ -26,7 +26,7 @@
     <Id Subtype="Althea_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Althea Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -35,6 +35,7 @@
       <Item Amount="1" Subtype="Althea_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -63,7 +64,7 @@
     <Id Subtype="Amaranth_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Amaranth Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -72,6 +73,7 @@
       <Item Amount="1" Subtype="Amaranth_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -100,7 +102,7 @@
     <Id Subtype="Angelica_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Angelica Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -109,6 +111,7 @@
       <Item Amount="1" Subtype="Angelica_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -137,7 +140,7 @@
     <Id Subtype="Belladonna_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Belladonna Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -146,6 +149,7 @@
       <Item Amount="1" Subtype="Belladonna_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -174,7 +178,7 @@
     <Id Subtype="Broom_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Broom Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -183,6 +187,7 @@
       <Item Amount="1" Subtype="Broom_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -211,7 +216,7 @@
     <Id Subtype="Castor_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Castor Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -220,6 +225,7 @@
       <Item Amount="1" Subtype="Castor_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -247,7 +253,7 @@
     <Id Subtype="Cinquefoil_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Cinquefoil Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -256,6 +262,7 @@
       <Item Amount="1" Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -284,7 +291,7 @@
     <Id Subtype="Crimson_Thristle_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Crimson Thristle Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -293,6 +300,7 @@
       <Item Amount="1" Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -321,7 +329,7 @@
     <Id Subtype="Crocus_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Crocus Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -330,6 +338,7 @@
       <Item Amount="1" Subtype="Crocus_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -358,7 +367,7 @@
     <Id Subtype="Cloud_Funnel_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Cloud Funnel Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -367,6 +376,7 @@
       <Item Amount="1" Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -394,7 +404,7 @@
     <Id Subtype="Gilliflower_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Gilliflower Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -403,6 +413,7 @@
       <Item Amount="1" Subtype="Gilliflower_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -430,7 +441,7 @@
     <Id Subtype="Glasswort_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Glasswort Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -439,6 +450,7 @@
       <Item Amount="1" Subtype="Glasswort_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -466,7 +478,7 @@
     <Id Subtype="Luceat_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Luceat Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -475,6 +487,7 @@
       <Item Amount="1" Subtype="Luceat_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -503,7 +516,7 @@
     <Id Subtype="Concordia_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Concordia Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -512,6 +525,7 @@
       <Item Amount="1" Subtype="Concordia_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -540,7 +554,7 @@
     <Id Subtype="Hellebore_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hellebore Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -549,6 +563,7 @@
       <Item Amount="1" Subtype="Hellebore_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -577,7 +592,7 @@
     <Id Subtype="Hemlock_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hemlock Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -586,6 +601,7 @@
       <Item Amount="1" Subtype="Hemlock_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -614,7 +630,7 @@
     <Id Subtype="Hoppan_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hoppan Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -623,6 +639,7 @@
       <Item Amount="1" Subtype="Hoppan_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -650,7 +667,7 @@
     <Id Subtype="Knotweed_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Knotweed Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -659,6 +676,7 @@
       <Item Amount="1" Subtype="Knotweed_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -686,7 +704,7 @@
     <Id Subtype="Rock_Lichen_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Rock Lichen Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -695,6 +713,7 @@
       <Item Amount="1" Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -722,7 +741,7 @@
     <Id Subtype="Mugwort_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Mugwort Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -731,6 +750,7 @@
       <Item Amount="1" Subtype="Mugwort_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -759,7 +779,7 @@
     <Id Subtype="Rock_Willow_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Rock Willow Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -768,6 +788,7 @@
       <Item Amount="1" Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -795,7 +816,7 @@
     <Id Subtype="Sage_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Sage Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -804,6 +825,7 @@
       <Item Amount="1" Subtype="Sage_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -832,7 +854,7 @@
     <Id Subtype="Spalt_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Spalt Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -841,6 +863,7 @@
       <Item Amount="1" Subtype="Spalt_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -868,7 +891,7 @@
     <Id Subtype="Vervain_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Vervain Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -877,6 +900,7 @@
       <Item Amount="1" Subtype="Vervain_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -905,7 +929,7 @@
     <Id Subtype="Wormwood_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Wormwood Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -914,6 +938,7 @@
       <Item Amount="1" Subtype="Wormwood_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -942,7 +967,7 @@
     <Id Subtype="Yarrow_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Yarrow Tea</DisplayName>
     <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
-    <Category>Simple_Alchemy_Stand</Category>
+    <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />
       <Item Amount="1" Subtype="Jug_Of_Water" Type="ConsumableItem" />
@@ -951,6 +976,7 @@
       <Item Amount="1" Subtype="Yarrow_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
+    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
 </Definitions>
 

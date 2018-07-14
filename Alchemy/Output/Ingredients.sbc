@@ -6,7 +6,7 @@
     <Public>true</Public>
     <DisplayName>Althea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\althea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -25,7 +25,7 @@
     <Public>true</Public>
     <DisplayName>Amaranth</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\amaranth.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -44,7 +44,7 @@
     <Public>true</Public>
     <DisplayName>Angelica</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\angelica.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -63,7 +63,7 @@
     <Public>true</Public>
     <DisplayName>Belladonna</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\belladonna.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -82,7 +82,7 @@
     <Public>true</Public>
     <DisplayName>Broom</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\broom.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -101,7 +101,7 @@
     <Public>true</Public>
     <DisplayName>Castor</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\castor.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -120,7 +120,7 @@
     <Public>true</Public>
     <DisplayName>Cinquefoil</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\cinquefoil.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -139,7 +139,7 @@
     <Public>true</Public>
     <DisplayName>Crimson Thristle</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\crimsonthistle.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -158,7 +158,7 @@
     <Public>true</Public>
     <DisplayName>Crocus</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\crocus.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -177,7 +177,7 @@
     <Public>true</Public>
     <DisplayName>Cloud Funnel</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\cloudfunnel.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -196,7 +196,7 @@
     <Public>true</Public>
     <DisplayName>Gilliflower</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\gilliflower.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -215,7 +215,7 @@
     <Public>true</Public>
     <DisplayName>Glasswort</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\glasswort.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -234,7 +234,7 @@
     <Public>true</Public>
     <DisplayName>Luceat</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\luceat.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -253,7 +253,7 @@
     <Public>true</Public>
     <DisplayName>Concordia</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\concordia.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -272,7 +272,7 @@
     <Public>true</Public>
     <DisplayName>Hellebore</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hellebore.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -291,7 +291,7 @@
     <Public>true</Public>
     <DisplayName>Hemlock</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hemlock.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -310,7 +310,7 @@
     <Public>true</Public>
     <DisplayName>Hoppan</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hoppan.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -329,7 +329,7 @@
     <Public>true</Public>
     <DisplayName>Knotweed</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\knotweed.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -348,7 +348,7 @@
     <Public>true</Public>
     <DisplayName>Rock Lichen</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\rocklichen.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -367,7 +367,7 @@
     <Public>true</Public>
     <DisplayName>Mugwort</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\mugwort.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -386,7 +386,7 @@
     <Public>true</Public>
     <DisplayName>Rock Willow</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\rockwillow.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -405,7 +405,7 @@
     <Public>true</Public>
     <DisplayName>Sage</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\sage.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -424,7 +424,7 @@
     <Public>true</Public>
     <DisplayName>Spalt</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\spalt.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -443,7 +443,7 @@
     <Public>true</Public>
     <DisplayName>Vervain</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\vervain.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -462,7 +462,7 @@
     <Public>true</Public>
     <DisplayName>Wormwood</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\wormwood.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -481,7 +481,7 @@
     <Public>true</Public>
     <DisplayName>Yarrow</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\yarrow.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>

@@ -73,6 +73,10 @@ for filename in files:
     processed_items = []
 
     for recipe in files[filename]:
+        build_type = recipe[headers['Build Data Type']]
+        if build_type.upper() == 'NONE':
+            continue
+
         res = [(recipe[headers['Result 1 Amount']], recipe[headers['Result 1 Type']], recipe[headers['Result 1']]),
                (recipe[headers['Result 2 Amount']], recipe[headers['Result 2 Type']], recipe[headers['Result 2']])]
 
@@ -99,15 +103,15 @@ for filename in files:
                                              subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
                                              stats=build_stats(eff), prereqs=pre, tags=recipe[headers['Tags']],
                                              results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],
-                                             crafting_time=recipe[headers['Craft Time']], data_type=recipe[headers['Build Data Type']]))
+                                             crafting_time=recipe[headers['Craft Time']], data_type=build_type))
 
     for x in processed_items:
-        if not x.data_type == 'CRAFTING':
+        if not x.data_type.upper() == 'CRAFTING':
             if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
                 root.append(x.build_item_def())
                 completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
 
-        if not x.data_type == 'ITEM':
+        if not x.data_type.upper() == 'ITEM':
             old_subtype = x.id.attrib['Subtype']
             if completed_crafting[(x.id.attrib['Type'], old_subtype)] > 0:
                 x.id.attrib['Subtype'] = old_subtype + '_' + str(completed_crafting[(x.id.attrib['Type'], x.id.attrib['Subtype'])] + 1)
