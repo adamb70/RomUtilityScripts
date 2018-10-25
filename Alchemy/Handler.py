@@ -1,32 +1,10 @@
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
+from SheetConnector import SheetCon, col, enum
 
 
-def col(letters):
-    """ Convert column letters into zero-indexed number """
-    letters = letters.lower()
-    num = 0
-    for l in letters[:-1]:
-        num += (ord(l) - 96) * 26
-    num += (ord(letters[-1]) - 96)
-    return num - 1
-
-
-def enum(*sequential):
-    enums = dict(zip(sequential, range(len(sequential))))
-    return enums
-
-
-class SheetCon(object):
-    ss = None
-
-    def connect(self):
-        scope = ['https://spreadsheets.google.com/feeds',
-                 'https://www.googleapis.com/auth/drive']
-        credentials = ServiceAccountCredentials.from_json_keyfile_name('../Mistvalin-b3c187e87518.json', scope)
-        gc = gspread.authorize(credentials)
-
-        self.ss = gc.open('Potion Ingredients')
+class AlchemySheetHandler(SheetCon):
+    def __init__(self):
+        super(AlchemySheetHandler, self).__init__()
+        self.open('Potion Ingredients')
 
     def get_teas(self):
         teas_ws = self.ss.worksheet('Teas')

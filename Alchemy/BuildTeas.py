@@ -1,7 +1,7 @@
 from ItemClasses import *
 from Utils import indent
 from AlchemyUtils import build_stats
-from DataImporter import SheetCon
+from Handler import AlchemySheetHandler
 
 
 class Tea(CraftableItem):
@@ -23,8 +23,7 @@ class Tea(CraftableItem):
 
 
 def build_from_sheet():
-    con = SheetCon()
-    con.connect()
+    con = AlchemySheetHandler()
     teas = con.get_teas()
 
     root = ET.Element('Definitions')

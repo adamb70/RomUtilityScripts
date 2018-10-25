@@ -1,6 +1,6 @@
 from ItemClasses import *
 from Utils import indent
-from DataImporter import SheetCon
+from Handler import AlchemySheetHandler
 
 
 class Ingredient(Item):
@@ -82,8 +82,7 @@ class GroundIngredient(CraftableItem):
 
 def build_ingredients_from_sheet(generate_ground=True):
     """ Builds from ingredients sheet. Auto generates ground and dried varieties """
-    con = SheetCon()
-    con.connect()
+    con = AlchemySheetHandler()
     ingreds = con.get_ingreds()
 
     ing_root = ET.Element('Definitions')

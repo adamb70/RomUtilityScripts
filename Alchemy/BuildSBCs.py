@@ -3,11 +3,10 @@ from collections import defaultdict
 from ItemClasses import *
 from Utils import indent
 from AlchemyUtils import build_stats
-from DataImporter import SheetCon
+from Handler import AlchemySheetHandler
 import BuildIngredients
 
-con = SheetCon()
-con.connect()
+con = AlchemySheetHandler()
 headers, recipe_list = con.get_final_recipes()
 
 
