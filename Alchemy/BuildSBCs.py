@@ -30,18 +30,26 @@ Ingredient 3 Type
 Ingredient 4
 Ingredient 4 Amount
 Ingredient 4 Type
+Stat Effect 1
+Stat Effect 1 Amount
+Stat Effect 1 Time
+Stat Effect 2
+Stat Effect 2 Amount
+Stat Effect 2 Time
+Stat Effect 3
+Stat Effect 3 Amount
+Stat Effect 3 Time
+Stat Effect 4
+Stat Effect 4 Amount
+Stat Effect 4 Time
 Effect 1
-Effect 1 Amount
-Effect 1 Time
+Effect 1 Type
 Effect 2
-Effect 2 Amount
-Effect 2 Time
+Effect 2 Type
 Effect 3
-Effect 3 Amount
-Effect 3 Time
+Effect 3 Type
 Effect 4
-Effect 4 Amount
-Effect 4 Time
+Effect 4 Type
 Categories
 Craft Time
 Stack Size
@@ -85,10 +93,16 @@ for filename in files:
                (recipe[headers['Ingredient 3 Amount']], recipe[headers['Ingredient 3 Type']], recipe[headers['Ingredient 3']]),
                (recipe[headers['Ingredient 4 Amount']], recipe[headers['Ingredient 4 Type']], recipe[headers['Ingredient 4']])]
 
-        eff = [(recipe[headers['Effect 1']], recipe[headers['Effect 1 Amount']], recipe[headers['Effect 1 Time']]),
-               (recipe[headers['Effect 2']], recipe[headers['Effect 2 Amount']], recipe[headers['Effect 2 Time']]),
-               (recipe[headers['Effect 3']], recipe[headers['Effect 3 Amount']], recipe[headers['Effect 3 Time']]),
-               (recipe[headers['Effect 4']], recipe[headers['Effect 4 Amount']], recipe[headers['Effect 4 Time']])]
+        stat_effs = [(recipe[headers['Stat Effect 1']], recipe[headers['Stat Effect 1 Amount']], recipe[headers['Stat Effect 1 Time']]),
+               (recipe[headers['Stat Effect 2']], recipe[headers['Stat Effect 2 Amount']], recipe[headers['Stat Effect 2 Time']]),
+               (recipe[headers['Stat Effect 3']], recipe[headers['Stat Effect 3 Amount']], recipe[headers['Stat Effect 3 Time']]),
+               (recipe[headers['Stat Effect 4']], recipe[headers['Stat Effect 4 Amount']], recipe[headers['Stat Effect 4 Time']])]
+
+        effs = [(recipe[headers['Effect 1']], recipe[headers['Effect 1 Type']]),
+                (recipe[headers['Effect 2']], recipe[headers['Effect 2 Type']]),
+                (recipe[headers['Effect 3']], recipe[headers['Effect 3 Type']]),
+                (recipe[headers['Effect 4']], recipe[headers['Effect 4 Type']])]
+
 
         returned_items = []
         if recipe[headers['Returned Item, Type 1']]:
@@ -100,10 +114,13 @@ for filename in files:
 
         processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']], model=recipe[headers['Model']],
                                              type=recipe[headers['Result 1 Type']], returned_items=returned_items,
-                                             subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon']],
-                                             stats=build_stats(eff), prereqs=pre, tags=recipe[headers['Tags']],
+                                             subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon 1']],
+                                             icon2=recipe[headers['Icon 2']], icon3=recipe[headers['Icon 3']],
+                                             stats=build_stats(stat_effs), prereqs=pre, tags=recipe[headers['Tags']],
                                              results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],
-                                             crafting_time=recipe[headers['Craft Time']], data_type=build_type))
+                                             crafting_time=recipe[headers['Craft Time']], data_type=build_type,
+                                             max_stack=recipe[headers['Stack Size']], effects=effs
+                                             ))
 
     for x in processed_items:
         if not x.data_type.upper() == 'CRAFTING':

@@ -63,6 +63,8 @@ class Item(object):
     size = None
     model = None
     icon = None
+    icon2 = None
+    icon3 = None
     material = None
     description = None
     display_name = None
@@ -71,12 +73,13 @@ class Item(object):
 
     consumable = False
     stats = None
+    effects = None
     use_sound = None
     returned_items = None # List of elements
 
     def __init__(self, type="InventoryItem", subtype="", max_stack=16, health=200, mass=2, size=(1, 1, 1), model="",
-                 icon="", description="", display_name="", tags=None, consumable=False, stats=None, material="None",
-                 returned_items=list(), data_type='BOTH', **kwargs):
+                 icon="", icon2="", icon3="", description="", display_name="", tags=None, consumable=False, stats=None,
+                 effects=None, material="None", returned_items=list(), data_type='BOTH', **kwargs):
 
         self.id = ET.Element('Id')
         self.max_stack = ET.Element('MaxStackAmount')
@@ -84,6 +87,12 @@ class Item(object):
         self.size = ET.Element('Size')
         self.model = ET.Element('Model')
         self.icon = ET.Element('Icon')
+        if icon2:
+            self.icon2 = ET.Element('Icon')
+            self.icon2.text = icon2
+        if icon3:
+            self.icon3 = ET.Element('Icon')
+            self.icon3.text = icon3
         self.material = ET.Element('PhysicalMaterial')
         self.description = ET.Element('Description')
         self.display_name = ET.Element('DisplayName')
@@ -131,6 +140,16 @@ class Item(object):
                     stat.attrib['Value'] = str(x)
                     stat.attrib['Time'] = str(y)
                     self.stats.append(stat)
+            if effects is not None:
+                self.effects = []
+                for sub, type in effects:
+                    if not sub or not type:
+                        continue
+                    eff = ET.Element('Effect')
+                    eff.attrib['Sub'] = sub
+                    eff.attrib['Type'] = type
+                    self.effects.append(eff)
+
             self.use_sound = ET.Element('UseSound')
             self.use_sound.text = "PlayEat"
             if returned_items:
@@ -167,6 +186,10 @@ class Item(object):
         root.append(self.display_name)
         root.append(self.description)
         root.append(self.icon)
+        if self.icon2 is not None:
+            root.append(self.icon2)
+        if self.icon3 is not None:
+            root.append(self.icon3)
         root.append(self.material)
         root.append(self.size)
         root.append(self.model)
@@ -175,6 +198,9 @@ class Item(object):
         if self.id.attrib['Type'] == 'ConsumableItem':
             if list(self.stats):
                 root.append(self.stats)
+            if self.effects:
+                for eff in self.effects:
+                    root.append(eff)
             root.append(self.use_sound)
             for item in self.returned_items:
                 root.append(item)
@@ -194,6 +220,10 @@ class CraftableItem(Item, Craftable):
         root.append(crafting_id)
         root.append(self.display_name)
         root.append(self.icon)
+        if self.icon2 is not None:
+            root.append(self.icon2)
+        if self.icon3 is not None:
+            root.append(self.icon3)
         for cat in self.categories:
             root.append(cat)
 

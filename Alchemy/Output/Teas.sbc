@@ -5,7 +5,8 @@
     <Public>true</Public>
     <DisplayName>Althea Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\althea.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -13,7 +14,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="-10" />
       <Stat Name="Food" Time="1" Value="-10" />
@@ -25,7 +26,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Althea_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Althea Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\althea.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Althea" Type="InventoryItem" />
@@ -35,7 +37,6 @@
       <Item Amount="1" Subtype="Althea_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -43,7 +44,8 @@
     <Public>true</Public>
     <DisplayName>Amaranth Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\amaranth.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -51,7 +53,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Health" Time="1" Value="10" />
       <Stat Name="Poison" Time="1" Value="10" />
@@ -63,7 +65,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Amaranth_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Amaranth Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\amaranth.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Amaranth" Type="InventoryItem" />
@@ -73,7 +76,6 @@
       <Item Amount="1" Subtype="Amaranth_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -81,7 +83,8 @@
     <Public>true</Public>
     <DisplayName>Angelica Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\angelica.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -89,7 +92,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Stamina" Time="1" Value="10" />
       <Stat Name="Mood" Time="1" Value="-10" />
@@ -101,7 +104,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Angelica_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Angelica Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\angelica.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Angelica" Type="InventoryItem" />
@@ -111,7 +115,6 @@
       <Item Amount="1" Subtype="Angelica_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -119,7 +122,8 @@
     <Public>true</Public>
     <DisplayName>Belladonna Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\belladonna.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -127,7 +131,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="10" />
       <Stat Name="Health" Time="1" Value="-10" />
@@ -139,7 +143,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Belladonna_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Belladonna Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\belladonna.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Belladonna" Type="InventoryItem" />
@@ -149,7 +154,6 @@
       <Item Amount="1" Subtype="Belladonna_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -157,7 +161,8 @@
     <Public>true</Public>
     <DisplayName>Broom Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\broom.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -165,7 +170,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="-10" />
       <Stat Name="Thirst" Time="1" Value="10" />
@@ -177,7 +182,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Broom_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Broom Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\broom.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Broom" Type="InventoryItem" />
@@ -187,7 +193,6 @@
       <Item Amount="1" Subtype="Broom_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -195,7 +200,8 @@
     <Public>true</Public>
     <DisplayName>Castor Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\castor.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -203,7 +209,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="10" />
       <Stat Name="Mood" Time="1" Value="-10" />
@@ -215,7 +221,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Castor_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Castor Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\castor.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Castor" Type="InventoryItem" />
@@ -225,7 +232,6 @@
       <Item Amount="1" Subtype="Castor_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -233,7 +239,8 @@
     <Public>true</Public>
     <DisplayName>Cinquefoil Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\cinquefoil.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -241,7 +248,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Mood" Time="1" Value="-10" />
     </Stats>
@@ -252,7 +259,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Cinquefoil_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Cinquefoil Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\cinquefoil.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Cinquefoil" Type="InventoryItem" />
@@ -262,7 +270,6 @@
       <Item Amount="1" Subtype="Cinquefoil_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -270,7 +277,8 @@
     <Public>true</Public>
     <DisplayName>Crimson Thristle Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\crimsonthistle.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -278,7 +286,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Health" Time="1" Value="10" />
       <Stat Name="Thirst" Time="1" Value="10" />
@@ -290,7 +298,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Crimson_Thristle_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Crimson Thristle Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\crimsonthistle.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Crimson_Thristle" Type="InventoryItem" />
@@ -300,7 +309,6 @@
       <Item Amount="1" Subtype="Crimson_Thristle_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -308,7 +316,8 @@
     <Public>true</Public>
     <DisplayName>Crocus Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\crocus.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -316,7 +325,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Stamina" Time="1" Value="10" />
       <Stat Name="Thirst" Time="1" Value="10" />
@@ -328,7 +337,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Crocus_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Crocus Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\crocus.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Crocus" Type="InventoryItem" />
@@ -338,7 +348,6 @@
       <Item Amount="1" Subtype="Crocus_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -346,7 +355,8 @@
     <Public>true</Public>
     <DisplayName>Cloud Funnel Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\cloudfunnel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -354,7 +364,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Health" Time="1" Value="-10" />
       <Stat Name="Poison" Time="1" Value="10" />
@@ -366,7 +376,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Cloud_Funnel_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Cloud Funnel Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\cloudfunnel.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Cloud_Funnel" Type="InventoryItem" />
@@ -376,7 +387,6 @@
       <Item Amount="1" Subtype="Cloud_Funnel_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -384,7 +394,8 @@
     <Public>true</Public>
     <DisplayName>Gilliflower Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\gilliflower.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -392,7 +403,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="10" />
     </Stats>
@@ -403,7 +414,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Gilliflower_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Gilliflower Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\gilliflower.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Gilliflower" Type="InventoryItem" />
@@ -413,7 +425,6 @@
       <Item Amount="1" Subtype="Gilliflower_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -421,7 +432,8 @@
     <Public>true</Public>
     <DisplayName>Glasswort Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\glasswort.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -429,7 +441,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Thirst" Time="1" Value="10" />
     </Stats>
@@ -440,7 +452,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Glasswort_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Glasswort Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\glasswort.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Glasswort" Type="InventoryItem" />
@@ -450,7 +463,6 @@
       <Item Amount="1" Subtype="Glasswort_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -458,7 +470,8 @@
     <Public>true</Public>
     <DisplayName>Luceat Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\luceat.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -466,7 +479,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Mood" Time="1" Value="-10" />
     </Stats>
@@ -477,7 +490,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Luceat_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Luceat Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\luceat.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Luceat" Type="InventoryItem" />
@@ -487,7 +501,6 @@
       <Item Amount="1" Subtype="Luceat_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -495,7 +508,8 @@
     <Public>true</Public>
     <DisplayName>Concordia Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\concordia.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -503,7 +517,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Mood" Time="1" Value="10" />
       <Stat Name="Health" Time="1" Value="-10" />
@@ -515,7 +529,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Concordia_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Concordia Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\concordia.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Concordia" Type="InventoryItem" />
@@ -525,7 +540,6 @@
       <Item Amount="1" Subtype="Concordia_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -533,7 +547,8 @@
     <Public>true</Public>
     <DisplayName>Hellebore Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hellebore.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -541,7 +556,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="10" />
       <Stat Name="Health" Time="1" Value="-10" />
@@ -553,7 +568,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Hellebore_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hellebore Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hellebore.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Hellebore" Type="InventoryItem" />
@@ -563,7 +579,6 @@
       <Item Amount="1" Subtype="Hellebore_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -571,7 +586,8 @@
     <Public>true</Public>
     <DisplayName>Hemlock Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hemlock.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -579,7 +595,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="10" />
       <Stat Name="Thirst" Time="1" Value="10" />
@@ -591,7 +607,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Hemlock_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hemlock Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hemlock.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Hemlock" Type="InventoryItem" />
@@ -601,7 +618,6 @@
       <Item Amount="1" Subtype="Hemlock_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -609,7 +625,8 @@
     <Public>true</Public>
     <DisplayName>Hoppan Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hoppan.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -617,7 +634,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Stamina" Time="1" Value="-10" />
       <Stat Name="Mood" Time="1" Value="-10" />
@@ -629,7 +646,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Hoppan_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Hoppan Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\hoppan.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Hoppan" Type="InventoryItem" />
@@ -639,7 +657,6 @@
       <Item Amount="1" Subtype="Hoppan_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -647,7 +664,8 @@
     <Public>true</Public>
     <DisplayName>Knotweed Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\knotweed.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -655,7 +673,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Poison" Time="1" Value="10" />
     </Stats>
@@ -666,7 +684,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Knotweed_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Knotweed Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\knotweed.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Knotweed" Type="InventoryItem" />
@@ -676,7 +695,6 @@
       <Item Amount="1" Subtype="Knotweed_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -684,7 +702,8 @@
     <Public>true</Public>
     <DisplayName>Rock Lichen Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\rocklichen.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -692,7 +711,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Stamina" Time="1" Value="-10" />
     </Stats>
@@ -703,7 +722,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Rock_Lichen_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Rock Lichen Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\rocklichen.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Rock_Lichen" Type="InventoryItem" />
@@ -713,7 +733,6 @@
       <Item Amount="1" Subtype="Rock_Lichen_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -721,7 +740,8 @@
     <Public>true</Public>
     <DisplayName>Mugwort Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\mugwort.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -729,7 +749,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Food" Time="1" Value="-10" />
     </Stats>
@@ -740,7 +760,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Mugwort_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Mugwort Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\mugwort.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Mugwort" Type="InventoryItem" />
@@ -750,7 +771,6 @@
       <Item Amount="1" Subtype="Mugwort_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -758,7 +778,8 @@
     <Public>true</Public>
     <DisplayName>Rock Willow Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\rockwillow.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -766,7 +787,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Health" Time="1" Value="10" />
       <Stat Name="Stamina" Time="1" Value="-10" />
@@ -778,7 +799,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Rock_Willow_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Rock Willow Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\rockwillow.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Rock_Willow" Type="InventoryItem" />
@@ -788,7 +810,6 @@
       <Item Amount="1" Subtype="Rock_Willow_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -796,7 +817,8 @@
     <Public>true</Public>
     <DisplayName>Sage Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\sage.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -804,7 +826,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Food" Time="1" Value="-10" />
     </Stats>
@@ -815,7 +837,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Sage_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Sage Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\sage.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Sage" Type="InventoryItem" />
@@ -825,7 +848,6 @@
       <Item Amount="1" Subtype="Sage_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -833,7 +855,8 @@
     <Public>true</Public>
     <DisplayName>Spalt Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\spalt.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -841,7 +864,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Stamina" Time="1" Value="10" />
       <Stat Name="Poison" Time="1" Value="10" />
@@ -853,7 +876,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Spalt_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Spalt Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\spalt.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Spalt" Type="InventoryItem" />
@@ -863,7 +887,6 @@
       <Item Amount="1" Subtype="Spalt_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -871,7 +894,8 @@
     <Public>true</Public>
     <DisplayName>Vervain Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\vervain.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -879,7 +903,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Health" Time="1" Value="-10" />
     </Stats>
@@ -890,7 +914,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Vervain_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Vervain Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\vervain.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Vervain" Type="InventoryItem" />
@@ -900,7 +925,6 @@
       <Item Amount="1" Subtype="Vervain_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -908,7 +932,8 @@
     <Public>true</Public>
     <DisplayName>Wormwood Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\wormwood.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -916,7 +941,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Health" Time="1" Value="10" />
       <Stat Name="Stamina" Time="1" Value="-10" />
@@ -928,7 +953,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Wormwood_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Wormwood Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\wormwood.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Wormwood" Type="InventoryItem" />
@@ -938,7 +964,6 @@
       <Item Amount="1" Subtype="Wormwood_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
   
   <Definition xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -946,7 +971,8 @@
     <Public>true</Public>
     <DisplayName>Yarrow Tea</DisplayName>
     <Description />
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\yarrow.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <PhysicalMaterial>None</PhysicalMaterial>
     <Size>
       <X>1</X>
@@ -954,7 +980,7 @@
       <Y>1</Y>
     </Size>
     <Model>Models\Alchemy\Items\Tea.mwm</Model>
-    <MaxStackAmount>16</MaxStackAmount>
+    <MaxStackAmount>1</MaxStackAmount>
     <Stats>
       <Stat Name="Stamina" Time="1" Value="10" />
       <Stat Name="Food" Time="1" Value="-10" />
@@ -966,7 +992,8 @@
   <Definition xsi:type="MyObjectBuilder_CraftingRecipeDefinition">
     <Id Subtype="Yarrow_Tea" Type="MyObjectBuilder_CraftingRecipeDefinition" />
     <DisplayName>Yarrow Tea</DisplayName>
-    <Icon>Textures\GUI\Icons\Universal\Alchemy\Placeholder.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\yarrow.dds</Icon>
+    <Icon>Textures\GUI\Icons\Alchemy\Tea.dds</Icon>
     <Category>ClayCooking</Category>
     <Prerequisites>
       <Item Amount="1" Subtype="Ground_Yarrow" Type="InventoryItem" />
@@ -976,7 +1003,6 @@
       <Item Amount="1" Subtype="Yarrow_Tea" Type="ConsumableItem" />
     </Results>
     <CraftingTime Seconds="20" />
-    <HiddenWithoutPrereqs>true</HiddenWithoutPrereqs>
   </Definition>
 </Definitions>
 
