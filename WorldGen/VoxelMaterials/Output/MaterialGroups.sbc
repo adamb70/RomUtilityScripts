@@ -583,13 +583,44 @@
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Norden" />
+      <Layer Depth="15" Material="Stone_Elven" />
       <Layer Depth="20" Material="Ennerite_Stone" />
+      <Slope Max="90" Min="74" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Grass_Elven" />
+      <Layer Depth="5" Material="Soil" />
+      <Layer Depth="5" Material="Clay" />
+      <Layer Depth="1" Material="Gravel_Soil_Norden" />
+      <Layer Depth="23" Material="Stone_Elven" />
+      <Slope Max="10" Min="0" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Grass_Elven" />
+      <Layer Depth="9" Material="Soil" />
+      <Layer Depth="2" Material="Gravel_Soil_Norden" />
+      <Layer Depth="23" Material="Stone_Elven" />
+      <Slope Max="60" Min="10" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Grass_Elven" />
+      <Layer Depth="6" Material="Soil" />
+      <Layer Depth="2" Material="Gravel_Soil_Norden" />
+      <Layer Depth="26" Material="Stone_Elven" />
+      <Slope Max="60" Min="30" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Grass_Elven" />
+      <Layer Depth="34" Material="Stone_Elven" />
+      <Slope Max="75" Min="60" />
+    </Rule>
+    <Rule>
+      <Layer Depth="35" Material="Stone_Elven" />
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
-  <MaterialGroup Name="Elven Gravel" Value="81">
+  <MaterialGroup Name="Elven Gravel Ennerite" Value="81">
     <Rule>
       <Layer Depth="2" Material="Gravel_Norden" />
       <Layer Depth="15" Material="Stone_Elven" />
@@ -603,7 +634,19 @@
     </Rule>
   </MaterialGroup>
   
-  <MaterialGroup Name="Elven Gravel Detail" Value="84">
+  <MaterialGroup Name="Elven Gravel" Value="82">
+    <Rule>
+      <Layer Depth="2" Material="Gravel_Norden" />
+      <Layer Depth="35" Material="Stone_Elven" />
+      <Slope Max="75" Min="0" />
+    </Rule>
+    <Rule>
+      <Layer Depth="35" Material="Stone_Elven" />
+      <Slope Max="90" Min="75" />
+    </Rule>
+  </MaterialGroup>
+  
+  <MaterialGroup Name="Elven Gravel Detail Ennerite" Value="84">
     <Rule>
       <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
       <Layer Depth="1" Material="Gravel_Norden" />
@@ -614,6 +657,19 @@
     <Rule>
       <Layer Depth="15" Material="Stone_Elven" />
       <Layer Depth="20" Material="Ennerite_Stone" />
+      <Slope Max="90" Min="75" />
+    </Rule>
+  </MaterialGroup>
+  
+  <MaterialGroup Name="Elven Gravel Detail" Value="85">
+    <Rule>
+      <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
+      <Layer Depth="1" Material="Gravel_Norden" />
+      <Layer Depth="35" Material="Stone_Elven" />
+      <Slope Max="75" Min="0" />
+    </Rule>
+    <Rule>
+      <Layer Depth="35" Material="Stone_Elven" />
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
@@ -643,7 +699,8 @@
   <MaterialGroup Name="Elven Stone Detail" Value="93">
     <Rule>
       <Layer Depth="1" Material="Moss_Stone_Elven" />
-      <Layer Depth="500" Material="Stone_Elven" />
+      <Layer Depth="34" Material="Stone_Elven" />
+      <Layer Depth="20" Material="Ennerite_Stone" />
     </Rule>
   </MaterialGroup>
   
@@ -799,7 +856,7 @@
     </Rule>
   </MaterialGroup>
   
-  <MaterialGroup Name="H Dwarf Gravel" Value="108">
+  <MaterialGroup Name="H Dwarf Gravel High" Value="108">
     <Rule>
       <Layer Depth="2" Material="Gravel_Dwarven" />
       <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
@@ -819,7 +876,48 @@
     </Rule>
   </MaterialGroup>
   
-  <MaterialGroup Name="H Dwarf Gravel Detail" Value="111">
+  <MaterialGroup Name="H Dwarf Gravel erosion" Value="109">
+    <Rule>
+      <Layer Depth="2" Material="Gravel_Dwarven" />
+      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+      <Layer Depth="500" Material="Stone_Hills" />
+      <Slope Max="30" Min="0" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Gravel_Dwarven" />
+      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+      <Layer Depth="500" Material="Stone_Hills" />
+      <Slope Max="45" Min="30" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Gravel_Dwarven" />
+      <Layer Depth="500" Material="Stone_Hills" />
+      <Slope Max="75" Min="45" />
+    </Rule>
+  </MaterialGroup>
+  
+  <MaterialGroup Name="H Dwarf Gravel Detail high" Value="111">
+    <Rule>
+      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+      <Layer Depth="1" Material="Gravel_Dwarven" />
+      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+      <Layer Depth="500" Material="Stone_Hills" />
+      <Slope Max="30" Min="0" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+      <Layer Depth="500" Material="Stone_Hills" />
+      <Slope Max="45" Min="30" />
+    </Rule>
+    <Rule>
+      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+      <Layer Depth="500" Material="Stone_Hills" />
+      <Slope Max="75" Min="45" />
+    </Rule>
+  </MaterialGroup>
+  
+  <MaterialGroup Name="H Dwarf Gravel Detail erosion" Value="112">
     <Rule>
       <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
       <Layer Depth="1" Material="Gravel_Dwarven" />
@@ -1554,7 +1652,7 @@
     </Rule>
   </MaterialGroup>
   
-  <MaterialGroup Name="M Dwarf Snow Thin Rock" Value="193">
+  <MaterialGroup Name="M Dwarf Snow Thin Rock" Value="192">
     <Rule>
       <Layer Depth="1" Material="Snow" />
       <Layer Depth="1" Material="Snow" />

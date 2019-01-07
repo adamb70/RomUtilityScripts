@@ -1,0 +1,1015 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Bitumen_Grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Bitumen_Soil" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Cinnibar_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>250</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Clay" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Clay_Grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Coal" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="CopperOre" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>250</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="CopperOreRegular" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>200</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="SandDark" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Ennerite_Stone" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="ExhaustedSoil" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Galena_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>200</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="GoldOre" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>200</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Grass_Alkaline" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Grass_Dread" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Grass_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Grass_Kharid" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Grass_Mount" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Grass_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Dwarven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Kharid" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Soil_Dwarven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Soil_Dwarven_Surface" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Soil_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Gravel_Soil_Norden_Surface" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Green_Tall,_Yellow_Grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="IronOre_RegularYield" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>650</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Iron_Ore_Poor" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>200</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Kaolin_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Limestone" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Mar" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>50</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Mithril_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>750</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Moss_Stone_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Moss_Stone_Hills" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Moss_Stone_Mount" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Moss_Stone_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Pediment" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>200</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="PlowedSoil" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Saltpeter_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>250</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Rock_Grass_Dwarven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Rock_Grass_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Rock_Grass_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Rock_Moss_Mount" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Sand" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Sand_Alkaline" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="SandGrassGreen" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="SandGrass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Sandstone" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>400</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Gravel" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Rock_Grass_Dwarven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Rock_Grass_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Rock_Moss_Mount" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Soil" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Stone" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Woods" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Snow_Woods_Needles" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil_Surface" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil_Alkaline" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil_Dread" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil_Dread_Surface" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="DirtSteppe" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="DirtSteppe_Surface" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil_Grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Soil_Grass_Hill" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Stone_Dread" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Stone_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Stone_Hills" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Stone_Mount" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Stone_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>500</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Tarberite_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>400</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Tin_Ore" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Veg_Detail_Gravel_Dwarven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Veg_Detail_Gravel_Kharid" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Veg_Detail_Gravel_Norden" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>150</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Veg_Detail_Pediment" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Soil</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>200</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Dread" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Grass_Dread" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Grass_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_needles" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Needles_Dread" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Needles_Elven" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="SteppeYellowGrass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Yellow_Tall,_Green_Grass" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Halite" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Rock</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+  
+  <Definition xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+    <Id Subtype="Woods_Hills" Type="VoxelMaterialDefinition" />
+    <PhysicalMaterialName>Grass</PhysicalMaterialName>
+    <SpecularPower>1</SpecularPower>
+    <SpecularShininess>0.1</SpecularShininess>
+    <Hardness>100</Hardness>
+    <ColorMetalXZnY>Textures\Voxels\rocks_cm.dds</ColorMetalXZnY>
+    <NormalGlossXZnY>Textures\Voxels\rocks_ng.dds</NormalGlossXZnY>
+    <ExtXZnY>Textures\Voxels\rocks_add.dds</ExtXZnY>
+  </Definition>
+</Definitions>
+

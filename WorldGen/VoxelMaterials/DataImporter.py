@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 import Utils
 from SheetConnector import SheetCon
 from WorldGen.VoxelMaterials.MaterialGroup import MaterialGroup
+from WorldGen.VoxelMaterials.VoxelMaterial import VoxelMaterial
 
 
 class VoxelMaterialSheetHandler(SheetCon):
@@ -72,7 +73,107 @@ class VoxelMaterialSheetHandler(SheetCon):
         Utils.indent(root)
         ET.ElementTree(root).write('Output/MaterialGroups.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
 
+    def get_voxel_materials_dict(self):
+        voxel_mat_ws = self.ss.worksheet('Voxel materials')
+        vals = voxel_mat_ws.get_all_values()
+        headers, vals = vals[0], vals[1:]
+        expected = ['Voxel Material', 'Description', 'Subtype', 'Filename', 'PhysicalMaterialName', 'Hardness', 'ColorKey', 'Icon', 'Walk Sound', 'Lowest tier mining tool', 'Volume', 'Item Dropped', 'Amount', 'Item Dropped', 'Amount']
+        if headers != expected:
+            print('Something changed with the voxel material headers!', headers)
+            return
 
-ss = VoxelMaterialSheetHandler()
+        voxel_mats = {}
+        for row in vals:
+            vm = VoxelMaterial(*row[2:11])
+            if row[11]:  # check for `item dropped` value
+                vm.mining__items_dropped.append((row[11], str(row[12])))
+            if row[13]:
+                vm.mining__items_dropped.append((row[13], str(row[14])))
+            voxel_mats[row[2]] = vm
 
-print(ss.write_material_groups(ss.get_material_group_dict().values()))
+        return voxel_mats
+
+    def write_voxel_materials(self, voxel_mats):
+        root = ET.Element('Definitions')
+        for voxel in voxel_mats:
+            written_voxel = ET.Element('Definition')
+            written_voxel.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] = "MyObjectBuilder_Dx11VoxelMaterialDefinition"
+
+            id = ET.Element('Id')
+            id.attrib['Type'] = "VoxelMaterialDefinition"
+            id.attrib['Subtype'] = voxel.subtype
+            written_voxel.append(id)
+
+            if voxel.physical_material:
+                physmat = ET.Element('PhysicalMaterialName')
+                physmat.text = voxel.physical_material
+                written_voxel.append(physmat)
+
+            spec_power = ET.Element('SpecularPower')
+            spec_shininess = ET.Element('SpecularShininess')
+            spec_power.text = str(1)
+            spec_shininess.text = str(0.1)
+            written_voxel.append(spec_power)
+            written_voxel.append(spec_shininess)
+
+            if voxel.hardness:
+                hardness = ET.Element('Hardness')
+                hardness.text = voxel.hardness
+                written_voxel.append(hardness)
+            if voxel.color_key:
+                ck = ET.Element('ColorKey')
+                ck.attrib['Hex'] = voxel.color_key
+                written_voxel.append(ck)
+            if voxel.icon:
+                icon = ET.Element('Icon')
+                icon.text = voxel.icon
+                written_voxel.append(icon)
+            if voxel.texture_filename:
+                cm = ET.Element('ColorMetalXZnY')
+                ng = ET.Element('NormalGlossXZnY')
+                add = ET.Element('ExtXZnY')
+                if voxel.texture_filename.endswith('.dds'):
+                    cm.text = ng.text = add.text = voxel.texture_filename
+                else:
+                    cm.text = 'Textures\Voxels\\' + voxel.texture_filename + '_cm.dds'
+                    ng.text = 'Textures\Voxels\\' + voxel.texture_filename + '_ng.dds'
+                    add.text = 'Textures\Voxels\\' + voxel.texture_filename + '_add.dds'
+                written_voxel.extend([cm, ng, add])
+
+            root.append(written_voxel)
+
+        Utils.indent(root)
+        ET.ElementTree(root).write('Output/VoxelMaterials.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
+
+    def write_mining_defs(self, voxel_mats):
+        # group mining defs by lowest tier tool
+        tiers = defaultdict(list)
+        for voxel in voxel_mats:
+            tiers[voxel.mining__lowest_tier].append(voxel)
+
+        root = ET.Element('Definitions')
+        for tier, voxel_mats in tiers.items():
+            mining_def = ET.Element('Definition')
+            mining_def.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] = "MyObjectBuilder_VoxelMiningDefinition"
+
+            id = ET.Element('Id')
+            id.attrib['Type'] = "VoxelMiningDefinition"
+            id.attrib['Subtype'] = tier
+            mining_def.append(id)
+
+            for voxel in voxel_mats:
+                entry = ET.Element('Entry')
+                entry.attrib['VoxelMaterial'] = voxel.subtype
+                entry.attrib['Volume'] = voxel.mining__volume
+                for mined_item, amount in voxel.mining__items_dropped:
+                    item = ET.Element('MinedItem')
+                    item.attrib['Type'] = "InventoryItem"
+                    item.attrib['Subtype'] = mined_item
+                    item.attrib['Amount'] = amount
+                    entry.append(item)
+                mining_def.append(entry)
+
+            root.append(mining_def)
+
+        Utils.indent(root)
+        ET.ElementTree(root).write('Output/MiningDefinitions.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
