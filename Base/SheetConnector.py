@@ -1,6 +1,7 @@
 from os import path
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import settings
 
 
 def col(letters):
@@ -29,8 +30,7 @@ class SheetCon(object):
         scope = ['https://spreadsheets.google.com/feeds',
                  'https://www.googleapis.com/auth/drive']
         if not credentials:
-            proj_path = path.abspath(path.dirname(__file__))
-            credentials = ServiceAccountCredentials.from_json_keyfile_name(path.join(proj_path, 'Mistvalin-b3c187e87518.json'), scope)
+            credentials = ServiceAccountCredentials.from_json_keyfile_name(settings.KEYFILE, scope)
         self.gc = gspread.authorize(credentials)
 
     def open(self, spreadsheet):

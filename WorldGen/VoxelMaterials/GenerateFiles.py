@@ -10,10 +10,14 @@ def generate_voxel_materials():
     ss = VoxelMaterialSheetHandler()
     ss.write_voxel_materials(ss.get_voxel_materials_dict().values())
 
+
 def generate_mining_definitions():
     ss = VoxelMaterialSheetHandler()
     ss.write_mining_defs(ss.get_voxel_materials_dict().values())
 
-generate_material_groups()
-generate_voxel_materials()
-generate_mining_definitions()
+
+
+def generate_voxel_files():
+    generate_material_groups()
+    generate_voxel_materials()
+    generate_mining_definitions()
