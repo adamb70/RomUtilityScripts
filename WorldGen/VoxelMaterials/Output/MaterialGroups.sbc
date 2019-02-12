@@ -2,751 +2,953 @@
 <ComplexMaterials>
   <MaterialGroup Name="Desert Gravel" Value="0">
     <Rule>
-      <Layer Depth="1" Material="Gravel_Kharid" />
-      <Layer Depth="2" Material="SandDark" />
-      <Layer Depth="5" Material="DirtSteppe" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Kharid" />
+        <Layer Depth="2" Material="SandDark" />
+        <Layer Depth="5" Material="DirtSteppe" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Gravel Detail" Value="3">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Kharid" />
-      <Layer Depth="2" Material="SandDark" />
-      <Layer Depth="5" Material="DirtSteppe" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Kharid" />
+        <Layer Depth="2" Material="SandDark" />
+        <Layer Depth="5" Material="DirtSteppe" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Oasis" Value="6">
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="1" Material="DirtSteppe" />
-      <Layer Depth="3" Material="Sand" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="1" Material="DirtSteppe" />
+        <Layer Depth="3" Material="Sand" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Oasis Outer" Value="9">
     <Rule>
-      <Layer Depth="1" Material="SandGrass" />
-      <Layer Depth="1" Material="DirtSteppe" />
-      <Layer Depth="3" Material="Sand" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="SandGrass" />
+        <Layer Depth="1" Material="DirtSteppe" />
+        <Layer Depth="3" Material="Sand" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Rock" Value="12">
     <Rule>
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Pediment" Value="15">
     <Rule>
-      <Layer Depth="3" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="3" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="90" Min="50" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Pediment Detail" Value="18">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Pediment" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Pediment" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="90" Min="50" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Sand" Value="21">
     <Rule>
-      <Layer Depth="2" Material="Sand" />
-      <Layer Depth="4" Material="Clay" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="2" Material="Sand" />
+        <Layer Depth="4" Material="Clay" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="10" Min="0" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="4" Material="Sand" />
-      <Layer Depth="2" Material="SandDark" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="4" Material="Sand" />
+        <Layer Depth="2" Material="SandDark" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="30" Min="0" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="3" Material="Sand" />
-      <Layer Depth="2" Material="SandDark" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="3" Material="Sand" />
+        <Layer Depth="2" Material="SandDark" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="50" Min="30" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Sand" />
-      <Layer Depth="4" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Sand" />
+        <Layer Depth="4" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="50" Min="30" />
       <Height Max="1" Min="0.4" />
     </Rule>
     <Rule>
-      <Layer Depth="4" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="4" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="75" Min="50" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Sand Grass" Value="24">
     <Rule>
-      <Layer Depth="1" Material="SandGrass" />
-      <Layer Depth="1" Material="Sand" />
-      <Layer Depth="6" Material="SandDark" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="SandGrass" />
+        <Layer Depth="1" Material="Sand" />
+        <Layer Depth="6" Material="SandDark" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Sand Green Grass" Value="27">
     <Rule>
-      <Layer Depth="1" Material="SandGrassGreen" />
-      <Layer Depth="2" Material="Sand" />
-      <Layer Depth="2" Material="SandDark" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="SandGrassGreen" />
+        <Layer Depth="2" Material="Sand" />
+        <Layer Depth="2" Material="SandDark" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Soil" Value="30">
     <Rule>
-      <Layer Depth="3" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="3" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Alkaline" Value="33">
     <Rule>
-      <Layer Depth="2" Material="Sand_Alkaline" />
-      <Layer Depth="3" Material="Soil_Alkaline" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="50" Material="Halite" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="2" Material="Sand_Alkaline" />
+        <Layer Depth="3" Material="Soil_Alkaline" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="50" Material="Halite" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="3" Material="Sand" />
-      <Layer Depth="2" Material="SandDark" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="3" Material="Sand" />
+        <Layer Depth="2" Material="SandDark" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="50" Min="10" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Desert Transition" Value="36">
     <Rule>
-      <Layer Depth="1" Material="Grass_Kharid" />
-      <Layer Depth="3" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Kharid" />
+        <Layer Depth="3" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="40" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Kharid" />
-      <Layer Depth="1" Material="DirtSteppe" />
-      <Layer Depth="1" Material="Pediment" />
-      <Layer Depth="500" Material="Sandstone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Kharid" />
+        <Layer Depth="1" Material="DirtSteppe" />
+        <Layer Depth="1" Material="Pediment" />
+        <Layer Depth="500" Material="Sandstone" />
+      </Layers>
       <Slope Max="60" Min="40" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Mar" Value="39">
     <Rule>
-      <Layer Depth="2" Material="Mar" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="6" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="2" Material="Mar" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="6" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
       <Height Max="0.2" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="2" Material="Mar" />
-      <Layer Depth="10" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="2" Material="Mar" />
+        <Layer Depth="10" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="45" Min="10" />
       <Height Max="0.2" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="2" Material="Mar" />
-      <Layer Depth="8" Material="Soil_Dread" />
-      <Layer Depth="4" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="2" Material="Mar" />
+        <Layer Depth="8" Material="Soil_Dread" />
+        <Layer Depth="4" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="45" Min="10" />
       <Height Max="0.6" Min="0.2" />
     </Rule>
     <Rule>
-      <Layer Depth="2" Material="Mar" />
-      <Layer Depth="4" Material="Soil_Dread" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="2" Material="Mar" />
+        <Layer Depth="4" Material="Soil_Dread" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="45" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Mar" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Mar" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="80" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Mar" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Mar" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="80" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Forest" Value="42">
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Dread" />
-      <Layer Depth="10" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Dread" />
+        <Layer Depth="10" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Dread" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Dread" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Forest Dense" Value="45">
     <Rule>
-      <Layer Depth="1" Material="Woods_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Dread" />
-      <Layer Depth="10" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Dread" />
+        <Layer Depth="10" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Dread" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Dread" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Forest Grass" Value="48">
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Dread" />
-      <Layer Depth="10" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Dread" />
+        <Layer Depth="10" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Dread" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Dread" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Grass" Value="51">
     <Rule>
-      <Layer Depth="1" Material="Grass_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Dread" />
-      <Layer Depth="10" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Dread" />
+        <Layer Depth="10" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Dread" />
-      <Layer Depth="5" Material="Soil_Dread" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Dread" />
+        <Layer Depth="5" Material="Soil_Dread" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Dread" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Dread" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Gravel Detail" Value="57">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="5" Material="Stone_Dread" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="5" Material="Stone_Dread" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="5" Material="Stone_Dread" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="5" Material="Stone_Dread" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Soil" Value="60">
     <Rule>
-      <Layer Depth="1" Material="Soil_Dread_Surface" />
-      <Layer Depth="2" Material="Soil_Dread" />
-      <Layer Depth="3" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Dread_Surface" />
+        <Layer Depth="2" Material="Soil_Dread" />
+        <Layer Depth="3" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Dread_Surface" />
-      <Layer Depth="2" Material="Soil_Dread" />
-      <Layer Depth="7" Material="Soil" />
-      <Layer Depth="1" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Dread_Surface" />
+        <Layer Depth="2" Material="Soil_Dread" />
+        <Layer Depth="7" Material="Soil" />
+        <Layer Depth="1" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Dread_Surface" />
-      <Layer Depth="1" Material="Soil_Dread" />
-      <Layer Depth="3" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Dread_Surface" />
+        <Layer Depth="1" Material="Soil_Dread" />
+        <Layer Depth="3" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Dread_Surface" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Dread_Surface" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Bitumen Grass" Value="63">
     <Rule>
-      <Layer Depth="1" Material="Bitumen_Grass" />
-      <Layer Depth="2" Material="Soil_Dread" />
-      <Layer Depth="5" Material="Bitumen_Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Bitumen_Grass" />
+        <Layer Depth="2" Material="Soil_Dread" />
+        <Layer Depth="5" Material="Bitumen_Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Dread Rock Grass" Value="66">
     <Rule>
-      <Layer Depth="1" Material="Rock_Grass_Dread" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Grass_Dread" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Forest" Value="69">
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Elven" />
-      <Layer Depth="9" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Elven" />
+        <Layer Depth="9" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="45" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="7" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="7" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="60" Min="45" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Needles_Elven" />
-      <Layer Depth="14" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Needles_Elven" />
+        <Layer Depth="14" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="80" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="80" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Forest Grass" Value="72">
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Elven" />
-      <Layer Depth="9" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Elven" />
+        <Layer Depth="9" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="45" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="7" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="7" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="60" Min="45" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Grass_Elven" />
-      <Layer Depth="14" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Grass_Elven" />
+        <Layer Depth="14" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="80" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="80" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Forest Dense" Value="75">
     <Rule>
-      <Layer Depth="1" Material="Woods_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Elven" />
-      <Layer Depth="9" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Elven" />
+        <Layer Depth="9" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="45" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="7" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="7" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="60" Min="45" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Elven" />
-      <Layer Depth="14" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Elven" />
+        <Layer Depth="14" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="80" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Woods_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Woods_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="80" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Grass" Value="78">
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="9" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="9" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="60" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="6" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="6" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="6" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="6" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="14" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="14" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="23" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="23" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="9" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="23" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="9" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="23" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="60" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="6" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="26" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="6" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="26" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Elven" />
-      <Layer Depth="34" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Elven" />
+        <Layer Depth="34" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="35" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="35" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Gravel Ennerite" Value="81">
     <Rule>
-      <Layer Depth="2" Material="Gravel_Norden" />
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="2" Material="Gravel_Norden" />
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="75" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Gravel" Value="82">
     <Rule>
-      <Layer Depth="2" Material="Gravel_Norden" />
-      <Layer Depth="35" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="2" Material="Gravel_Norden" />
+        <Layer Depth="35" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="75" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="35" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="35" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Gravel Detail Ennerite" Value="84">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="75" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Gravel Detail" Value="85">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="35" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="35" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="75" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="35" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="35" Material="Stone_Elven" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Rock Grass" Value="87">
     <Rule>
-      <Layer Depth="1" Material="Rock_Grass_Elven" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="13" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Grass_Elven" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="13" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Ennerite Stone" Value="90">
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Stone" Value="91">
     <Rule>
-      <Layer Depth="35" Material="Stone_Elven" />
+      <Layers>
+        <Layer Depth="35" Material="Stone_Elven" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Stone Detail" Value="93">
     <Rule>
-      <Layer Depth="1" Material="Moss_Stone_Elven" />
-      <Layer Depth="34" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Moss_Stone_Elven" />
+        <Layer Depth="34" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Forest light" Value="96">
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="1" Min="0.5" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="20" />
       <Height Max="1" Min="0.5" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
       <Height Max="1" Min="0.5" />
     </Rule>
@@ -754,47 +956,61 @@
   
   <MaterialGroup Name="H Dwarf Forest" Value="99">
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="1" Min="0.5" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="20" />
       <Height Max="1" Min="0.5" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
       <Height Max="1" Min="0.5" />
     </Rule>
@@ -802,209 +1018,271 @@
   
   <MaterialGroup Name="H Dwarf Grass" Value="102">
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Soil Grass" Value="105">
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass_Hill" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass_Hill" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass_Hill" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass_Hill" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass_Hill" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass_Hill" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Gravel High" Value="108">
     <Rule>
-      <Layer Depth="2" Material="Gravel_Dwarven" />
-      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="2" Material="Gravel_Dwarven" />
+        <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="45" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="45" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Gravel erosion" Value="109">
     <Rule>
-      <Layer Depth="2" Material="Gravel_Dwarven" />
-      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="2" Material="Gravel_Dwarven" />
+        <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="45" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="45" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Gravel Detail high" Value="111">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="45" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="45" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Gravel Detail erosion" Value="112">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="45" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="45" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Gravel Grass" Value="114">
     <Rule>
-      <Layer Depth="1" Material="Rock_Grass_Dwarven" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Grass_Dwarven" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="35" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Rock_Grass_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Grass_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="35" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Soil" Value="117">
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="74" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="1" Min="0.4" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
       <Height Max="1" Min="0.4" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
       <Height Max="1" Min="0.4" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="74" />
       <Height Max="1" Min="0.4" />
     </Rule>
@@ -1012,36 +1290,48 @@
   
   <MaterialGroup Name="H Dwarf Soil Rocky" Value="120">
     <Rule>
-      <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="20" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="74" />
       <Height Max="0.4" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="1" Min="0.4" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="20" />
       <Height Max="1" Min="0.4" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="74" />
       <Height Max="1" Min="0.4" />
     </Rule>
@@ -1049,47 +1339,61 @@
   
   <MaterialGroup Name="H Dwarf Forest Dense" Value="123">
     <Rule>
-      <Layer Depth="1" Material="Woods_Hills" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Hills" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Hills" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Hills" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="30" Min="20" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Hills" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Hills" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="30" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
       <Height Max="0.5" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Hills" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Hills" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="20" Min="0" />
       <Height Max="1" Min="0.5" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_Hills" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_Hills" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="75" Min="20" />
       <Height Max="1" Min="0.5" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
       <Slope Max="90" Min="75" />
       <Height Max="1" Min="0.5" />
     </Rule>
@@ -1097,1033 +1401,1323 @@
   
   <MaterialGroup Name="H Dwarf Stone" Value="126">
     <Rule>
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="H Dwarf Stone Detail" Value="129">
     <Rule>
-      <Layer Depth="1" Material="Moss_Stone_Hills" />
-      <Layer Depth="500" Material="Stone_Hills" />
+      <Layers>
+        <Layer Depth="1" Material="Moss_Stone_Hills" />
+        <Layer Depth="500" Material="Stone_Hills" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Mountain" Value="132">
     <Rule>
-      <Layer Depth="6" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="6" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="45" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="3" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="3" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="45" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Arctic" Value="133">
     <Rule>
-      <Layer Depth="3" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="3" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="45" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="2" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="2" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="45" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Thin Grass" Value="135">
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Forest thin" Value="136">
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Forest " Value="138">
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Forest Dense" Value="141">
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Forest" Value="144">
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Forest Needles" Value="147">
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods_Needles" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods_Needles" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods_Needles" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods_Needles" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods_Needles" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods_Needles" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Woods_Needles" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Woods_Needles" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Grass" Value="150">
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Grass" Value="153">
     <Rule>
-      <Layer Depth="1" Material="Snow_Grass" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Grass" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Grass" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Grass" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Grass" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Grass" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Grass" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Grass" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Gravel" Value="156">
     <Rule>
-      <Layer Depth="3" Material="Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="3" Material="Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Gravel Grass" Value="157">
     <Rule>
-      <Layer Depth="1" Material="Gravel_Grass_Mount" />
-      <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Grass_Mount" />
+        <Layer Depth="6" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Grass_Mount" />
-      <Layer Depth="5" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Grass_Mount" />
+        <Layer Depth="5" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Grass_Mount" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Grass_Mount" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Grass_Mount" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Grass_Mount" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Gravel Detail" Value="159">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="2" Material="Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="2" Material="Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Dwarven" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Mixed Gravel" Value="162">
     <Rule>
-      <Layer Depth="1" Material="Snow_Gravel" />
-      <Layer Depth="2" Material="Gravel_Dwarven" />
-      <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Gravel" />
+        <Layer Depth="2" Material="Gravel_Dwarven" />
+        <Layer Depth="3" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Gravel" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Gravel" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Gravel" Value="163">
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="5" Material="Gravel_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="5" Material="Gravel_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Soil" Value="165">
     <Rule>
-      <Layer Depth="1" Material="Snow_Soil" />
-      <Layer Depth="2" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Soil" />
+        <Layer Depth="2" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Soil" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Soil" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow_Soil" />
-      <Layer Depth="3" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Soil" />
+        <Layer Depth="3" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Rock Grass" Value="168">
     <Rule>
-      <Layer Depth="1" Material="Rock_Grass_Dwarven" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Grass_Dwarven" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Mixed Rock Grass" Value="171">
     <Rule>
-      <Layer Depth="1" Material="Snow_Rock_Grass_Dwarven" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Rock_Grass_Dwarven" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Rock Moss" Value="174">
     <Rule>
-      <Layer Depth="1" Material="Rock_Moss_Mount" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Moss_Mount" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Thin RockMoss" Value="177">
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Rock_Moss_Mount" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Rock_Moss_Mount" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Rock_Moss_Mount" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Rock_Moss_Mount" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Rock_Moss_Mount" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Rock_Moss_Mount" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Rock_Moss_Mount" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Rock_Moss_Mount" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Soil" Value="180">
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="3" Material="Soil" />
-      <Layer Depth="2" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="3" Material="Soil" />
+        <Layer Depth="2" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="3" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="3" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="1" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Soil Rocky" Value="183">
     <Rule>
-      <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Gravel_Dwarven" />
-      <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Gravel_Dwarven" />
+        <Layer Depth="4" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
       <Slope Max="90" Min="30" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Stone" Value="186">
     <Rule>
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Stone Detail" Value="189">
     <Rule>
-      <Layer Depth="1" Material="Moss_Stone_Mount" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Moss_Stone_Mount" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Stone Snow" Value="192">
     <Rule>
-      <Layer Depth="1" Material="Snow_Stone" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Stone" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="M Dwarf Snow Thin Rock" Value="192">
     <Rule>
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="1" Material="Snow" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="1" Material="Snow" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Forest Grass" Value="194">
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="10" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="10" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_grass" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_grass" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Forest" Value="195">
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="10" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="10" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods_needles" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods_needles" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Forest Dense" Value="198">
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="10" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="10" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Gravel" Value="201">
     <Rule>
-      <Layer Depth="4" Material="Gravel_Norden" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="4" Material="Gravel_Norden" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="2" Material="Gravel_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="2" Material="Gravel_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Gravel Detail" Value="204">
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
-      <Layer Depth="3" Material="Gravel_Norden" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
+        <Layer Depth="3" Material="Gravel_Norden" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
-      <Layer Depth="1" Material="Gravel_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Veg_Detail_Gravel_Norden" />
+        <Layer Depth="1" Material="Gravel_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="75" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Soil" Value="207">
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="10" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="10" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="1" Material="Soil" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="1" Material="Soil" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Rock Grass" Value="210">
     <Rule>
-      <Layer Depth="1" Material="Rock_Grass_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Rock_Grass_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Snow Rock Grass" Value="213">
     <Rule>
-      <Layer Depth="1" Material="Snow_Rock_Grass_Norden" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Snow_Rock_Grass_Norden" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Stone" Value="216">
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Stone Detail" Value="219">
     <Rule>
-      <Layer Depth="1" Material="Moss_Stone_Norden" />
-      <Layer Depth="500" Material="Stone_Mount" />
+      <Layers>
+        <Layer Depth="1" Material="Moss_Stone_Norden" />
+        <Layer Depth="500" Material="Stone_Mount" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Forest" Value="222">
     <Rule>
-      <Layer Depth="1" Material="Green_Tall,_Yellow_Grass" />
-      <Layer Depth="9" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Green_Tall,_Yellow_Grass" />
+        <Layer Depth="9" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Green_Tall,_Yellow_Grass" />
-      <Layer Depth="4" Material="DirtSteppe" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Green_Tall,_Yellow_Grass" />
+        <Layer Depth="4" Material="DirtSteppe" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="80" Min="50" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="DirtSteppe_Surface" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="DirtSteppe_Surface" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="90" Min="80" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Forest 2" Value="225">
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="9" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="9" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Woods" />
-      <Layer Depth="4" Material="DirtSteppe" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Woods" />
+        <Layer Depth="4" Material="DirtSteppe" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="80" Min="50" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="DirtSteppe_Surface" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="DirtSteppe_Surface" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="90" Min="80" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Yellow Grass" Value="228">
     <Rule>
-      <Layer Depth="1" Material="SteppeYellowGrass" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="SteppeYellowGrass" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="SteppeYellowGrass" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="SteppeYellowGrass" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="70" Min="50" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="DirtSteppe_Surface" />
-      <Layer Depth="9" Material="DirtSteppe" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="DirtSteppe_Surface" />
+        <Layer Depth="9" Material="DirtSteppe" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="90" Min="70" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Green Grass" Value="231">
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="70" Min="50" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="DirtSteppe_Surface" />
-      <Layer Depth="9" Material="DirtSteppe" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="DirtSteppe_Surface" />
+        <Layer Depth="9" Material="DirtSteppe" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="90" Min="70" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Grass Yellow, Green" Value="234">
     <Rule>
-      <Layer Depth="1" Material="Yellow_Tall,_Green_Grass" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Yellow_Tall,_Green_Grass" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="50" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Yellow_Tall,_Green_Grass" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Yellow_Tall,_Green_Grass" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="70" Min="50" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="DirtSteppe" />
-      <Layer Depth="9" Material="DirtSteppe" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="DirtSteppe" />
+        <Layer Depth="9" Material="DirtSteppe" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
       <Slope Max="90" Min="70" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Gravel" Value="237">
     <Rule>
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="9" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="9" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Dwarven" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Soil" Value="240">
     <Rule>
-      <Layer Depth="1" Material="DirtSteppe" />
-      <Layer Depth="10" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="DirtSteppe" />
+        <Layer Depth="10" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Grass Alkaline" Value="243">
     <Rule>
-      <Layer Depth="1" Material="Grass_Alkaline" />
-      <Layer Depth="3" Material="Soil_Alkaline" />
-      <Layer Depth="7" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Alkaline" />
+        <Layer Depth="3" Material="Soil_Alkaline" />
+        <Layer Depth="7" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Steppe Soil Alkaline" Value="246">
     <Rule>
-      <Layer Depth="6" Material="Soil_Alkaline" />
-      <Layer Depth="7" Material="DirtSteppe" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Halite" />
-      <Layer Depth="500" Material="Limestone" />
+      <Layers>
+        <Layer Depth="6" Material="Soil_Alkaline" />
+        <Layer Depth="7" Material="DirtSteppe" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Halite" />
+        <Layer Depth="500" Material="Limestone" />
+      </Layers>
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Grass" Value="249">
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="10" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="10" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Grass_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Grass_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Nordic Soil Grass" Value="252">
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass" />
-      <Layer Depth="10" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass" />
+        <Layer Depth="10" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass" />
-      <Layer Depth="4" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass" />
+        <Layer Depth="4" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Grass" />
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Grass" />
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="500" Material="Stone_Norden" />
+      <Layers>
+        <Layer Depth="500" Material="Stone_Norden" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>
   
   <MaterialGroup Name="Elven Soil" Value="255">
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="5" Material="Soil" />
-      <Layer Depth="5" Material="Clay" />
-      <Layer Depth="1" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="5" Material="Soil" />
+        <Layer Depth="5" Material="Clay" />
+        <Layer Depth="1" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="10" Min="0" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="9" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="3" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="9" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="3" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="30" Min="10" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="6" Material="Soil" />
-      <Layer Depth="2" Material="Gravel_Soil_Norden" />
-      <Layer Depth="6" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="6" Material="Soil" />
+        <Layer Depth="2" Material="Gravel_Soil_Norden" />
+        <Layer Depth="6" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="60" Min="30" />
     </Rule>
     <Rule>
-      <Layer Depth="1" Material="Soil_Surface" />
-      <Layer Depth="14" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="1" Material="Soil_Surface" />
+        <Layer Depth="14" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="75" Min="60" />
     </Rule>
     <Rule>
-      <Layer Depth="15" Material="Stone_Elven" />
-      <Layer Depth="20" Material="Ennerite_Stone" />
+      <Layers>
+        <Layer Depth="15" Material="Stone_Elven" />
+        <Layer Depth="20" Material="Ennerite_Stone" />
+      </Layers>
       <Slope Max="90" Min="74" />
     </Rule>
   </MaterialGroup>

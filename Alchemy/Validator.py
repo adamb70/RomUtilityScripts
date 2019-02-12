@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-from Utils import indent
+from Base.Utils import indent
 
 
 all_items = defaultdict(dict)
@@ -16,23 +16,23 @@ def get_objects(root, file, fix_duplicate_subtypes=False):
         if id is not None:
             try:
                 if all_items[id.attrib['Type']][id.attrib['Subtype']]:
-                    print '\nItem already exists!', all_items[id.attrib['Type']][id.attrib['Subtype']], id.attrib['Type'], id.attrib['Subtype'], file
+                    print('\nItem already exists!', all_items[id.attrib['Type']][id.attrib['Subtype']], id.attrib['Type'], id.attrib['Subtype'], file)
 
                     if child.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] == 'MyObjectBuilder_CraftingRecipeDefinition':
                         if fix_duplicate_subtypes:
                             duplicates[all_items[id.attrib['Type']][id.attrib['Subtype']]] += 1
                             new_subtype = id.attrib['Subtype'] + '_' + str(duplicates[all_items[id.attrib['Type']][id.attrib['Subtype']]] + 1)
                             id.attrib['Subtype'] = new_subtype
-                            print 'incrementing ID to', new_subtype
+                            print('incrementing ID to', new_subtype)
                     else:
-                        print '\t\t!! Type is ', child.attrib['{http://www.w3.org/2001/XMLSchema-instance}type']
+                        print('\t\t!! Type is ', child.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'])
 
             except KeyError:
                 #  If above failed, then the item doesn't already exist. This is good.
                 all_items[id.attrib['Type']][id.attrib['Subtype']] = child
             except AttributeError:
                 # Items has not type or subtype. This is bad.
-                print 'No type or subtype found!', child, file
+                print('No type or subtype found!', child, file)
 
         else:
             get_objects(child, file)
@@ -74,7 +74,7 @@ def validate_crafting(all_items, no_duplicate_warnings=True):
                     else:
                         warnings.append('<{}: {}> Prereq definition does not exist!!! (from <{}: {}>)'.format(item.attrib['Type'], item.attrib['Subtype'], definition.find('Id').attrib['Type'], definition.find('Id').attrib['Subtype']))
         else:
-            print 'No prereqs!', subtype
+            print('No prereqs!', subtype)
 
         if results is not None:
             for item in list(results):
@@ -87,16 +87,16 @@ def validate_crafting(all_items, no_duplicate_warnings=True):
                     else:
                         warnings.append('<{}: {}> Result definition does not exist!!! (from <{}: {}>)'.format(item.attrib['Type'], item.attrib['Subtype'], definition.find('Id').attrib['Type'], definition.find('Id').attrib['Subtype']))
         else:
-            print 'No results!', subtype
+            print('No results!', subtype)
 
         if not categories:
-            print 'No categories!', subtype
+            print('No categories!', subtype)
 
     for w in warnings:
-        print w
+        print(w)
 
-    print missing_prepreqs
-    print missing_results
+    print(missing_prepreqs)
+    print(missing_results)
 
 
 output_files = []

@@ -1,8 +1,8 @@
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-import Utils
-from SheetConnector import SheetCon
+from Base.SheetConnector import SheetCon
+from Base.Utils import indent
 from WorldGen.VoxelMaterials.MaterialGroup import MaterialGroup
 from WorldGen.VoxelMaterials.VoxelMaterial import VoxelMaterial
 
@@ -52,11 +52,13 @@ class VoxelMaterialSheetHandler(SheetCon):
                 matgroup.attrib['Value'] = matgroupdata.value
             for r in matgroupdata.rules:
                 rule = ET.Element('Rule')
+                layers = ET.Element('Layers')
                 for lmat, ldepth in r.layers:
                     layer = ET.Element('Layer')
                     layer.attrib['Material'] = lmat
                     layer.attrib['Depth'] = ldepth
-                    rule.append(layer)
+                    layers.append(layer)
+                rule.append(layers)
                 if r.slope:
                     slope = ET.Element('Slope')
                     slope.attrib['Min'] = r.slope[0]
@@ -70,7 +72,7 @@ class VoxelMaterialSheetHandler(SheetCon):
                 matgroup.append(rule)
             root.append(matgroup)
 
-        Utils.indent(root)
+        indent(root)
         ET.ElementTree(root).write('Output/MaterialGroups.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
 
     def get_voxel_materials_dict(self):
@@ -142,7 +144,7 @@ class VoxelMaterialSheetHandler(SheetCon):
 
             root.append(written_voxel)
 
-        Utils.indent(root)
+        indent(root)
         ET.ElementTree(root).write('Output/VoxelMaterials.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
 
     def write_mining_defs(self, voxel_mats):
@@ -175,5 +177,5 @@ class VoxelMaterialSheetHandler(SheetCon):
 
             root.append(mining_def)
 
-        Utils.indent(root)
+        indent(root)
         ET.ElementTree(root).write('Output/MiningDefinitions.sbc', xml_declaration=True, method="xml", encoding="UTF-8")

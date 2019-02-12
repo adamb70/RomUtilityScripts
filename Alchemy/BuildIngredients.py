@@ -1,6 +1,6 @@
-from ItemClasses import *
-from Utils import indent
-from Handler import AlchemySheetHandler
+from Base.ItemClasses import *
+from Base.Utils import indent
+from Alchemy.Handler import AlchemySheetHandler
 
 
 class Ingredient(Item):

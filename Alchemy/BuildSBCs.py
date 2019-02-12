@@ -1,10 +1,10 @@
 from collections import defaultdict
 
-from ItemClasses import *
-from Utils import indent
-from AlchemyUtils import build_stats
-from Handler import AlchemySheetHandler
-import BuildIngredients
+from Base.ItemClasses import *
+from Base.Utils import indent
+from Alchemy.AlchemyUtils import build_stats
+from Alchemy.Handler import AlchemySheetHandler
+from Alchemy import BuildIngredients
 
 con = AlchemySheetHandler()
 headers, recipe_list = con.get_final_recipes()

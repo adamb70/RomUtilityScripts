@@ -1,7 +1,7 @@
-from ItemClasses import *
-from Utils import indent
-from AlchemyUtils import build_stats
-from Handler import AlchemySheetHandler
+from Base.ItemClasses import *
+from Base.Utils import indent
+from Alchemy.AlchemyUtils import build_stats
+from Alchemy.Handler import AlchemySheetHandler
 
 
 class Tea(CraftableItem):

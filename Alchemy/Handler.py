@@ -1,4 +1,4 @@
-from SheetConnector import SheetCon, col, enum
+from Base.SheetConnector import SheetCon, col, enum
 
 
 class AlchemySheetHandler(SheetCon):
