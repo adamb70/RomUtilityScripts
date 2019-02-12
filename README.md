@@ -2,7 +2,7 @@
 Collection of scripts to help build data for the RoM mod.
 
 ### How to use
-Install [Python 2.7](https://www.python.org/downloads/).
+Install [Python 3](https://www.python.org/downloads/).
 
 Install [gspread](https://github.com/burnash/gspread) and [oauth2client](https://github.com/google/oauth2client):
 
