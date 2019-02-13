@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
-from Base.ItemClasses import CraftableItem
-from Base.Utils import indent
+from RomUtilityScriptsBase.ItemClasses import CraftableItem
+from RomUtilityScriptsBase.Utils import indent
 from Alchemy.AlchemyUtils import build_stats
 from Alchemy.Handler import AlchemySheetHandler
 

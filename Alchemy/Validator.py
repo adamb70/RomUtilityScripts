@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-from Base.Utils import indent
+from RomUtilityScriptsBase.Utils import indent
 
 
 all_items = defaultdict(dict)

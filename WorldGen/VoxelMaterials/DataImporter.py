@@ -1,8 +1,8 @@
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-from Base.SheetConnector import SheetCon
-from Base.Utils import indent
+from RomUtilityScriptsBase.SheetConnector import SheetCon
+from RomUtilityScriptsBase.Utils import indent
 from WorldGen.VoxelMaterials.MaterialGroup import MaterialGroup
 from WorldGen.VoxelMaterials.VoxelMaterial import VoxelMaterial
 
