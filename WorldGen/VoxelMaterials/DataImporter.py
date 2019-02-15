@@ -43,7 +43,7 @@ class VoxelMaterialSheetHandler(SheetCon):
 
         return mat_groups
 
-    def write_material_groups(self, mat_groups):
+    def write_material_groups(self, mat_groups, outfile):
         root = ET.Element('ComplexMaterials')
         for matgroupdata in mat_groups:
             matgroup = ET.Element('MaterialGroup')
@@ -73,7 +73,7 @@ class VoxelMaterialSheetHandler(SheetCon):
             root.append(matgroup)
 
         indent(root)
-        ET.ElementTree(root).write('Output/MaterialGroups.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
+        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
 
     def get_voxel_materials_dict(self):
         voxel_mat_ws = self.ss.worksheet('Voxel materials')
@@ -95,7 +95,7 @@ class VoxelMaterialSheetHandler(SheetCon):
 
         return voxel_mats
 
-    def write_voxel_materials(self, voxel_mats):
+    def write_voxel_materials(self, voxel_mats, outfile):
         root = ET.Element('Definitions')
         for voxel in voxel_mats:
             written_voxel = ET.Element('Definition')
@@ -145,9 +145,9 @@ class VoxelMaterialSheetHandler(SheetCon):
             root.append(written_voxel)
 
         indent(root)
-        ET.ElementTree(root).write('Output/VoxelMaterials.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
+        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
 
-    def write_mining_defs(self, voxel_mats):
+    def write_mining_defs(self, voxel_mats, outfile):
         # group mining defs by lowest tier tool
         tiers = defaultdict(list)
         for voxel in voxel_mats:
@@ -178,4 +178,4 @@ class VoxelMaterialSheetHandler(SheetCon):
             root.append(mining_def)
 
         indent(root)
-        ET.ElementTree(root).write('Output/MiningDefinitions.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
+        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
