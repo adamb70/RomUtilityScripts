@@ -85,4 +85,4 @@ def generate_alchemy_files(generate_ground_items=False):
                 completed_crafting[(x.id.attrib['Type'], old_subtype)] += 1
 
         indent(root)
-        ET.ElementTree(root).write('Output/'+filename, xml_declaration=True, method="xml", encoding="UTF-8")
+        ET.ElementTree(root).write('Output/Alchemy/'+filename, xml_declaration=True, method="xml", encoding="UTF-8")

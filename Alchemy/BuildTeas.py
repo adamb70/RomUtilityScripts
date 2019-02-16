@@ -37,4 +37,4 @@ def build_from_sheet():
         root.append(x.build_crafting_def())
 
     indent(root)
-    ET.ElementTree(root).write('Teas.xml', xml_declaration=True, method="xml")
+    ET.ElementTree(root).write('Output/Alchemy/Teas.xml', xml_declaration=True, method="xml")
