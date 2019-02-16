@@ -124,12 +124,15 @@ class GrowableItemGroupSheetHandler(SheetCon):
         growable_ws = self.ss.worksheet(worksheet)
         vals = growable_ws.get_all_values()
         headers, vals = vals[1], vals[2:]
-        expected = ['Farmable Item', 'DeadState', 'MaxSlope', 'Step Name', 'StartingProbability',
-                    'ModelCollectionSubtypeId', 'NextStep', 'TimeToNextStep', '', 'Name', 'Next Step',
-                    'Item Type', 'Item Subtype', 'Min', 'Max', '', 'Name', 'Next Step', 'Item Type',
-                    'Item Subtype', 'Min', 'Max']
+        expected_growable = ['Growable Item', 'Step Name', 'StartingProbability', 'ModelCollectionSubtypeId',
+                             'NextStep', 'TimeToNextStep', '', 'Name', 'Next Step', 'Item Type', 'Item Subtype',
+                             'Min', 'Max', '', 'Name', 'Next Step', 'Item Type', 'Item Subtype', 'Min', 'Max']
+        expected_farmable = ['Farmable Item', 'DeadState', 'MaxSlope', 'Step Name', 'StartingProbability',
+                             'ModelCollectionSubtypeId', 'NextStep', 'TimeToNextStep', '', 'Name', 'Next Step',
+                             'Item Type', 'Item Subtype', 'Min', 'Max', '', 'Name', 'Next Step', 'Item Type',
+                             'Item Subtype', 'Min', 'Max']
 
-        if headers != expected and headers != expected[:1] + expected[3:]:
+        if headers != expected_growable and headers != expected_farmable:
             print('Something changed with the environment item group definition headers!', headers)
             return
 

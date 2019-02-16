@@ -3,7 +3,7 @@ from WorldGen.Environment.DataImporter import ProceduralItemGroupSheetHandler, G
 
 def generate_item_groups(outfile='Output/ItemGroups.sbc', handler=None):
     ss = ProceduralItemGroupSheetHandler() if not handler else handler
-    ss.write_item_groups(ss.get_item_group_dict().values(), outfile)
+    ss.write_item_groups(ss.get_item_group_dict(), outfile)
     return outfile
 
 
