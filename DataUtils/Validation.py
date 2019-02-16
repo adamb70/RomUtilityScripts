@@ -8,7 +8,6 @@ from xml.etree import ElementTree
 from DataUtils import GithubFiles
 
 
-
 def get_model_files(mod_path):
     models = set()
     for file in glob.glob(mod_path + '/Models/**/*.mwm', recursive=True):
@@ -191,17 +190,3 @@ def find_missing_icons_git(data_urls):
             missing.append(file)
             return
     return missing
-
-
-p = "C:\\Users\PC\AppData\Roaming\MedievalEngineers\Mods\RoM"
-
-print('Missing Models:', find_missing_models(p, "C:\Program Files (x86)\Steam\steamapps\common\MedievalEngineers\Content"))
-print('Unused Models:', find_unused_models(p))
-print('Missing Icons:', find_missing_icons(p, "C:\Program Files (x86)\Steam\steamapps\common\MedievalEngineers\Content"))
-print('Unused Icons:', find_unused_icons(p))
-
-#print('Missing Models Git:', find_missing_models_git(GithubFiles.get_data_urls()))
-#print('Unused Models Git:', find_unused_models_git(GithubFiles.get_data_urls()))
-#print('Missing Icons Git:', find_missing_icons_git(GithubFiles.get_data_urls()))
-#print('Unused Icons Git:', find_unused_icons_git(GithubFiles.get_data_urls()))
-
