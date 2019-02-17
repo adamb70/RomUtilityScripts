@@ -1,3 +1,4 @@
+import json
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from RomUtilityScriptsBase import settings
@@ -29,7 +30,10 @@ class SheetCon(object):
         scope = ['https://spreadsheets.google.com/feeds',
                  'https://www.googleapis.com/auth/drive']
         if not credentials:
-            credentials = ServiceAccountCredentials.from_json_keyfile_name(settings.KEYFILE, scope)
+            if settings.KEYFILE_TEXT:
+                credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(settings.KEYFILE_TEXT))
+            else:
+                credentials = ServiceAccountCredentials.from_json_keyfile_name(settings.KEYFILE, scope)
         self.gc = gspread.authorize(credentials)
 
     def open(self, spreadsheet):
