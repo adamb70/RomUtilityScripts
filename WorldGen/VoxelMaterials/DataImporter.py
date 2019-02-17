@@ -1,10 +1,10 @@
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-from RomUtilityScriptsBase.SheetConnector import SheetCon
-from RomUtilityScriptsBase.Utils import indent
-from WorldGen.VoxelMaterials.MaterialGroup import MaterialGroup
-from WorldGen.VoxelMaterials.VoxelMaterial import VoxelMaterial
+from ...RomUtilityScriptsBase.SheetConnector import SheetCon
+from ...RomUtilityScriptsBase.Utils import indent
+from .MaterialGroup import MaterialGroup
+from .VoxelMaterial import VoxelMaterial
 
 
 class VoxelMaterialSheetHandler(SheetCon):

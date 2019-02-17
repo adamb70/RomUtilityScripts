@@ -1,10 +1,10 @@
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-from RomUtilityScriptsBase.SheetConnector import SheetCon
-from RomUtilityScriptsBase.Utils import indent
-from WorldGen.Environment.ItemGroup import ItemGroup
-from WorldGen.Environment.GrowableItem import GrowableItem
+from ...RomUtilityScriptsBase.SheetConnector import SheetCon
+from ...RomUtilityScriptsBase.Utils import indent
+from .ItemGroup import ItemGroup
+from .GrowableItem import GrowableItem
 
 
 class ProceduralItemGroupSheetHandler(SheetCon):

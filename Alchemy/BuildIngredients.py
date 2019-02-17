@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
-from RomUtilityScriptsBase.ItemClasses import Item, CraftableItem
-from RomUtilityScriptsBase.Utils import indent
-from Alchemy.Handler import AlchemySheetHandler
+from ..RomUtilityScriptsBase.ItemClasses import Item, CraftableItem
+from ..RomUtilityScriptsBase.Utils import indent
+from .Handler import AlchemySheetHandler
 
 
 class Ingredient(Item):

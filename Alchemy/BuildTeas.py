@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
-from RomUtilityScriptsBase.ItemClasses import CraftableItem
-from RomUtilityScriptsBase.Utils import indent
-from Alchemy.AlchemyUtils import build_stats
-from Alchemy.Handler import AlchemySheetHandler
+from ..RomUtilityScriptsBase.ItemClasses import CraftableItem
+from ..RomUtilityScriptsBase.Utils import indent
+from .AlchemyUtils import build_stats
+from .Handler import AlchemySheetHandler
 
 
 class Tea(CraftableItem):

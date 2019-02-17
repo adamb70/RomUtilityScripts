@@ -1,4 +1,4 @@
-from WorldGen.VoxelMaterials.DataImporter import VoxelMaterialSheetHandler
+from .DataImporter import VoxelMaterialSheetHandler
 
 
 def generate_material_groups(outfile='Output/MaterialGroups.sbc', handler=None):

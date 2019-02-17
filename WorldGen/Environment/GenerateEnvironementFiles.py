@@ -1,4 +1,4 @@
-from WorldGen.Environment.DataImporter import ProceduralItemGroupSheetHandler, GrowableItemGroupSheetHandler
+from .DataImporter import ProceduralItemGroupSheetHandler, GrowableItemGroupSheetHandler
 
 
 def generate_item_groups(outfile='Output/ItemGroups.sbc', handler=None):

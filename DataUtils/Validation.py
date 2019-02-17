@@ -5,7 +5,7 @@ import requests
 from collections import defaultdict
 from xml.etree.ElementTree import ElementTree as Et
 from xml.etree import ElementTree
-from DataUtils import GithubFiles
+from ..DataUtils import GithubFiles
 
 
 def get_model_files(mod_path):

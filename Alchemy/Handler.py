@@ -1,4 +1,4 @@
-from RomUtilityScriptsBase.SheetConnector import SheetCon, col, enum
+from ..RomUtilityScriptsBase.SheetConnector import SheetCon, col, enum
 
 expected_headers_alchemy = ["Display Name", "Build Data Type",
                             "Result 1", "Result 1 Amount", "Result 1 Type",

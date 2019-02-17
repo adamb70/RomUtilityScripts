@@ -1,5 +1,5 @@
 from github import Github
-from RomUtilityScriptsBase import settings
+from ..RomUtilityScriptsBase import settings
 
 
 def get_github_data_urls(dir="", limit_filetypes=None, filepaths_only=False):

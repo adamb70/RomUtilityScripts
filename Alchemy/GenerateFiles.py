@@ -1,11 +1,11 @@
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 
-from RomUtilityScriptsBase.ItemClasses import CraftableItem
-from RomUtilityScriptsBase.Utils import indent
-from Alchemy.AlchemyUtils import build_stats
-from Alchemy.Handler import AlchemySheetHandler
-from Alchemy import BuildIngredients
+from ..RomUtilityScriptsBase.ItemClasses import CraftableItem
+from ..RomUtilityScriptsBase.Utils import indent
+from .AlchemyUtils import build_stats
+from .Handler import AlchemySheetHandler
+from . import BuildIngredients
 
 
 def generate_alchemy_files(generate_ground_items=False):
