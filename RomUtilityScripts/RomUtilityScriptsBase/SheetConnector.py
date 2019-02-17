@@ -31,7 +31,7 @@ class SheetCon(object):
                  'https://www.googleapis.com/auth/drive']
         if not credentials:
             if settings.KEYFILE_TEXT:
-                credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(settings.KEYFILE_TEXT))
+                credentials = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(settings.KEYFILE_TEXT, strict=False), scope)
             else:
                 credentials = ServiceAccountCredentials.from_json_keyfile_name(settings.KEYFILE, scope)
         self.gc = gspread.authorize(credentials)
