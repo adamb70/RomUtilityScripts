@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='RomUtilityScripts',
       version='0.1.1',
@@ -7,5 +7,5 @@ setup(name='RomUtilityScripts',
       author='adamb70',
       author_email='',
       license='MIT',
-      packages=['RomUtilityScripts'],
+      packages=find_packages(),
       zip_safe=False)
