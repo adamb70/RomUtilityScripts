@@ -23,6 +23,8 @@ class VoxelMaterialSheetHandler(SheetCon):
 
         mat_groups = {}
         for row in vals:
+            if not any(row):
+                continue
             matgroup = mat_groups.get(row[0], None)
             if not matgroup:
                 matgroup = MaterialGroup(row[0], row[14])
@@ -86,6 +88,8 @@ class VoxelMaterialSheetHandler(SheetCon):
 
         voxel_mats = {}
         for row in vals:
+            if not any(row):
+                continue
             vm = VoxelMaterial(*row[2:11])
             if row[11]:  # check for `item dropped` value
                 vm.mining__items_dropped.append((row[11], str(row[12])))

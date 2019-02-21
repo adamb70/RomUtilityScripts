@@ -23,6 +23,8 @@ class ProceduralItemGroupSheetHandler(SheetCon):
 
         item_groups = []
         for row in vals:
+            if not any(row):
+                continue
             group = ItemGroup(name=row[0], density=row[1], lod_start=row[2], lod_end=row[3])
             group.mappings = self.get_item_group_mappings(group)
             item_groups.append(group)
@@ -139,6 +141,9 @@ class GrowableItemGroupSheetHandler(SheetCon):
         growth_steps = defaultdict(list)
         farmable_data = {}
         for row in vals:
+            if not any(row):
+                continue
+
             if is_farmable:
                 # farming spreadsheet adds more columns, remove these so indicies can stay
                 farmable_data[row[0]] = (row.pop(1), row.pop(1))  # deadstate, maxslope
