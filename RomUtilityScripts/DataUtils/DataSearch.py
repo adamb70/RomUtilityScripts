@@ -31,9 +31,3 @@ def get_def_ids_of_type(mod_path, type, subtype_only=False):
 
 def list_cubeblocks(mod_path):
     return get_def_ids_of_type(mod_path, "MyObjectBuilder_BuildableBlockDefinition", subtype_only=True)
-
-
-
-p = "C:\\Users\PC\AppData\Roaming\MedievalEngineers\Mods\RoM"
-print(list_cubeblocks(p))
-
