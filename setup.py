@@ -8,4 +8,4 @@ setup(name='RomUtilityScripts',
       author_email='',
       license='MIT',
       packages=find_packages(),
-      zip_safe=False)
+      zip_safe=False, install_requires=['PyGithub', 'requests'])

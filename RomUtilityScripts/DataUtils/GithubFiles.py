@@ -1,3 +1,7 @@
+from collections import defaultdict
+from xml.etree import ElementTree
+from xml.etree.ElementTree import ElementTree as Et
+import requests
 from github import Github
 from ..RomUtilityScriptsBase import settings
 
@@ -30,3 +34,20 @@ def get_model_paths():
 
 def get_icon_paths():
     return get_github_data_urls("Textures/GUI/Icons", filepaths_only=True)
+
+
+def get_items_by_types_git(types):
+    raw_types = [t.replace('MyObjectBuilder_', '') for t in types]
+    data_urls = get_data_urls()
+    def_names = defaultdict(set)
+    for url in data_urls:
+        req = requests.get(url)
+        tree = ElementTree.fromstring(req.text)
+        for definition in tree.findall('Definition'):
+            if definition.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'].replace('MyObjectBuilder_', '') in raw_types:
+                def_names[definition.find('Id').attrib['Type']].add(definition.find('Id').attrib['Subtype'])
+    return def_names
+
+
+def list_cubeblocks_git():
+    return get_items_by_types_git(["BuildableBlockDefinition"])["Block"]
