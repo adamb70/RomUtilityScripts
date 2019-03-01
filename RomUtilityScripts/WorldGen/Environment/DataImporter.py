@@ -43,8 +43,8 @@ class ProceduralItemGroupSheetHandler(SheetCon):
         mappings = {}
         for row in vals:
             mapping = ItemGroup.Mapping()
-            mapping.biomes = tuple(s.strip() for s in row[0].split(','))
-            mapping.materials = tuple(s.strip() for s in row[1].split(','))
+            mapping.biomes = tuple(s.strip() for s in row[0].split(',') if s)
+            mapping.materials = tuple(s.strip() for s in row[1].split(',') if s)
             mapping.slope = (row[2], row[3])
             mapping.height = (row[4], row[5])
             mapping.latitude = (row[10], row[11])
@@ -107,7 +107,8 @@ class ProceduralItemGroupSheetHandler(SheetCon):
                     i.attrib['Type'] = item[0]
                     i.attrib['Subtype'] = item[1]
                     i.attrib['Density'] = item[2]
-                    i.attrib['MaxRoll'] = item[3]
+                    if item[3]:
+                        i.attrib['MaxRoll'] = item[3]
                     mapping.append(i)
 
                 itemgroup.append(mapping)
