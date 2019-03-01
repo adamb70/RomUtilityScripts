@@ -1,3 +1,4 @@
+import os
 import json
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -25,6 +26,7 @@ class SheetCon(object):
 
     def __init__(self, credentials=None):
         self.connect(credentials=credentials)
+        os.makedirs('./Output', exist_ok=True)
 
     def connect(self, credentials=None):
         scope = ['https://spreadsheets.google.com/feeds',

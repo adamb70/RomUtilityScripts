@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 
@@ -11,6 +12,7 @@ from . import BuildIngredients
 def generate_alchemy_files(generate_ground_items=False):
     con = AlchemySheetHandler()
     headers, recipe_list = con.get_final_recipes()
+    os.makedirs('./Output/Alchemy', exist_ok=True)
 
     # Ingredients and dried ingredients are not in final sheet, use ingredients sheet to generate
     BuildIngredients.build_ingredients_from_sheet(generate_ground=generate_ground_items)

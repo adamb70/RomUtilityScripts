@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='RomUtilityScripts',
-      version='0.1.4',
+      version='0.1.5',
       description='RomUtilityScripts',
       url='http://github.com/adamb70/RomUtilityScripts',
       author='adamb70',
