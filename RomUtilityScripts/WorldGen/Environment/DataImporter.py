@@ -71,6 +71,9 @@ class ProceduralItemGroupSheetHandler(SheetCon):
             itemgroup.attrib['LodEnd'] = itemgroupdata.lod[1]
 
             for mappingdata in itemgroupdata.mappings:
+                if not mappingdata.mapping_items:
+                    continue
+
                 mapping = ET.Element('Mapping')
 
                 for biome in mappingdata.biomes:
