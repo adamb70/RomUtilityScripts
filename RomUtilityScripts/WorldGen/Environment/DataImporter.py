@@ -1,9 +1,10 @@
 from collections import defaultdict
+from itertools import combinations, permutations, tee
 import xml.etree.ElementTree as ET
 
 from ...RomUtilityScriptsBase.SheetConnector import SheetCon
 from ...RomUtilityScriptsBase.Utils import indent
-from .ItemGroup import ItemGroup
+from .ItemGroup import ItemGroup, SS_Item
 from .GrowableItem import GrowableItem
 
 
@@ -40,26 +41,94 @@ class ProceduralItemGroupSheetHandler(SheetCon):
         if headers != expected:
             print('Something changed with the environment item group headers!', headers)
 
-        mappings = {}
+        items = {}
+        slope_boundaries = set()
+        height_boundaries = set()
+        materials = set()
         for row in vals:
+            # Skip if no type of subtype
+            if not row[6] or not row[7]:
+                continue
+
+            item = SS_Item()
+            item.biomes = tuple(s.strip() for s in row[0].split(',') if s)
+            if not item.biomes:
+                item.biomes = ("ALL",)
+            item.materials = tuple(s.strip() for s in row[1].split(',') if s)
+            if not item.materials:
+                item.materials = ("ALL",)
+            item.slope = (row[2] or 0, row[3] or 0)
+            item.height = (row[4] or 0, row[5] or 0)
+            item.latitude = (row[10], row[11])
+            item.longitude = (row[12], row[13])
+            item.item_type = row[6]
+            item.item_subtype = row[7]
+            item.item_density = row[8]
+            item.item_maxroll = row[9]
+            items[item.unique_id] = item
+
+            slope_boundaries.add(float(item.slope[0]))
+            slope_boundaries.add(float(item.slope[1]))
+            height_boundaries.add(float(item.height[0]))
+            height_boundaries.add(float(item.height[1]))
+            materials.update(item.materials)
+
+        height_boundaries = sorted(height_boundaries)
+        slope_boundaries = sorted(slope_boundaries)
+
+        heights = list(zip(height_boundaries, height_boundaries[1:]))
+        slopes = list(zip(slope_boundaries, slope_boundaries[1:]))
+
+        # Add false boundaries for items without height or slope values set
+        heights.append((0.0, 0.0))
+        slopes.append((0.0, 0.0))
+
+        # Group by shared height, slope, and materials
+        results = defaultdict(list)
+        for k, v in items.items():
+            for h in heights:
+                for s in slopes:
+                    # upper value is greater than or equal to upper bound, and lower value is lower than upper bound
+                    if float(v.height[1]) >= h[1] > float(v.height[0]) and float(v.slope[1]) >= s[1] > float(v.slope[0]):
+                        for m in v.materials:
+                            for b in v.biomes:
+                                results[(h, s, m, b)].append(k)
+
+            if v.height[0] == v.height[1] == 0.0 or v.slope[0] == v.slope[1] == 0.0:
+                for m in v.materials:
+                    for b in v.biomes:
+                        results[(v.height, v.slope, m, b)].append(k)
+
+
+        # Group by shared item results
+        item_materials = defaultdict(list)
+        for k, v in results.items():
+            item_materials[str(v)].append(k)
+
+        mappings = []
+        for k, v in item_materials.items():
+            mat_heights = defaultdict(list)
+            mat_slopes = defaultdict(list)
+            mats = []
+            biomes = []
+            for grouping in v:
+                mat_heights[grouping[2]].extend(grouping[0])
+                mat_slopes[grouping[2]].extend(grouping[1])
+                mats.append(grouping[2])
+                biomes.append(grouping[3])
+
             mapping = ItemGroup.Mapping()
-            mapping.biomes = tuple(s.strip() for s in row[0].split(',') if s)
-            mapping.materials = tuple(s.strip() for s in row[1].split(',') if s)
-            mapping.slope = (row[2], row[3])
-            mapping.height = (row[4], row[5])
-            mapping.latitude = (row[10], row[11])
-            mapping.longitude = (row[12], row[13])
+            mapping.biomes = set(biomes)
+            mapping.materials = set(mats)
+            mapping.height = (min(mat_heights[mats[0]]), max(mat_heights[mats[0]]))
+            mapping.slope = (min(mat_slopes[mats[0]]), max(mat_slopes[mats[0]]))
+            for i in eval(k):
+                _item = items[i]
+                mapping.mapping_items.append([_item.item_type, _item.item_subtype, _item.item_density, _item.item_maxroll])
 
-            map_key = mapping.unique_id
-            if mappings.get(map_key, None) is not None:
-                mapping = mappings[map_key]
+            mappings.append(mapping)
 
-            item_data = [row[6], row[7], row[8], row[9]]
-            if any(item_data):
-                mapping.mapping_items.append(item_data)
-            mappings[map_key] = mapping
-
-        return list(mappings.values())
+        return mappings
 
     def write_item_groups(self, item_groups, outfile):
         root = ET.Element('PutTheseInProceduralWorldDef')
@@ -77,34 +146,38 @@ class ProceduralItemGroupSheetHandler(SheetCon):
                 mapping = ET.Element('Mapping')
 
                 for biome in mappingdata.biomes:
+                    if biome == 'ALL':
+                        continue
                     b = ET.Element('Biome')
                     b.text = biome
                     mapping.append(b)
 
                 for material in mappingdata.materials:
+                    if material == 'ALL':
+                        continue
                     m = ET.Element('Material')
                     m.text = material
                     mapping.append(m)
 
-                if all(mappingdata.height):
+                if mappingdata.height and not (mappingdata.height[0] == mappingdata.height[1]):
                     height = ET.Element('Height')
-                    height.attrib['Min'] = mappingdata.height[0]
-                    height.attrib['Max'] = mappingdata.height[1]
+                    height.attrib['Min'] = str(mappingdata.height[0])
+                    height.attrib['Max'] = str(mappingdata.height[1])
                     mapping.append(height)
-                if all(mappingdata.slope):
+                if mappingdata.slope and not (mappingdata.slope[0] == mappingdata.slope[1]):
                     slope = ET.Element('Slope')
-                    slope.attrib['Min'] = mappingdata.slope[0]
-                    slope.attrib['Max'] = mappingdata.slope[1]
+                    slope.attrib['Min'] = str(mappingdata.slope[0])
+                    slope.attrib['Max'] = str(mappingdata.slope[1])
                     mapping.append(slope)
-                if all(mappingdata.latitude):
+                if mappingdata.latitude:
                     latitude = ET.Element('Latitude')
-                    latitude.attrib['Min'] = mappingdata.latitude[0]
-                    latitude.attrib['Max'] = mappingdata.latitude[1]
+                    latitude.attrib['Min'] = str(mappingdata.latitude[0])
+                    latitude.attrib['Max'] = str(mappingdata.latitude[1])
                     mapping.append(latitude)
-                if all(mappingdata.longitude):
+                if mappingdata.longitude:
                     longitude = ET.Element('Longitude')
-                    longitude.attrib['Min'] = mappingdata.longitude[0]
-                    longitude.attrib['Max'] = mappingdata.longitude[1]
+                    longitude.attrib['Min'] = str(mappingdata.longitude[0])
+                    longitude.attrib['Max'] = str(mappingdata.longitude[1])
                     mapping.append(longitude)
 
                 for item in mappingdata.mapping_items:
