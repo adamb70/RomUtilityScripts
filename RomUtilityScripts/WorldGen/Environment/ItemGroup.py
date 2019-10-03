@@ -20,3 +20,23 @@ class ItemGroup(object):
         def unique_id(self):
             return (self.biomes, self.materials, self.slope,
                     self.height, self.latitude, self.longitude)
+
+
+class SS_Item(object):
+    biomes = ()
+    materials = ()
+    slope = None
+    height = None
+    latitude = None
+    longitude = None
+    item_type = None
+    item_subtype = None
+    item_density = 0
+    item_maxroll = 0
+
+    def __repr__(self):
+        return f"<{self.item_subtype}, {self.item_density}>"
+
+    @property
+    def unique_id(self):
+        return (self.item_type, self.item_subtype, self.item_density, self.item_maxroll)
