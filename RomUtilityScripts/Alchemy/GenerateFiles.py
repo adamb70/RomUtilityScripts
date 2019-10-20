@@ -1,5 +1,5 @@
 import os
-from lxml import etree as ET
+from copy import deepcopy
 from collections import defaultdict
 
 from ..RomUtilityScriptsBase.ItemClasses import CraftableItem
@@ -87,6 +87,9 @@ def generate_alchemy_files():
                 if not (x.id.attrib['Type'], x.id.attrib['Subtype']) in completed_items:
                     root.append(x.build_item_def())
                     completed_items.add((x.id.attrib['Type'], x.id.attrib['Subtype']))
+
+            # Required to force lxml to allow two of the same element in both items and crafting recipes
+            x = deepcopy(x)
 
             if not x.data_type.upper() == 'ITEM':
                 old_subtype = x.id.attrib['Subtype']
