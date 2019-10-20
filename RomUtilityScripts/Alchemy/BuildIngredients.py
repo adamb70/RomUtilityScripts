@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 from ..RomUtilityScriptsBase.ItemClasses import Item, CraftableItem
 from ..RomUtilityScriptsBase.Utils import indent
 from .Handler import AlchemySheetHandler

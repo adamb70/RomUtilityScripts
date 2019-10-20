@@ -3,8 +3,7 @@ import glob
 import re
 import requests
 from collections import defaultdict
-from xml.etree.ElementTree import ElementTree as Et
-from xml.etree import ElementTree
+from lxml import etree as ET
 from ..DataUtils import GithubFiles
 
 
@@ -19,7 +18,7 @@ def get_model_files(mod_path):
 def get_model_usage(mod_path):
     models = defaultdict(list)
     for file in glob.glob(mod_path + '/Data/**/*.sbc', recursive=True):
-        tree = Et(file=file)
+        tree = ET.ElementTree(file=file)
         for definition in tree.findall('Definition'):
             for node in definition.getiterator():
                 if node.text and ".mwm" in node.text.lower():
@@ -38,7 +37,7 @@ def get_model_usage_git(data_urls=None):
     models = defaultdict(list)
     for url in data_urls:
         req = requests.get(url)
-        tree = ElementTree.fromstring(req.text)
+        tree = ET.fromstring(req.text)
         for definition in tree.findall('Definition'):
             for node in definition.getiterator():
                 if node.text and ".mwm" in node.text.lower():
@@ -63,7 +62,7 @@ def get_icon_usage(mod_path):
     """ Returns a set of all texture paths in /GUI/Icons """
     icons = defaultdict(list)
     for file in glob.glob(mod_path + '/Data/**/*.sbc', recursive=True):
-        tree = Et(file=file)
+        tree = ET.ElementTree(file=file)
         for definition in tree.findall('Definition'):
             for node in definition.findall('Icon'):
                 if node.text:
@@ -76,7 +75,7 @@ def get_icon_usage_git(data_urls=None):
     icons = defaultdict(list)
     for url in data_urls:
         req = requests.get(url)
-        tree = ElementTree.fromstring(req.text)
+        tree = ET.fromstring(req.text)
         for definition in tree.findall('Definition'):
             for node in definition.findall('Icon'):
                 if node.text:
