@@ -1,5 +1,5 @@
 import os
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 from collections import defaultdict
 
 from ..RomUtilityScriptsBase.ItemClasses import CraftableItem

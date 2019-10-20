@@ -1,5 +1,5 @@
 from collections import defaultdict
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 
 from ...RomUtilityScriptsBase.SheetConnector import SheetCon
 from ...RomUtilityScriptsBase.Utils import indent

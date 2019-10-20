@@ -1,5 +1,5 @@
 import csv
-import xml.etree.ElementTree as ET
+from lxml import etree as ET
 
 
 def csv_from_sbc(sbc_file):
