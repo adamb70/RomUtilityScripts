@@ -7,10 +7,13 @@ def indent(elem, level=0, tabs=False):
     i = "\n" + level * spacer
     if len(elem):
         if not elem.text or not elem.text.strip():
-            elem.text = i + spacer
+            if level == 0:
+                elem.text = '\n' + i + spacer
+            else:
+                elem.text = i + spacer
         if not elem.tail or not elem.tail.strip():
             if level <= 1:
-                elem.tail = i + "\n" + spacer * level
+                elem.tail = i + i
             else:
                 elem.tail = i
         for elem in elem:
@@ -20,3 +23,8 @@ def indent(elem, level=0, tabs=False):
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
+
+
+def clean_and_indent(root, level=0, tabs=False):
+    """ Extensible clean function """
+    indent(root, level, tabs)

@@ -1,6 +1,6 @@
 from lxml import etree as ET
 from ..RomUtilityScriptsBase.ItemClasses import Item, CraftableItem
-from ..RomUtilityScriptsBase.Utils import indent
+from ..RomUtilityScriptsBase.Classes import SbcWriter
 from .Handler import AlchemySheetHandler
 
 
@@ -86,9 +86,9 @@ def build_ingredients_from_sheet(generate_ground=True):
     con = AlchemySheetHandler()
     ingreds = con.get_ingreds()
 
-    ing_root = ET.Element('Definitions')
-    ground_root = ET.Element('Definitions')
-    dried_root = ET.Element('Definitions')
+    ing_root = SbcWriter.build_root()
+    ground_root = SbcWriter.build_root()
+    dried_root = SbcWriter.build_root()
     processed_ingreds = {}
     ground_ingreds = {}
     dried_ingreds = {}
@@ -113,10 +113,7 @@ def build_ingredients_from_sheet(generate_ground=True):
     for x in dried_ingreds.values():
         dried_root.append(x.build_item_def())
 
-    indent(ing_root)
-    indent(ground_root)
-    indent(dried_root)
-    ET.ElementTree(ing_root).write('Output/Alchemy/Ingredients.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
-    ET.ElementTree(dried_root).write('Output/Alchemy/DriedIngredients.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
+    SbcWriter.write_sbc(ing_root, 'Output/Alchemy/Ingredients.sbc')
+    SbcWriter.write_sbc(dried_root, 'Output/Alchemy/DriedIngredients.sbc')
     if generate_ground:
-        ET.ElementTree(ground_root).write('Output/Alchemy/GroundIngredients.sbc', xml_declaration=True, method="xml", encoding="UTF-8")
+        SbcWriter.write_sbc(ground_root, 'Output/Alchemy/GroundIngredients.sbc')

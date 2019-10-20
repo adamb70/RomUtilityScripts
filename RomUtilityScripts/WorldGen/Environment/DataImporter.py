@@ -2,13 +2,12 @@ from collections import defaultdict
 from itertools import combinations, permutations, tee
 from lxml import etree as ET
 
-from ...RomUtilityScriptsBase.SheetConnector import SheetCon
-from ...RomUtilityScriptsBase.Utils import indent
+from ...RomUtilityScriptsBase.Classes import SheetCon, SbcWriter
 from .ItemGroup import ItemGroup, SS_Item
 from .GrowableItem import GrowableItem
 
 
-class ProceduralItemGroupSheetHandler(SheetCon):
+class ProceduralItemGroupSheetHandler(SheetCon, SbcWriter):
     def __init__(self):
         super(ProceduralItemGroupSheetHandler, self).__init__()
         self.open('Procedural Environments')
@@ -131,7 +130,7 @@ class ProceduralItemGroupSheetHandler(SheetCon):
         return mappings
 
     def write_item_groups(self, item_groups, outfile):
-        root = ET.Element('PutTheseInProceduralWorldDef')
+        root = self.build_root('PutTheseInProceduralWorldDef')
         for itemgroupdata in item_groups:
             itemgroup = ET.Element('ItemGroup')
             itemgroup.attrib['Name'] = itemgroupdata.name
@@ -192,11 +191,10 @@ class ProceduralItemGroupSheetHandler(SheetCon):
                 itemgroup.append(mapping)
             root.append(itemgroup)
 
-        indent(root)
-        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
+        self.write_sbc(root, outfile)
 
 
-class GrowableItemGroupSheetHandler(SheetCon):
+class GrowableItemGroupSheetHandler(SheetCon, SbcWriter):
     def __init__(self):
         super(GrowableItemGroupSheetHandler, self).__init__()
         self.open('Growable/Farmable/Tree Env Items')
@@ -276,7 +274,7 @@ class GrowableItemGroupSheetHandler(SheetCon):
         return growable_items
 
     def write_growable_items(self, growable_items, outfile):
-        root = ET.Element('Definitions')
+        root = self.build_root()
         for data in growable_items:
             growable = ET.Element('Definition')
             growable.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] = 'VR.EI.GrowableEnvironmentItem'
@@ -350,5 +348,4 @@ class GrowableItemGroupSheetHandler(SheetCon):
 
             root.append(growable)
 
-            indent(root)
-            ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
+            self.write_sbc(root, outfile)

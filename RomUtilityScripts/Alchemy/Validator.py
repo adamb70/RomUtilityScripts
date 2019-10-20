@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 from lxml import etree as ET
 
-from ..RomUtilityScriptsBase.Utils import indent
+from ..RomUtilityScriptsBase.Classes import SbcWriter
 
 
 all_items = defaultdict(dict)
@@ -37,8 +37,7 @@ def get_objects(root, file, fix_duplicate_subtypes=False):
         else:
             get_objects(child, file)
 
-    indent(root)
-    ET.ElementTree(root).write(file, xml_declaration=True, method="xml")
+    SbcWriter.write_sbc(root, file)
 
 
 def parse_sbc(sbc_file):

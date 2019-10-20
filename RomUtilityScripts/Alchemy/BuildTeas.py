@@ -1,6 +1,6 @@
 from lxml import etree as ET
 from ..RomUtilityScriptsBase.ItemClasses import CraftableItem
-from ..RomUtilityScriptsBase.Utils import indent
+from ..RomUtilityScriptsBase.Classes import SbcWriter
 from .AlchemyUtils import build_stats
 from .Handler import AlchemySheetHandler
 
@@ -36,5 +36,4 @@ def build_from_sheet():
         root.append(x.build_item_def())
         root.append(x.build_crafting_def())
 
-    indent(root)
-    ET.ElementTree(root).write('Output/Alchemy/Teas.xml', xml_declaration=True, method="xml")
+    SbcWriter.write_sbc(root, 'Output/Alchemy/Teas.xml')

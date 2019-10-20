@@ -1,8 +1,10 @@
 import os
 import json
 import gspread
+from lxml import etree as ET
 from oauth2client.service_account import ServiceAccountCredentials
 from . import settings
+from . import Utils
 
 
 def col(letters):
@@ -45,3 +47,17 @@ class SheetCon(object):
         if not worksheet:
             worksheet = self.ss.get_worksheet(0)
         return worksheet.row_values(1)
+
+
+class SbcWriter:
+    @staticmethod
+    def build_root(tag=None):
+        if not tag:
+            tag = 'Definitions'
+        root = f'<{tag} xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>'
+        return ET.fromstring(root)
+
+    @staticmethod
+    def write_sbc(root, outfile):
+        Utils.clean_and_indent(root)
+        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")

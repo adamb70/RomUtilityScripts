@@ -1,13 +1,12 @@
 from collections import defaultdict
 from lxml import etree as ET
 
-from ...RomUtilityScriptsBase.SheetConnector import SheetCon
-from ...RomUtilityScriptsBase.Utils import indent
+from ...RomUtilityScriptsBase.Classes import SheetCon, SbcWriter
 from .MaterialGroup import MaterialGroup
 from .VoxelMaterial import VoxelMaterial
 
 
-class VoxelMaterialSheetHandler(SheetCon):
+class VoxelMaterialSheetHandler(SheetCon, SbcWriter):
     def __init__(self):
         super(VoxelMaterialSheetHandler, self).__init__()
         self.open('Voxel Material Groups')
@@ -46,7 +45,7 @@ class VoxelMaterialSheetHandler(SheetCon):
         return mat_groups
 
     def write_material_groups(self, mat_groups, outfile):
-        root = ET.Element('ComplexMaterials')
+        root = self.build_root('ComplexMaterials')
         for matgroupdata in mat_groups:
             matgroup = ET.Element('MaterialGroup')
             matgroup.attrib['Name'] = matgroupdata.name
@@ -74,8 +73,7 @@ class VoxelMaterialSheetHandler(SheetCon):
                 matgroup.append(rule)
             root.append(matgroup)
 
-        indent(root)
-        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
+        self.write_sbc(root, outfile)
 
     def get_voxel_materials_dict(self):
         voxel_mat_ws = self.ss.worksheet('Voxel materials')
@@ -100,7 +98,7 @@ class VoxelMaterialSheetHandler(SheetCon):
         return voxel_mats
 
     def write_voxel_materials(self, voxel_mats, outfile):
-        root = ET.Element('Definitions')
+        root = self.build_root()
         for voxel in voxel_mats:
             written_voxel = ET.Element('Definition')
             written_voxel.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] = "MyObjectBuilder_Dx11VoxelMaterialDefinition"
@@ -148,8 +146,7 @@ class VoxelMaterialSheetHandler(SheetCon):
 
             root.append(written_voxel)
 
-        indent(root)
-        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
+        self.write_sbc(root, outfile)
 
     def write_mining_defs(self, voxel_mats, outfile):
         # group mining defs by lowest tier tool
@@ -181,5 +178,4 @@ class VoxelMaterialSheetHandler(SheetCon):
 
             root.append(mining_def)
 
-        indent(root)
-        ET.ElementTree(root).write(outfile, xml_declaration=True, method="xml", encoding="UTF-8")
+        self.write_sbc(root, outfile)
