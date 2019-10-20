@@ -57,29 +57,14 @@ class Craftable(object):
 
 class Item(object):
     id = None
-    max_stack = None
-    health = None
-    mass = None
-    size = None
-    model = None
-    icon = None
     icon2 = None
     icon3 = None
-    material = None
-    description = None
-    display_name = None
-    tags = None
-    data_type = 'BOTH'
-
     consumable = False
-    stats = None
-    effects = None
     use_sound = None
-    returned_items = None # List of elements
 
     def __init__(self, type="InventoryItem", subtype="", max_stack=16, health=200, mass=2, size=(1, 1, 1), model="",
                  icon="", icon2="", icon3="", description="", display_name="", tags=None, consumable=False, stats=None,
-                 effects=None, material="None", returned_items=list(), data_type='BOTH', **kwargs):
+                 effects=None, material="None", returned_items=None, data_type='BOTH', **kwargs):
 
         self.id = ET.Element('Id')
         self.max_stack = ET.Element('MaxStackAmount')
@@ -123,8 +108,7 @@ class Item(object):
         if display_name:
             self.display_name.text = display_name
         else:
-            self.display_name.text = subtype.rstrip('1234567890').rstrip('_').replace('_', ' ')
-
+            self.display_name.text = subtype.rstrip('1234567890_').replace('_', ' ')
         if tags:
             for t in tags.strip().split(','):
                 tag = ET.Element('Tag')

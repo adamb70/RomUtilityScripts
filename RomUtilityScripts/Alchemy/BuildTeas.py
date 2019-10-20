@@ -27,7 +27,7 @@ def build_from_sheet():
     con = AlchemySheetHandler()
     teas = con.get_teas()
 
-    root = ET.Element('Definitions')
+    root = SbcWriter.build_root()
     processed_teas = {}
     for row in teas:
         processed_teas[row[0]] = Tea(name=row[0], effects=row[1:3], ingredient=row[3], categories=[row[4]])

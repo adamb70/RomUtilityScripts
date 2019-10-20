@@ -154,7 +154,7 @@ class VoxelMaterialSheetHandler(SheetCon, SbcWriter):
         for voxel in voxel_mats:
             tiers[voxel.mining__lowest_tier].append(voxel)
 
-        root = ET.Element('Definitions')
+        root = SbcWriter.build_root()
         for tier, voxel_mats in tiers.items():
             mining_def = ET.Element('Definition')
             mining_def.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'] = "MyObjectBuilder_VoxelMiningDefinition"

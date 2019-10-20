@@ -9,13 +9,13 @@ from .Handler import AlchemySheetHandler
 from . import BuildIngredients
 
 
-def generate_alchemy_files(generate_ground_items=False):
+def generate_alchemy_files():
     con = AlchemySheetHandler()
     headers, recipe_list = con.get_final_recipes()
     os.makedirs('./Output/Alchemy', exist_ok=True)
 
     # Ingredients and dried ingredients are not in final sheet, use ingredients sheet to generate
-    BuildIngredients.build_ingredients_from_sheet(generate_ground=generate_ground_items)
+    BuildIngredients.build_ingredients_from_sheet(generate_ground=False)
 
     files = defaultdict(list)
     for recipe in recipe_list:
@@ -23,11 +23,10 @@ def generate_alchemy_files(generate_ground_items=False):
         if filename != '':
             files[filename].append(recipe)
 
-
     completed_items = set()
     completed_crafting = defaultdict(int)
     for filename in files:
-        root = ET.Element('Definitions')
+        root = SbcWriter.build_root()
         processed_items = []
 
         for recipe in files[filename]:
