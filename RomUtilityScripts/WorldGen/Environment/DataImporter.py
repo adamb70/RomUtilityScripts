@@ -321,20 +321,21 @@ class GrowableItemGroupSheetHandler(SheetCon):
                             if step_action.next_step:
                                 action.attrib['NextStep'] = step_action.next_step
 
-                            id = ET.Element('Id')
-                            id.attrib['Type'] = step_action.type
-                            id.attrib['Subtype'] = step_action.subtype
-                            action.append(id)
+                            if step_action.type:
+                                id = ET.Element('Id')
+                                id.attrib['Type'] = step_action.type
+                                id.attrib['Subtype'] = step_action.subtype
+                                action.append(id)
 
-                            if step_action.min:
-                                action_min = ET.Element('Min')
-                                action_min.text = step_action.min
-                                action.append(action_min)
+                                if step_action.min:
+                                    action_min = ET.Element('Min')
+                                    action_min.text = step_action.min
+                                    action.append(action_min)
 
-                            if step_action.max:
-                                action_max = ET.Element('Max')
-                                action_max.text = step_action.max
-                                action.append(action_max)
+                                if step_action.max:
+                                    action_max = ET.Element('Max')
+                                    action_max.text = step_action.max
+                                    action.append(action_max)
 
                             actions.append(action)
                         growth_step.append(actions)
