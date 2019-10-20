@@ -61,6 +61,17 @@ def generate_alchemy_files():
 
             categories = recipe[headers['Categories']].strip().split(',')
 
+            description = recipe[headers['Description']].strip()
+            if not description:
+                if filename == 'GroundIngredients.sbc':
+                    description = "A powder made by grinding %s." % recipe[headers['Ingredient 1']].replace('Ground_', '').replace('_', ' ')
+                elif filename == 'Teas.sbc':
+                    description = "Tea brewed by boiling %s." % recipe[headers['Ingredient 1']].replace('_', ' ')
+                elif filename == 'Extracts.sbc':
+                    description = "Reduced extract of %s." % recipe[headers['Result 1']].replace('_Extract', '')
+                elif filename == 'Essences.sbc':
+                    description = "Refined essence of %s." % recipe[headers['Result 1']].replace('_Essence', '')
+
             processed_items.append(CraftableItem(display_name=recipe[headers['Display Name']], model=recipe[headers['Model']],
                                                  type=recipe[headers['Result 1 Type']], returned_items=returned_items,
                                                  subtype=recipe[headers['Result 1']], icon=recipe[headers['Icon 1']],
@@ -68,7 +79,7 @@ def generate_alchemy_files():
                                                  stats=build_stats(stat_effs), prereqs=pre, tags=recipe[headers['Tags']],
                                                  results=res, categories=categories, hidden_without_prereqs=recipe[headers['HiddenWithoutPrereqs']],
                                                  crafting_time=recipe[headers['Craft Time']], data_type=build_type,
-                                                 max_stack=recipe[headers['Stack Size']], effects=effs
+                                                 max_stack=recipe[headers['Stack Size']], effects=effs, description=description
                                                  ))
 
         for x in processed_items:

@@ -15,7 +15,7 @@ expected_headers_alchemy = ["Display Name", "Build Data Type",
                             "Effect 3", "Effect 3 Type", "Effect 4", "Effect 4 Type",
                             "Categories", "Craft Time", "Stack Size", "Filename", 
                             "Icon 1", "Icon 2", "Icon 3", "Model", "Tags", "HiddenWithoutPrereqs",
-                            "Returned Item, Type 1", "Returned Item, Type 2"]
+                            "Returned Item, Type 1", "Returned Item, Type 2", "Description"]
 
 
 class AlchemySheetHandler(SheetCon):
