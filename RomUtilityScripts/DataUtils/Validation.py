@@ -37,7 +37,7 @@ def get_model_usage_git(data_urls=None):
     models = defaultdict(list)
     for url in data_urls:
         req = requests.get(url)
-        tree = ET.fromstring(req.text)
+        tree = ET.fromstring(req.text.encode('utf-8'))
         for definition in tree.findall('Definition'):
             for node in definition.getiterator():
                 if node.text and ".mwm" in node.text.lower():
@@ -72,10 +72,13 @@ def get_icon_usage(mod_path):
 
 
 def get_icon_usage_git(data_urls=None):
+    if not data_urls:
+        data_urls = GithubFiles.get_data_urls()
     icons = defaultdict(list)
     for url in data_urls:
+        print(url)
         req = requests.get(url)
-        tree = ET.fromstring(req.text)
+        tree = ET.fromstring(req.text.encode('utf-8'))
         for definition in tree.findall('Definition'):
             for node in definition.findall('Icon'):
                 if node.text:
@@ -85,10 +88,10 @@ def get_icon_usage_git(data_urls=None):
 
 
 def find_unused_models(mod_path):
-    files = get_model_files(mod_path)
+    model_paths = get_model_files(mod_path)
     uses = get_model_usage(mod_path)
     missing = []
-    for file in files:
+    for file in model_paths:
         # Ignore LOD files
         pattern = re.compile(r'_LOD\d\.mwm')
         if re.search(pattern, file):
@@ -99,11 +102,11 @@ def find_unused_models(mod_path):
     return missing
 
 
-def find_unused_models_git(data_urls):
-    files = GithubFiles.get_model_paths()
+def find_unused_models_git(data_urls=None):
+    model_paths = GithubFiles.get_model_paths()
     uses = get_model_usage_git(data_urls)
     missing = []
-    for file in files:
+    for file in model_paths:
         # Ignore LOD files
         pattern = re.compile(r'_LOD\d\.mwm')
         if re.search(pattern, file):
@@ -115,23 +118,23 @@ def find_unused_models_git(data_urls):
 
 
 def find_missing_models(mod_path, game_content_path=None):
-    files = get_model_files(mod_path)
+    model_paths = get_model_files(mod_path)
     uses = get_model_usage(mod_path)
     if game_content_path:
         game_files = get_model_files(game_content_path)
-        files.update(game_files)
+        model_paths.update(game_files)
 
     missing = []
     for file in uses.keys():
-        if file not in files:
+        if file not in model_paths:
             missing.append(file)
     return missing
 
 
-def find_missing_models_git(data_urls):
-    files = GithubFiles.get_model_paths()
+def find_missing_models_git(data_urls=None):
+    model_paths = GithubFiles.get_model_paths()
     uses = get_model_usage_git(data_urls)
-    files_formatted = [x.lower() for x in files]
+    files_formatted = [x.lower() for x in model_paths]
 
     missing = []
     for file in uses.keys():
@@ -141,44 +144,44 @@ def find_missing_models_git(data_urls):
 
 
 def find_unused_icons(mod_path):
-    files = get_icon_files(mod_path)
+    icon_paths = get_icon_files(mod_path)
     uses = get_icon_usage(mod_path)
     missing = []
-    for file in files:
+    for file in icon_paths:
         if not uses[file.lower()]:
             missing.append(file)
     return missing
 
 
-def find_unused_icons_git(data_urls):
-    files = GithubFiles.get_icon_paths()
+def find_unused_icons_git(data_urls=None):
+    icon_paths = GithubFiles.get_icon_paths()
     uses = get_icon_usage_git(data_urls)
     missing = []
-    for file in files:
+    for file in icon_paths:
         if not uses[file.lower()]:
             missing.append(file)
     return missing
 
 
 def find_missing_icons(mod_path, game_content_path=None):
-    files = get_icon_files(mod_path)
+    icon_paths = get_icon_files(mod_path)
     uses = get_icon_usage(mod_path)
     if game_content_path:
         game_files = get_icon_files(game_content_path)
-        files.update(game_files)
+        icon_paths.update(game_files)
 
     missing = []
     for file in uses.keys():
-        if file not in files:
+        if file not in icon_paths:
             missing.append(file)
             return
     return missing
 
 
-def find_missing_icons_git(data_urls):
-    files = GithubFiles.get_icon_paths()
+def find_missing_icons_git(data_urls=None):
+    icon_paths = GithubFiles.get_icon_paths()
     uses = get_icon_usage_git(data_urls)
-    files_formatted = [x.lower() for x in files]
+    files_formatted = [x.lower() for x in icon_paths]
 
     missing = []
     for file in uses.keys():

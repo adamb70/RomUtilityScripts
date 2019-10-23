@@ -41,7 +41,7 @@ def get_items_by_types_git(types):
     def_names = defaultdict(set)
     for url in data_urls:
         req = requests.get(url)
-        tree = ET.fromstring(req.text)
+        tree = ET.fromstring(req.text.encode('utf-8'))
         for definition in tree.findall('Definition'):
             if definition.attrib['{http://www.w3.org/2001/XMLSchema-instance}type'].replace('MyObjectBuilder_', '') in raw_types:
                 def_names[definition.find('Id').attrib['Type']].add(definition.find('Id').attrib['Subtype'])
